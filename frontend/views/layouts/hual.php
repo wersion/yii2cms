@@ -26,7 +26,7 @@ HualAsset::register($this);
 
 <body>
 <?php $this->beginBody() ?>
-<!--椤堕儴logo鍜屽鑸?-->
+
 <div id="toper">
     <div id="topcont">
         <div class="topcont_logo"><img src="/images/logo.png"/></div>
@@ -49,13 +49,13 @@ HualAsset::register($this);
                 <li <?php if(Yii::$app->request->get('_url')==''):?> class="style hover" <?php endif?>><a href="/">首页</a><img src="/images/arrow.png" /></li>
                 <?= Column::widget()?>
 		</ul>	
-		<!--/*<div class="dianhua">400-816-5366</div>*/-->
+		
 		<div class="clear"></div>
 	</div>
 </div>
 
 <?= $content ?>
-<!--鏈€搴曢儴-->
+
 <div id="footer">
 
 </div>
