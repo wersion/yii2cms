@@ -2,40 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03842a62-4566-4452-9ecb-0f58c5df5d92" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cache/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/b.txt" />
-      <change type="DELETED" beforePath="D:\www\yii2cms\frontend\views\index\gjzc.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\www\yii2cms\frontend\views\index\gzt.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\www\yii2cms\frontend\views\index\hllm.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\www\yii2cms\frontend\views\index\hlsy.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\www\yii2cms\frontend\views\index\hzkh.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\www\yii2cms\frontend\views\index\jtxw.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\www\yii2cms\frontend\views\index\kycx.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\www\yii2cms\frontend\views\index\left.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\www\yii2cms\frontend\views\index\left_l.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\www\yii2cms\frontend\views\index\left_s.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\www\yii2cms\frontend\views\index\ppln.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\www\yii2cms\frontend\views\index\qyry.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\www\yii2cms\frontend\views\index\show_xinwen.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\www\yii2cms\frontend\views\index\tdjs.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\www\yii2cms\frontend\views\index\zjhl.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/22/22a74afd2e0f509787ced90c9f177a12.bin" afterPath="$PROJECT_DIR$/cache/22/22a74afd2e0f509787ced90c9f177a12.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/26/269934ae9b426da796fd5cb129a7d02d.bin" afterPath="$PROJECT_DIR$/cache/26/269934ae9b426da796fd5cb129a7d02d.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/36/36d8de85c5d178965af506c90a8d3932.bin" afterPath="$PROJECT_DIR$/cache/36/36d8de85c5d178965af506c90a8d3932.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/4f/4fd4916abeb447d51f82e293a3fe6a10.bin" afterPath="$PROJECT_DIR$/cache/4f/4fd4916abeb447d51f82e293a3fe6a10.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/5d/5df0fecf1400bf7df686bafa3ee17992.bin" afterPath="$PROJECT_DIR$/cache/5d/5df0fecf1400bf7df686bafa3ee17992.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/62/62618adab12ba5629724ac34de516969.bin" afterPath="$PROJECT_DIR$/cache/62/62618adab12ba5629724ac34de516969.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/63/63634414fd07815cb759049a20ffabca.bin" afterPath="$PROJECT_DIR$/cache/63/63634414fd07815cb759049a20ffabca.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/66/66a0fcbbf1124fca4945dec745438aee.bin" afterPath="$PROJECT_DIR$/cache/66/66a0fcbbf1124fca4945dec745438aee.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/72/7272208fe287b2550babf7c283e7d4f5.bin" afterPath="$PROJECT_DIR$/cache/72/7272208fe287b2550babf7c283e7d4f5.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/7c/7c5bb46cd83115adde58c3ef513d9b8f.bin" afterPath="$PROJECT_DIR$/cache/7c/7c5bb46cd83115adde58c3ef513d9b8f.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/9e/9e0a08a0d9bf57fcd44c85c284a36cf3.bin" afterPath="$PROJECT_DIR$/cache/9e/9e0a08a0d9bf57fcd44c85c284a36cf3.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/a9/a9a7c8c4319b7fe5b214be21824efaea.bin" afterPath="$PROJECT_DIR$/cache/a9/a9a7c8c4319b7fe5b214be21824efaea.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/b5/b5a12f2bf489279579401180b90b4664.bin" afterPath="$PROJECT_DIR$/cache/b5/b5a12f2bf489279579401180b90b4664.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/co/columns.bin" afterPath="$PROJECT_DIR$/cache/co/columns.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/db/dbcff79d97911a8177c91b3347695a27.bin" afterPath="$PROJECT_DIR$/cache/db/dbcff79d97911a8177c91b3347695a27.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/fe/fe120750b5cf321cad80938369bc3be4.bin" afterPath="$PROJECT_DIR$/cache/fe/fe120750b5cf321cad80938369bc3be4.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yii2cms.iws" />
@@ -106,7 +72,7 @@
       <file leaf-file-name="hual.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/views/layouts/hual.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7096774" vertical-offset="1012" max-vertical-offset="1694">
+            <state vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="1540">
               <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
               <folding>
                 <element signature="e#6#27#0#PHP" expanded="true" />
@@ -128,7 +94,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cache/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="154">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="154">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -237,6 +203,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -318,15 +338,15 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -343,7 +363,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -351,19 +371,19 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -387,6 +407,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cache/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="154">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/config/main-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/index/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="1056">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/widgets/views/column.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="1672">
@@ -737,7 +781,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/views/layouts/hual.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7096774" vertical-offset="1012" max-vertical-offset="1694">
+        <state vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="1540">
           <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
           <folding>
             <element signature="e#6#27#0#PHP" expanded="true" />
