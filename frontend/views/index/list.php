@@ -2,20 +2,34 @@
 <div id="toper">
     <div id="topcont">
         <div class="topcont_logo"><img src="/images/logo.png"/></div>
-        <div class="topcont_nav">
+		<div class="lei"><a href="#">简体</a>/<a href="#">繁体</a>/<a href="#">ENGLISH</a></div>
+       <!-- <div class="topcont_nav">
 
             <ul>
                 <li><a href="/">网站首页</a><img src="/images/arrow.png" /></li>
-                <?= Column::widget()?>
+             
             </ul>
-        </div>
+        </div>-->
         <div class="topcont_dhlei">
-            <div class="lei"><a href="#">简体</a>/<a href="#">繁体</a>/<a href="#">ENGLISH</a></div>
+           
             <div class="dh"><i>400-600-8888</i></div>
         </div>
     </div>
 
 </div>
+
+<!--导航--->
+<div id="Nav">
+	<div id="nav">
+		<ul class="nav_cont">
+				<li><a href="/">网站首页</a><img src="/images/arrow.png" /></li>
+                <?= Column::widget()?>
+		</ul>	
+		<!--/*<div class="dianhua">400-816-5366</div>*/-->
+		<div class="clear"></div>
+	</div>
+</div>
+
 
 <!--内容区-->
 <div id="content">
