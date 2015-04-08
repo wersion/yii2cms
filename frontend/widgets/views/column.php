@@ -11,7 +11,7 @@ function getTree($data, $pId)
     foreach($data as $k => $v)
     {
         if($v['parentid'] == $pId)
-        {         //父亲找到儿子
+        {
             $v['children'] = getTree($data, $v['id']);
             $tree[] = $v;
         }
