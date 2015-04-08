@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03842a62-4566-4452-9ecb-0f58c5df5d92" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/widgets/views/column.php" afterPath="$PROJECT_DIR$/frontend/widgets/views/column.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/views/layouts/hual.php" afterPath="$PROJECT_DIR$/frontend/views/layouts/hual.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yii2cms.iws" />
@@ -74,8 +72,8 @@
       <file leaf-file-name="hual.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/views/layouts/hual.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.71867883" vertical-offset="281" max-vertical-offset="1330">
-              <caret line="48" column="117" selection-start-line="48" selection-start-column="117" selection-end-line="48" selection-end-column="117" />
+            <state vertical-scroll-proportion="0.7835991" vertical-offset="452" max-vertical-offset="1330">
+              <caret line="60" column="6" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
               <folding>
                 <element signature="e#6#27#0#PHP" expanded="true" />
                 <element signature="e#1122#1214#0#HTML" expanded="true" />
@@ -760,14 +758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/widgets/views/column.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="1444">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/views/index/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.392857" vertical-offset="0" max-vertical-offset="912">
@@ -778,10 +768,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/widgets/views/column.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="1444">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/views/layouts/hual.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71867883" vertical-offset="281" max-vertical-offset="1330">
-          <caret line="48" column="117" selection-start-line="48" selection-start-column="117" selection-end-line="48" selection-end-column="117" />
+        <state vertical-scroll-proportion="0.7835991" vertical-offset="452" max-vertical-offset="1330">
+          <caret line="60" column="6" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
           <folding>
             <element signature="e#6#27#0#PHP" expanded="true" />
             <element signature="e#1122#1214#0#HTML" expanded="true" />
