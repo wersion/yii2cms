@@ -21,6 +21,7 @@ HualAsset::register($this);
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
     <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
 </head>
 
 <body>
@@ -32,7 +33,7 @@ HualAsset::register($this);
         <div class="topcont_nav">
 
             <ul>
-                <li <?php if(Yii::$app->request->get('_url')==''):?> class="style hover" <?php endif?>><a href="/">网站首页</a><img src="/images/arrow.png" /></li>
+                <li <?php if(Yii::$app->requestedAction->id=='index'):?> class="style hover" <?php endif?>><a href="/">网站首页</a><img src="/images/arrow.png" /></li>
                 <?= Column::widget()?>
             </ul>
         </div>
@@ -47,7 +48,7 @@ HualAsset::register($this);
 <?= $content ?>
 <!--最底部-->
 <div id="footer">
-    <p class="footer_list"><a href="#">网站地图</a><a href="#">招贤纳士</a><a href="#">联系我们</a></p>
+    <p class="footer_list"><a href="/index/map">网站地图</a><a href="#">招贤纳士</a><a href="#">联系我们</a></p>
     <p class="footer_company">@Copyright 2013-2014中�华粮集�有限公司&nbsp;沪ICP备050190号</p>
 </div>
 <?php $this->endBody() ?>

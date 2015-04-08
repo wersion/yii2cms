@@ -47,7 +47,16 @@ class IndexController extends HualController{
         $cache = Yii::$app->cache;
         return $this->render('show_nbh',[
             'id'=>Yii::$app->request->get('id'),
-            'node'=>Yii::$app->request->getQueryParam('node'),
+            'node'=>Yii::$app->request->getQueryParam('column'),
+            'cache'=>$cache
+        ]);
+    }
+
+    public function actionMap()
+    {
+        $cache = Yii::$app->cache;
+        return $this->render('map',[
+
             'cache'=>$cache
         ]);
     }

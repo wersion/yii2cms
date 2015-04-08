@@ -16,7 +16,7 @@ $array = Yii::$app->request->get('page')?array_slice($cache['column_'.$id.'_arti
                     <?php foreach($array as $key=>$article):?>
                     <li>
                         <div class="cplist22">
-                            <div class="cplist_img22"><a href="/nbh/<?= $article['id']?>?node=<?= Yii::$app->request->get('id')?>" ><img src="http://admin.yii2.com<?= $article['file']?>" height="360"/></a></div>
+                            <div class="cplist_img22"><a href="/nbh/<?= $article['id']?>?column=<?= Yii::$app->request->get('column')?>" ><img src="http://admin.yii2.com<?= $article['file']?>" height="360"/></a></div>
                             <div class="cplist_js22">
                                 <p class="hh22"><span class="xbt22"><?= $article['title']?></span><span class="jt22"><img src="../images/xia.png" /></span><div class="clear"></div></p>
                                 <p class="xx22"><?= $article['content']?><a href="#">【更多】....</a></p>

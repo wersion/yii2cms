@@ -13,6 +13,7 @@ return [
             'rules' => [
                 'column/<column:\d+>' => 'index/column',
                 'page/<id:\d+>' => 'index/page',
+                'nbh/<id:\d+>' => 'index/nbh',
             ],
         ],
     ],
