@@ -2,13 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03842a62-4566-4452-9ecb-0f58c5df5d92" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/controllers/IndexController.php" afterPath="$PROJECT_DIR$/frontend/controllers/IndexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/views/layouts/hual.php" afterPath="$PROJECT_DIR$/frontend/views/layouts/hual.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/views/index/jrwm.php" afterPath="$PROJECT_DIR$/frontend/views/index/jrwm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/views/index/lxwm.php" afterPath="$PROJECT_DIR$/frontend/views/index/lxwm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/config/main.php" afterPath="$PROJECT_DIR$/common/config/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/views/index/nbh.php" afterPath="$PROJECT_DIR$/frontend/views/index/nbh.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/views/index/show_nbh.php" afterPath="$PROJECT_DIR$/frontend/views/index/show_nbh.php" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\07\072297cc4ce6ffba1564c1fc4567a71d.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\0a\0ae6f59096eb37035d95777db4cd688c.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\0b\0b16eaa855093cb4752bb63f785013c7.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\0b\0bf678c0a89f6f9f65a55fe6ef839713.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\10\10a03120f61ab78b8e25336ffeb4c429.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\12\12969df9aa1ac86abaa37a8d8d1695ff.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\1b\1b68191dd8d2bcbeb56b6ee2ae00b306.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\1c\1cf03adea252f460a25e39afe3c0285e.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\22\22a74afd2e0f509787ced90c9f177a12.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\26\269934ae9b426da796fd5cb129a7d02d.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\27\27a0fa4fdcb4caf1de8b9eec746ba06d.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\28\28c23c3311485dd7da1ae2e20e060aa2.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\2d\2dfb87dae6e0b1aa109fb17637fdde62.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\31\31dc74b2b4431dbf5691b64ef9202aa0.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\3f\3f5e284610ab3aa442f55bf827fcf4a9.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\41\417c4197a227790c471885dc405a0f70.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\45\45c7820f20ac22cebf8bffa0b59ff4d3.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\4c\4c4e8dc6e478a3ec5d3e901e987bcd6f.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\51\51be57aef0dc9ea5af542133f96d2cbe.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\53\536c17f6a91b810a5b34f6ffa59950f7.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\57\570b37692ee97fee3e9b69476c392d6e.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\57\57bd60c9e2f3978e0b2c671cfe3477d1.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\5a\5a95fae771004a7da53f09a9fee16807.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\5d\5df0fecf1400bf7df686bafa3ee17992.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\5f\5f34d43d3bc0590a9178bc9e1373563e.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\60\60cb243a8df7f239f516ac30cad33da9.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\63\63fc9b32791e278d452ff2192b93cf20.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\69\6919ed9998368f76827366864519ca9d.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\6f\6f38dfea927d83c7cd71e7e818560852.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\72\725d5244035e3d9ca1dd09f0efb4cfab.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\72\7272208fe287b2550babf7c283e7d4f5.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\7b\7be60088243676b351c7e6228ad097e7.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\7c\7c5bb46cd83115adde58c3ef513d9b8f.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\80\802fdafab41d212875ff09f081c6e93d.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\82\82a1a99977fa91e1018ae077b488acd6.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\83\83a1fb4cfd37a6282dafc1f51d08d5c5.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\85\853ea93519b95c2068b168640ac8b459.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\8b\8bb5fc10168d43541dee4f2b7668b5a9.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\8b\8bfffbc5c68c5b47cf97a6705531c4d2.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\91\912aa8cf9490b1629bf60eb10875e2be.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\9c\9c93dddaed93c68731c3ac3887dc51cb.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\9e\9ea83b7682c9033dc93d8a93328a1182.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\a0\a0af93f07d68e78d8e89b6242512f483.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\a3\a34f8779375aa87d7cb4b5bf56ea53e9.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\a9\a9a7c8c4319b7fe5b214be21824efaea.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\aa\aa642ecf4d21119c21dbf0c351b3df36.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\ae\aee78b97c1af2b26a85025f19667fcf3.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\b1\b1ed0c667ad427080ce1f088c7113d49.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\b8\b833e2cb526eb11e958d414f89786770.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\be\bee09a61371b378168871a17e693efda.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\c2\c2f3d50bc34283ead0b69ba462f1d408.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\c5\c52f4f4dcba07f5d0020e375a5502542.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\d0\d0d4a76c4fa0866f43274b21b6cc4eee.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\d2\d29c6345bbd56b8208e6bd6e4449d589.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\d5\d55f632ff481a84a5ab71cfe113927ae.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\d6\d641df65371e2ed2ff212ef1a6226bf8.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\db\dbcff79d97911a8177c91b3347695a27.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\dc\dc0285662c698cfcf3ba0c35ae0aebf9.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\e3\e3fbb4c6cfca38d05f8733d70aa53856.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\ea\eac95f937e8eb523f86cf5dc4065177a.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\f9\f9f4fd36d6162ecb26f7cd4600a50ddd.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\fd\fde53f9133fe6d36e2eccffbbd9e16e0.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\fe\fe0d4f23aaf9289b1ce54e861cb796f2.bin" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/63/63634414fd07815cb759049a20ffabca.bin" afterPath="$PROJECT_DIR$/cache/63/63634414fd07815cb759049a20ffabca.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yii2cms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,9 +94,31 @@
       <file leaf-file-name="column.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/widgets/views/column.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="553" max-vertical-offset="1444">
+            <state vertical-scroll-proportion="-47.5" vertical-offset="0" max-vertical-offset="1444">
               <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Column.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/widgets/Column.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.857142" vertical-offset="0" max-vertical-offset="418">
+              <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hual.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/views/layouts/hual.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.59708196" vertical-offset="171" max-vertical-offset="1178">
+              <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+              <folding>
+                <element signature="e#6#27#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,10 +133,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/views/index/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08305275" vertical-offset="21" max-vertical-offset="912">
+            <state vertical-scroll-proportion="-2.642857" vertical-offset="21" max-vertical-offset="912">
               <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -91,8 +171,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-103" />
-    <option name="y" value="409" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -230,7 +310,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -280,42 +360,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii2cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii2cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii2cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yii2cms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -323,6 +367,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="com.intellij.openapi.vfs.encoding.FileEncodingConfigurable" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -363,7 +410,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-103" y="409" width="1936" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -443,6 +490,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="1178">
           <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+          <folding>
+            <element signature="e#6#27#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -507,6 +557,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="1159">
           <caret line="34" column="72" selection-start-line="34" selection-start-column="72" selection-end-line="34" selection-end-column="72" />
+          <folding>
+            <element signature="e#6#27#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -557,6 +610,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1159">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#27#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -686,25 +742,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/views/layouts/hual.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7441077" vertical-offset="287" max-vertical-offset="1178">
-          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/controllers/ColumnController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.3030303" vertical-offset="2052" max-vertical-offset="4351">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/widgets/views/column.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="553" max-vertical-offset="1444">
-          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -718,10 +759,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/views/index/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08305275" vertical-offset="21" max-vertical-offset="912">
+        <state vertical-scroll-proportion="-2.642857" vertical-offset="21" max-vertical-offset="912">
           <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/widgets/views/column.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-47.5" vertical-offset="0" max-vertical-offset="1444">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/widgets/Column.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.857142" vertical-offset="0" max-vertical-offset="418">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/layouts/hual.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59708196" vertical-offset="171" max-vertical-offset="1178">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+          <folding>
+            <element signature="e#6#27#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
