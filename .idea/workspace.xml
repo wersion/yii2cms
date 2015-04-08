@@ -72,8 +72,8 @@
       <file leaf-file-name="hual.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/views/layouts/hual.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5888383" vertical-offset="452" max-vertical-offset="1330">
-              <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.285877" vertical-offset="452" max-vertical-offset="1330">
+              <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
               <folding>
                 <element signature="e#6#27#0#PHP" expanded="true" />
                 <element signature="e#1103#1195#0#HTML" expanded="true" />
@@ -778,8 +778,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/views/layouts/hual.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5888383" vertical-offset="452" max-vertical-offset="1330">
-          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.285877" vertical-offset="452" max-vertical-offset="1330">
+          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
           <folding>
             <element signature="e#6#27#0#PHP" expanded="true" />
             <element signature="e#1103#1195#0#HTML" expanded="true" />
