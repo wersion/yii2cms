@@ -21,7 +21,7 @@
 </div>
 
 <!--导航--->
-<div id="Nav">
+<div id="navigation">
 	<div id="nav">
 		<ul class="nav_cont">
 				<li><a href="/">网站首页</a></li>
