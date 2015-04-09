@@ -1,31 +1,31 @@
 // JavaScript Document
 
-   //´´½¨ºÍ³õÊ¼»¯µØÍ¼º¯Êı£º
-    function initMap(){
-        createMap();//´´½¨µØÍ¼
-        setMapEvent();//ÉèÖÃµØÍ¼ÊÂ¼ş
-        addMapControl();//ÏòµØÍ¼Ìí¼Ó¿Ø¼ş
-    }
-    
-    //´´½¨µØÍ¼º¯Êı£º
-    function createMap(){
-        var map = new BMap.Map("dituContent");//ÔÚ°Ù¶ÈµØÍ¼ÈİÆ÷ÖĞ´´½¨Ò»¸öµØÍ¼
-        var point = new BMap.Point(121.487448,31.24968);//¶¨ÒåÒ»¸öÖĞĞÄµã×ø±ê
-        map.centerAndZoom(point,12);//Éè¶¨µØÍ¼µÄÖĞĞÄµãºÍ×ø±ê²¢½«µØÍ¼ÏÔÊ¾ÔÚµØÍ¼ÈİÆ÷ÖĞ
-        window.map = map;//½«map±äÁ¿´æ´¢ÔÚÈ«¾Ö
-    }
-    
-    //µØÍ¼ÊÂ¼şÉèÖÃº¯Êı£º
-    function setMapEvent(){
-        map.enableDragging();//ÆôÓÃµØÍ¼ÍÏ×§ÊÂ¼ş£¬Ä¬ÈÏÆôÓÃ(¿É²»Ğ´)
-        map.enableScrollWheelZoom();//ÆôÓÃµØÍ¼¹öÂÖ·Å´óËõĞ¡
-        map.enableDoubleClickZoom();//ÆôÓÃÊó±êË«»÷·Å´ó£¬Ä¬ÈÏÆôÓÃ(¿É²»Ğ´)
-        map.enableKeyboard();//ÆôÓÃ¼üÅÌÉÏÏÂ×óÓÒ¼üÒÆ¶¯µØÍ¼
-    }
-    
-    //µØÍ¼¿Ø¼şÌí¼Óº¯Êı£º
-    function addMapControl(){
-                        }
-    
-    
-    initMap();//´´½¨ºÍ³õÊ¼»¯µØÍ¼
+//åˆ›å»ºå’Œåˆå§‹åŒ–åœ°å›¾å‡½æ•°ï¼š
+function initMap(){
+    createMap();//åˆ›å»ºåœ°å›¾
+    setMapEvent();//è®¾ç½®åœ°å›¾äº‹ä»¶
+    addMapControl();//å‘åœ°å›¾æ·»åŠ æ§ä»¶
+}
+
+//åˆ›å»ºåœ°å›¾å‡½æ•°ï¼š
+function createMap(){
+    var map = new BMap.Map("dituContent");//åœ¨ç™¾åº¦åœ°å›¾å®¹å™¨ä¸­åˆ›å»ºä¸€ä¸ªåœ°å›¾
+    var point = new BMap.Point(121.487448,31.24968);//å®šä¹‰ä¸€ä¸ªä¸­å¿ƒç‚¹åæ ‡
+    map.centerAndZoom(point,12);//è®¾å®šåœ°å›¾çš„ä¸­å¿ƒç‚¹å’Œåæ ‡å¹¶å°†åœ°å›¾æ˜¾ç¤ºåœ¨åœ°å›¾å®¹å™¨ä¸­
+    window.map = map;//å°†mapå˜é‡å­˜å‚¨åœ¨å…¨å±€
+}
+
+//åœ°å›¾äº‹ä»¶è®¾ç½®å‡½æ•°ï¼š
+function setMapEvent(){
+    map.enableDragging();//å¯ç”¨åœ°å›¾æ‹–æ‹½äº‹ä»¶ï¼Œé»˜è®¤å¯ç”¨(å¯ä¸å†™)
+    map.enableScrollWheelZoom();//å¯ç”¨åœ°å›¾æ»šè½®æ”¾å¤§ç¼©å°
+    map.enableDoubleClickZoom();//å¯ç”¨é¼ æ ‡åŒå‡»æ”¾å¤§ï¼Œé»˜è®¤å¯ç”¨(å¯ä¸å†™)
+    map.enableKeyboard();//å¯ç”¨é”®ç›˜ä¸Šä¸‹å·¦å³é”®ç§»åŠ¨åœ°å›¾
+}
+
+//åœ°å›¾æ§ä»¶æ·»åŠ å‡½æ•°ï¼š
+function addMapControl(){
+}
+
+
+initMap();//åˆ›å»ºå’Œåˆå§‹åŒ–åœ°å›¾

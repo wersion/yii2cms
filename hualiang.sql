@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50519
 File Encoding         : 65001
 
-Date: 2015-03-30 16:40:20
+Date: 2015-04-09 18:03:10
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -58,7 +58,7 @@ INSERT INTO `article` VALUES ('30', '15', null, '1', '123', null, '<p>34567</p>'
 INSERT INTO `article` VALUES ('31', '15', null, '1', '444', null, '<p>5678</p>', '0', '', '', '', '', null, '1427423272', '1427439920');
 INSERT INTO `article` VALUES ('32', '15', null, '1', '555', null, '<p>t56666</p>', '0', '', '', '', '', null, '1427426462', '1427426462');
 INSERT INTO `article` VALUES ('33', '15', null, '1', '666', null, '<p>666677</p>', '0', '', '', '', '', null, '1427438150', '1427438772');
-INSERT INTO `article` VALUES ('34', '3', null, '1', '2015上海农博会', null, '<p>111111111111111<br/></p>', '0', '', '', '', '/uploads/files/nbh1.jpg', null, '1427441675', '1427448908');
+INSERT INTO `article` VALUES ('34', '3', null, '1', '2015上海农博会', null, '<p>一段时间以来，深具政府背景或与克里姆林宫有着千丝万缕关系的俄罗斯媒体热衷于挑动中国或外国特别是超级大国美国的敏感神经，试图通过一系列新闻报道或评论激发它们彼此提防、争吵甚至斗争。\r\n俄罗斯战略文化基金会网站 3月29日在一篇题为《拉美、中国与美国 在拉丁美洲，美国发动的反华宣传战达到前所未有的程度》的文章中，将美国描述为“使用手握的一切办法，包括数以百计的电视频道、数以千计的电台和电影”，以达到诋毁中国、破坏中拉关系目的的幕后黑手，它还不顾事实，夸大拉美国家对美国的敌视，在另一方面，他又不惜溢美之词，夸赞“当代中国领导人是务实的，</p>_ueditor_page_break_tag_<p>非常了解拉美及当地形势的特点”。但在竭尽全力唆使中国警惕美国对其发展与拉美关系的威胁后，它却又强调，“对(拉美)与北京合作的乐观前景，华盛顿几乎拿不出任何反制措施。”这篇充满内在矛盾性和夸大其词的文章，与其说是客观报道事实，倒不如说是一篇包藏险恶目的的精心撰构之作。\r\n在去年12月29日俄罗斯《晨报》的一篇文章中，记者就中国问题采访了美国兰德公司高级分析员蒂莫西·希思。希思分析认为，现阶段中国对外政策的优先方向是周边国家和发展中国家。他进一步说，中国提出区域政策倡议，在地缘战略方面迈出了重要一步。这样，北京在巩固侧翼安全的同时，为自己进入世界强国行列奠定了基础。但他同时强调，这并不意味着中国即将拥有全球领导地位。然而这篇报道却被冠以一个更加耸人听闻的标题《中国将领导没有美国的世界》，其真实意图昭然若揭。\r\n看看这些文章（节目）的题目吧：《中国准备同日本及西方作战》、《如果美国有日本，那么中国就有俄罗斯》、</p>_ueditor_page_break_tag_<p>《中国正在全球资本市场取代美国》、《美国正从中国夺走生存资源》等等。无须深看，单从它们就可以揣测文章的内容究竟是什么货色了。它们无一例外都是以夸张手法突出中美或者中外之间的问题、矛盾、冲突和敌对，缺乏基本的客观性，并让人明显感觉到其挑拨意图。\r\n从最新的一个例子中我们也可以得出结论，它的目标决非善意。俄罗斯卫星新闻3月31日报道，朝鲜曾表示愿意加入亚洲基础设施投资银行（AIIB），但被中方拒绝，并称中方的回绝毫无回旋余地。中国外交部发言人在当天的新闻发布会上拒绝证实相关新闻的真实性。很显然北京不愿意将此公之于众，以免陷入尴尬之境。\r\n人们或许认为，俄罗斯是为中国好，在帮助中国。就像两国领导人在主席台上所强调的那样，中俄两国关系处在史无前例的高水平。另外，中俄在政治、军事技术、安全等领域的合作也在密切，在俄与西方关系恶化的背景下，更加彰显中俄关系的重要性，似乎两国更加接近于结盟。\r\n然而诸多事实表明，中俄关系除了在国际关系中通过高度协作带来的巨大互利因素外，并没有想象的那么好：俄罗斯是全球极少数在最后时刻才决定加入中方主导的亚投行的国家之一，</p>_ueditor_page_break_tag_<p>这意味着之前它都在坐山观虎斗；俄罗斯对待向中印出口军事装备和军事技术，天平倾斜于印度一方，以确保印方保持相对优势；俄罗斯在危机之前久远的时间里故意延宕两国油气资源合作升级，并多次挑动中国与有关国家内斗；俄罗斯在与中国假装亲密的同时，在区域掺沙子、丢石头，挖中国周边安全的墙根，比如全力武装越南军队。凡此种种，都在向中国提醒，北极熊绝非那么好心。\r\n那么，俄罗斯为什么不遗余力地挑拨中国与有关国家间彼此产生隔阂、敌意？众所周知，目前在西方的集体制裁下，俄罗斯正陷入崩溃的边缘，通过分化中国与外国的关系，以达到拉拢中国与其进行战略上合作的目的。这是目的之一。\r\n目的之二是，这个世界越团结，越抱团，俄罗斯就会越感孤立，越觉得不安全，这正是它全方位地在中国与外国之间挖坑构陷的重要原因之一。最大程度地分化世界，避免其合伙对付它，是俄罗斯的战略利益所在。\r\n其三，一旦中国受其蛊惑，与有关国家关系恶化并进而消耗国家资源进行斗争，无疑将会削弱彼此的力量，这将有利于其坐收渔翁之利。</p>', '0', '', '', '', '/uploads/files/nbh1.jpg', null, '1427441675', '1427858992');
 INSERT INTO `article` VALUES ('35', '3', null, '1', '2015上海第二十六届农博会>', null, '<p>222222222222222</p>', '0', '', '', '', '/uploads/files/nbh2.jpg', null, '1427441753', '1427448938');
 INSERT INTO `article` VALUES ('36', '3', null, '1', '上海第二十六届农博会>333', null, '<p>3333333333333333</p>', '0', '', '', '', '/uploads/files/nbh3.jpg', null, '1427441786', '1427442660');
 INSERT INTO `article` VALUES ('37', '16', null, '1', '11111111', null, '<p>3332234111</p>', '0', '', '', '', '', null, '1427447051', '1427447051');
@@ -85,31 +85,31 @@ CREATE TABLE `columns` (
   PRIMARY KEY (`id`),
   KEY `model_f` (`model_id`),
   CONSTRAINT `model_f` FOREIGN KEY (`model_id`) REFERENCES `models` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of columns
 -- ----------------------------
-INSERT INTO `columns` VALUES ('1', '0', '1', '1', '走进华粮', '1234帮不帮1123', '1', '1', '1', '<p>我们是<span style=\"margin: 0px; padding: 0px; font-size: 72px;\">谁？</span></p><p>中国华粮集团有限责任公司</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; background-color: rgb(85, 186, 100);\">中国华粮集团有限公司秉承“善本、归元、循道”的理念，立足三农、服务民生，致力于农林牧副渔等行业，以农业、文化、网络、金融、小镇经济为五大产业方向，是高端大农业产品“标准化”的制定者、实施者。</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; background-color: rgb(85, 186, 100);\">华粮使命：</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; background-color: rgb(85, 186, 100);\">1、让员工和家人更健康；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; background-color: rgb(85, 186, 100);\">2、让投资者回报更高；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; background-color: rgb(85, 186, 100);\">3、让农民耕种快乐、种好地，好种地，地种好；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; background-color: rgb(85, 186, 100);\">4、奉献“品质、环保、简约、方便、便宜”的好产品；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; background-color: rgb(85, 186, 100);\">5、让人们体验喜悦和生命的美好；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; background-color: rgb(85, 186, 100);\">6、为社会贡献一个受人尊敬的企业。</p><p><br/></p>', '/uploads/files/Koala.jpg', '10', '1426860398', '1426860398');
-INSERT INTO `columns` VALUES ('2', '0', '3', '1', '耕织堂', '122', '2', '1', '1', '<p>22</p>', '', '10', '1426860646', '1426860646');
-INSERT INTO `columns` VALUES ('3', '0', '4', '1', '农博会', 'aa', '3', '2', '1', '<p>222</p>', '', '10', '1426860665', '1426860665');
-INSERT INTO `columns` VALUES ('8', '1', '14', '1', '华粮溯源', '123', '1', '2', '1', '<p>aaa</p>', '/uploads/files/suyuan.jpg', '10', '1426898856', '1426898856');
-INSERT INTO `columns` VALUES ('9', '1', '9', '1', '企业荣誉', '123', '3', '2', '1', '<p>爱爱爱</p>', '', '10', '1426898887', '1426898887');
-INSERT INTO `columns` VALUES ('10', '1', '2', '1', '团队介绍', '12', '2', '1', '1', '<p>11</p>', '', '10', '1426898960', '1426898960');
-INSERT INTO `columns` VALUES ('13', '1', '10', '1', '品牌理念', 'q\'q\'q', '4', '1', '1', '<p>12</p>', '', '10', '1427082642', '1427082642');
-INSERT INTO `columns` VALUES ('14', '1', '11', '1', '科研创新', '122', '5', '1', '1', '<p>123</p>', '', '10', '1427082745', '1427082745');
-INSERT INTO `columns` VALUES ('15', '1', '6', '1', '集团新闻', '12', '6', '2', '1', '<p>34</p>', '', '10', '1427082784', '1427082784');
-INSERT INTO `columns` VALUES ('16', '1', '6', '1', '媒体报道', '11', '7', '2', '1', '<p>12</p>', '', '10', '1427082803', '1427082803');
-INSERT INTO `columns` VALUES ('17', '2', '6', '1', '国家政策', '1', '1', '2', '1', '<p>11</p>', '', '10', '1427082914', '1427082914');
-INSERT INTO `columns` VALUES ('18', '2', '6', '1', '世界趋势', '11', '2', '2', '1', '<p>11</p>', '', '10', '1427082950', '1427082950');
-INSERT INTO `columns` VALUES ('19', '2', '6', '1', '心灵鸡汤', '11', '3', '2', '1', '<p>11</p>', '', '10', '1427082980', '1427082980');
-INSERT INTO `columns` VALUES ('20', '0', '1', '1', '华粮商道', '11', '4', '1', '1', '<p>11</p>', '', '10', '1427093555', '1427093555');
-INSERT INTO `columns` VALUES ('21', '0', '13', '1', '华粮联盟', 'AA', '5', '1', '1', '<p style=\"text-align: center;\"><strong><br/></strong></p><p style=\"text-align: center;\"><strong>11222</strong></p><p><strong>AAAAAAAAAAAA</strong></p>', '', '10', '1427093599', '1427093599');
-INSERT INTO `columns` VALUES ('22', '3', '5', '1', '异地特色', 'aa', null, '1', '1', '<p>11</p>', '', '10', '1427098876', '1427098876');
-INSERT INTO `columns` VALUES ('23', '20', '1', '1', '官方商城', '11', null, '1', '1', '<p>1</p>', '', '10', '1427098913', '1427098913');
-INSERT INTO `columns` VALUES ('24', '21', '7', '1', '合作客户', '11', '1', '1', '1', '<p>2233</p>', '', '10', '1427266726', '1427266726');
-INSERT INTO `columns` VALUES ('29', '21', '8', '1', '联系我们', '11', '1', '1', '1', '<p>12</p>', '', '10', '1427443264', '1427443264');
-INSERT INTO `columns` VALUES ('30', '21', '12', '1', '加入我们', '111', '3', '1', '1', '<p>234</p>', '', '10', '1427443329', '1427443329');
+INSERT INTO `columns` VALUES ('1', '0', '1', '1', '走进华粮//come into hua liang', '1234帮不帮1123', '1', '1', '1', '<p>我们是<span style=\"margin: 0px; padding: 0px; font-size: 72px;\">谁？</span></p><p>中国华粮集团有限责任公司</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; background-color: rgb(85, 186, 100);\">中国华粮集团有限公司秉承“善本、归元、循道”的理念，立足三农、服务民生，致力于农林牧副渔等行业，以农业、文化、网络、金融、小镇经济为五大产业方向，是高端大农业产品“标准化”的制定者、实施者。</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; background-color: rgb(85, 186, 100);\">华粮使命：</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; background-color: rgb(85, 186, 100);\">1、让员工和家人更健康；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; background-color: rgb(85, 186, 100);\">2、让投资者回报更高；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; background-color: rgb(85, 186, 100);\">3、让农民耕种快乐、种好地，好种地，地种好；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; background-color: rgb(85, 186, 100);\">4、奉献“品质、环保、简约、方便、便宜”的好产品；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; background-color: rgb(85, 186, 100);\">5、让人们体验喜悦和生命的美好；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; background-color: rgb(85, 186, 100);\">6、为社会贡献一个受人尊敬的企业。</p><p><br/></p>', '/uploads/files/Koala.jpg', '10', '1426860398', '1426860398');
+INSERT INTO `columns` VALUES ('2', '0', '3', '1', '耕织堂//gzt', '122', '2', '1', '1', '<p>22</p>', '', '10', '1426860646', '1426860646');
+INSERT INTO `columns` VALUES ('3', '0', '4', '1', '农博会//nbh', 'aa', '3', '2', '1', '<p>222</p>', '', '10', '1426860665', '1426860665');
+INSERT INTO `columns` VALUES ('8', '1', '14', '1', '华粮溯源//hlsy', '123', '1', '2', '1', '<p>aaa</p>', '/uploads/files/suyuan.jpg', '10', '1426898856', '1426898856');
+INSERT INTO `columns` VALUES ('9', '1', '9', '1', '企业荣誉//qyry', '123', '3', '2', '1', '<p>爱爱爱</p>', '', '10', '1426898887', '1426898887');
+INSERT INTO `columns` VALUES ('10', '1', '2', '1', '团队介绍//tdjs', '12', '2', '1', '1', '<p>11</p>', '', '10', '1426898960', '1426898960');
+INSERT INTO `columns` VALUES ('13', '1', '10', '1', '品牌理念//ppln', 'q\'q\'q', '4', '1', '1', '<p>12</p>', '', '10', '1427082642', '1427082642');
+INSERT INTO `columns` VALUES ('14', '1', '11', '1', '科研创新//kycx', '122', '5', '1', '1', '<p>123</p>', '', '10', '1427082745', '1427082745');
+INSERT INTO `columns` VALUES ('15', '1', '6', '1', '集团新闻//jtxw', '12', '6', '2', '1', '<p>34</p>', '', '10', '1427082784', '1427082784');
+INSERT INTO `columns` VALUES ('16', '1', '6', '1', '媒体报道//mtbd', '11', '7', '2', '1', '<p>12</p>', '', '10', '1427082803', '1427082803');
+INSERT INTO `columns` VALUES ('17', '2', '6', '1', '国家政策//gjzc', '1', '1', '2', '1', '<p>11</p>', '', '10', '1427082914', '1427082914');
+INSERT INTO `columns` VALUES ('18', '2', '6', '1', '世界趋势//sjqs', '11', '2', '2', '1', '<p>11</p>', '', '10', '1427082950', '1427082950');
+INSERT INTO `columns` VALUES ('19', '2', '6', '1', '心灵鸡汤//xljt', '11', '3', '2', '1', '<p>11</p>', '', '10', '1427082980', '1427082980');
+INSERT INTO `columns` VALUES ('20', '0', '1', '1', '华粮商道//hlsd', '11', '4', '1', '1', '<p>11</p>', '', '10', '1427093555', '1427093555');
+INSERT INTO `columns` VALUES ('21', '0', '13', '1', '华粮联盟//hllm', 'AA', '5', '1', '1', '<p style=\"text-align: center;\"><strong><br/></strong></p><p style=\"text-align: center;\"><strong>11222</strong></p><p><strong>AAAAAAAAAAAA</strong></p>', '', '10', '1427093599', '1427093599');
+INSERT INTO `columns` VALUES ('22', '3', '5', '1', '异地特色//ydts', 'aa', null, '1', '1', '<p>11</p>', '', '10', '1427098876', '1427098876');
+INSERT INTO `columns` VALUES ('23', '20', '1', '1', '官方商城//gfsc', '11', null, '1', '1', '<p>1</p>', '', '10', '1427098913', '1427098913');
+INSERT INTO `columns` VALUES ('24', '21', '7', '1', '合作客户//hzkh', '11', '1', '1', '1', '<p>2233</p>', '', '10', '1427266726', '1427266726');
+INSERT INTO `columns` VALUES ('29', '21', '8', '1', '联系我们//lxwm', '11', '1', '1', '1', '<p>12</p>', '', '10', '1427443264', '1427443264');
+INSERT INTO `columns` VALUES ('30', '21', '12', '1', '加入我们//jrwm', '111', '3', '1', '1', '<p>234</p>', '', '10', '1427443329', '1427443329');
 
 -- ----------------------------
 -- Table structure for `column_photo`
@@ -165,7 +165,6 @@ CREATE TABLE `models` (
 -- ----------------------------
 INSERT INTO `models` VALUES ('1', '文章', 'article');
 INSERT INTO `models` VALUES ('2', '图片', 'photo');
-INSERT INTO `models` VALUES ('3', '企业荣誉', 'rongyu');
 
 -- ----------------------------
 -- Table structure for `photo`
@@ -188,7 +187,7 @@ CREATE TABLE `photo` (
 -- ----------------------------
 -- Records of photo
 -- ----------------------------
-INSERT INTO `photo` VALUES ('4', '奖牌一', '/uploads/files/ry1.jpg', '18', '9', '123', null, '12', '1427356201', '1427532818');
+INSERT INTO `photo` VALUES ('4', '奖牌一', '/uploads/files/ry1.jpg', '18', '9', '123', null, '12', '1427356201', '1427790350');
 INSERT INTO `photo` VALUES ('5', '奖牌2', '/uploads/files/ry1.jpg', '18', '9', '2', null, '1', '1427356233', '1427532856');
 INSERT INTO `photo` VALUES ('6', '奖牌3', '/uploads/files/ry2.jpg', '20', '9', '44', null, '1', '1427362882', '1427532837');
 INSERT INTO `photo` VALUES ('7', '奖牌4', '/uploads/files/ry1.jpg', '21', null, '1', null, '2', '1427362916', '1427532847');

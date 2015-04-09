@@ -5,6 +5,8 @@
  * Date: 2015/3/23
  * Time: 14:29
  */
+use common\helps\column;
+
 function getTree($data, $pId)
 {
     $tree = '';
@@ -19,8 +21,9 @@ function getTree($data, $pId)
     return $tree;
 }
 
-function procHtml($tree)
+function procHtml($tree,$lang)
 {
+    $cl = new column();
     $cache = Yii::$app->cache;
     $html = '';
     foreach($tree as $t)
@@ -28,14 +31,17 @@ function procHtml($tree)
         if($t['children'] == '' and $t['parentid']==0)
         {
 
-            $html .= "<li><a href='/column/{$t['id']}'>".$t['cname']."</a><img src='/images/arrow.png' /></li>";
+            $html .= "<li><a href='/column/{$t['id']}'>".$cl->lang($t['cname'])[$lang]."</a></li>";
 
+<<<<<<< HEAD
             //$html .= "<li><a href='/column/{$t['id']}'>".$t['cname']."</a><img src='/images/arrow.png' /></li>";
+=======
+>>>>>>> origin/master
 
         }
         elseif($t['children'] == '' and $t['parentid'] !==0)
         {
-            $html.= "<p><a href='/column/{$t['id']}'>{$t['cname']}</a></p>";
+            $html.= "<p><a href='/column/{$t['id']}'>{$cl->lang($t['cname'])[$lang]}</a></p>";
         }else
         {
             if(Yii::$app->request->get('column'))
@@ -44,19 +50,19 @@ function procHtml($tree)
                 if(in_array($t['id'],$cache['column_'.Yii::$app->request->get('column').'_parents']))
                 {
 
-                    $html .= "<li class='style hover'><a href='/column/{$t['id']}'>".$t['cname']."</a><img src='/images/arrow.png' />";
-                    $html.= '<div class="menu">'.procHtml($t['children']).'</div>';
+                    $html .= "<li class='style hover'><a href='/column/{$t['id']}'>".$cl->lang($t['cname'])[$lang]."</a>";
+                    $html.= '<div class="menu">'.procHtml($t['children'],$lang).'</div>';
                     $html.="</li>";
                 }else
                 {
-                    $html .= "<li><a href='/column/{$t['id']}'>".$t['cname']."</a><img src='/images/arrow.png' />";
-                    $html.= '<div class="menu">'.procHtml($t['children']).'</div>';
+                    $html .= "<li><a href='/column/{$t['id']}'>".$cl->lang($t['cname'])[$lang]."</a>";
+                    $html.= '<div class="menu">'.procHtml($t['children'],$lang).'</div>';
                     $html.="</li>";
                 }
             }else
             {
-                $html .= "<li><a href='/column/{$t['id']}'>".$t['cname']."</a><img src='/images/arrow.png' />";
-                $html.= '<div class="menu">'.procHtml($t['children']).'</div>';
+                $html .= "<li><a href='/column/{$t['id']}'>".$cl->lang($t['cname'])[$lang]."</a>";
+                $html.= '<div class="menu">'.procHtml($t['children'],$lang).'</div>';
                 $html.="</li>";
             }
 
@@ -66,5 +72,5 @@ function procHtml($tree)
 }
 
 $tree = getTree($columns, 0);
-echo procHtml($tree);
+echo procHtml($tree,$lang);
 ?>

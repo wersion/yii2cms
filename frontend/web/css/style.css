@@ -49,7 +49,7 @@ a{ text-decoration:none;}
 #topcont .topcont_dhlei .dh{ font-size:24px; height:27px; color:#55ba64; background:url(../images/dh_icon.png) no-repeat left 0px ; padding-left:36px; padding-top:10px;}
 
 /*----------µ¼º½------------*/
-#Nav{ width:100%; height:62px; background:#009c3d;}
+#navigation{ width:100%; height:62px; background:url(../images/navbg3.jpg) repeat-y center top ;}
 #nav{ width:1200px; margin:0px auto;}
 #nav ul.nav_cont{ float:left; margin-left:20px; }
 #nav ul.nav_cont li { float:left;  height:40px; line-height:62px; text-align:center; position:relative;padding:11px 13px; }
@@ -208,6 +208,6 @@ z-index:2;}
 
 
 /*×îµ×²¿*/
-#footer{ width:100%; height:108px; text-align:center;color:#5d514d; background:url(../images/foot_bg.jpg) no-repeat center top;}
+#footer{ width:100%; height:100px; text-align:center;color:#5d514d; background:url(../images/foot_bg.jpg) no-repeat center top; padding-top:8px;}
 #footer p.footer_list a{  color:#5d514d; display:inline-block; margin:0px 10px; line-height:55px;}
 #footer p.footer_list a:hover{ color:#55BA64;}

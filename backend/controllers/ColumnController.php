@@ -153,9 +153,6 @@ Eof;
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            //$this->cacheAction();
-            //$this->cacheColumnOneAction($model->id,$model->parentid);
-            //return $this->redirect(['view', 'id' => $model->id]);
             return $this->redirect(['index']);
         } else {
             return $this->render('update', [
