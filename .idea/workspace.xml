@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03842a62-4566-4452-9ecb-0f58c5df5d92" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/views/index/nbh.php" afterPath="$PROJECT_DIR$/frontend/views/index/nbh.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/config/params.php" afterPath="$PROJECT_DIR$/common/config/params.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/views/index/zjhl.php" afterPath="$PROJECT_DIR$/frontend/views/index/zjhl.php" />
     </list>
     <ignored path="yii2cms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,21 +50,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zjhl.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="zjhl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/views/index/zjhl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17059484" vertical-offset="0" max-vertical-offset="891">
+            <state vertical-scroll-proportion="-5.428571" vertical-offset="0" max-vertical-offset="532">
               <caret line="8" column="83" selection-start-line="8" selection-start-column="83" selection-end-line="8" selection-end-column="83" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="params.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="params.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/config/params.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.392857" vertical-offset="0" max-vertical-offset="247">
-              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.10662177" vertical-offset="0" max-vertical-offset="891">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -154,9 +152,9 @@
         <option value="$PROJECT_DIR$/backend/views/column/index.php" />
         <option value="$PROJECT_DIR$/backend/views/layouts/header.php" />
         <option value="$PROJECT_DIR$/frontend/widgets/views/column.php" />
-        <option value="$PROJECT_DIR$/common/config/params.php" />
         <option value="$PROJECT_DIR$/frontend/views/index/nbh.php" />
         <option value="$PROJECT_DIR$/frontend/views/index/zjhl.php" />
+        <option value="$PROJECT_DIR$/common/config/params.php" />
       </list>
     </option>
   </component>
@@ -938,26 +936,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/config/params-local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="919">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/config/main-local.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="494">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/config/params.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.392857" vertical-offset="0" max-vertical-offset="247">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -1009,8 +991,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/views/index/zjhl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17059484" vertical-offset="0" max-vertical-offset="891">
+        <state vertical-scroll-proportion="-5.428571" vertical-offset="0" max-vertical-offset="532">
           <caret line="8" column="83" selection-start-line="8" selection-start-column="83" selection-end-line="8" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/config/params-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="919">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/config/params.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10662177" vertical-offset="0" max-vertical-offset="891">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
           <folding />
         </state>
       </provider>
