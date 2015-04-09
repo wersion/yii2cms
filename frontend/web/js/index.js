@@ -10,6 +10,21 @@ $(".topcont_nav ul li").hover(function(){
 	$(this).removerClass("hover");
 })
 
+
+
+//导航下拉菜单效果
+$("ul.nav_cont li").hover(function(){
+	
+	$(this).find(".menu").show();
+	$(this).addClass("hover").siblings().removeClass("hover");
+},function(){
+	$(this).find(".menu").hide();	
+	$(this).removeClass("hover");
+})
+
+
+
+
 //走进华粮-品牌理念tab标签效果
 var _index=0;
 
