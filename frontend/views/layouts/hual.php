@@ -42,7 +42,7 @@ HualAsset::register($this);
 </div>
 
 
-<div id="Nav">
+<div id="navigation">
 	<div id="nav">
 		<ul class="nav_cont">
 				
