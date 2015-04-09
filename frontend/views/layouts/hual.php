@@ -58,7 +58,7 @@ HualAsset::register($this);
 
 <div id="footer">
 	<p class="footer_list"><a href="#">网站地图</a><a href="#">招贤纳士</a><a href="#">联系我们</a></p>
-	<p class="footer_company">@Copyright 2013-2014中國华粮集團有限公司&nbsp;沪ICP备050190号</p>
+	<p class="footer_company">@Copyright 2013-2014中国华粮集团有限公司&nbsp;沪ICP备050190号</p>
 </div>
 <?php $this->endBody() ?>
 </body>
