@@ -33,10 +33,6 @@ function procHtml($tree,$lang)
 
             $html .= "<li><a href='/column/{$t['id']}'>".$cl->lang($t['cname'])[$lang]."</a></li>";
 
-<<<<<<< HEAD
-            //$html .= "<li><a href='/column/{$t['id']}'>".$t['cname']."</a><img src='/images/arrow.png' /></li>";
-=======
->>>>>>> origin/master
 
         }
         elseif($t['children'] == '' and $t['parentid'] !==0)

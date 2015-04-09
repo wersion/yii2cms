@@ -5,11 +5,12 @@ switch($_COOKIE['language'])
 {
     case 'cn':
         $lang = 0;
-
+    break;
     case 'en':
         $lang = 1;
-
+        break;
 }
+
 ?>
 <div class="cont_left">
     <div class="cont_left_bt">
@@ -20,9 +21,9 @@ switch($_COOKIE['language'])
     <div class="cont_left_list">
         <ul>
             <?php foreach($cache['column_'.$id.'_children'] as $child):?>
-                <li <?php if(Yii::$app->request->get('column')==$child['id']):?> class="hover" <?php endif?> ><a href="/column/<?= $child['id']?>"><?= $cl->lang(['cname'])[$lang] ?></a></li>
+                <li <?php if(Yii::$app->request->get('column')==$child['id']):?> class="hover" <?php endif?> ><a href="/column/<?= $child['id']?>"><?= $cl->lang($child['cname'])[$lang] ?></a></li>
             <?php endforeach;?>
         </ul>
     </div>
-   
+
 </div>

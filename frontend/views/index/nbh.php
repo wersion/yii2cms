@@ -41,4 +41,5 @@ $array = Yii::$app->request->get('page')?array_slice($cache['column_'.$id.'_arti
         </div>
     </div>
 </div>
+
 	

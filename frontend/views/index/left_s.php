@@ -1,15 +1,18 @@
 <?php
 use common\helps\column;
 $cl = new column();
+$cl = new column();
 switch($_COOKIE['language'])
 {
     case 'cn':
         $lang = 0;
-
+        break;
     case 'en':
         $lang = 1;
-        
+        break;
+
 }
+
 ?>
 <div class="cont_left">
     <div class="cont_left_bt">
@@ -20,9 +23,9 @@ switch($_COOKIE['language'])
     <div class="cont_left_list">
         <ul>
             <?php foreach($cache['column_'.$node.'_brother'] as $child):?>
-                <li <?php if($node==$child['id']):?> class="hover" <?php endif?> ><a href="/column/<?= $child['id']?>"><?= $cl->lang(['cname'])[$lang] ?></a></li>
+                <li <?php if($node==$child['id']):?> class="hover" <?php endif?> ><a href="/column/<?= $child['id']?>"><?= $cl->lang($child['cname'])[$lang] ?></a></li>
             <?php endforeach;?>
         </ul>
     </div>
-   
+
 </div>
