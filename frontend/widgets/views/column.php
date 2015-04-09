@@ -30,7 +30,7 @@ function procHtml($tree)
 
             $html .= "<li><a href='/column/{$t['id']}'>".$t['cname']."</a><img src='/images/arrow.png' /></li>";
 
-            $html .= "<li><a href='/column/{$t['id']}'>".$t['cname']."</a><img src='/images/arrow.png' /></li>";
+            //$html .= "<li><a href='/column/{$t['id']}'>".$t['cname']."</a><img src='/images/arrow.png' /></li>";
 
         }
         elseif($t['children'] == '' and $t['parentid'] !==0)
