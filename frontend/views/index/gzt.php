@@ -16,7 +16,7 @@
                     <li><a href="#">心灵鸡汤</a></li>
                 </ul>
             </div>
-            <img src="../images/left_di.png" />
+           
         </div>
         <div class="cont_right">
             <div class="cont_right_weizhi">当前位置：<span>首页</span>&gt;<span>耕织堂</span>&gt;<span>国家政策</span></div>
