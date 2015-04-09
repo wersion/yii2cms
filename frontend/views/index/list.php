@@ -51,7 +51,7 @@
                     <li><a href="#">媒体报道</a></li>
                 </ul>
             </div>
-            <img src="/images/left_di.png" />
+           
         </div>
         <div class="cont_right">
             <div class="cont_right_weizhi">当前位置：<span>首页</span>&gt;<span>走进华粮</span></div>

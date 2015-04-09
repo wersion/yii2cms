@@ -11,5 +11,5 @@
             <?php endforeach;?>
         </ul>
     </div>
-    <img src="../images/left_di.png" />
+    
 </div>
