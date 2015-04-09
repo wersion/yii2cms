@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03842a62-4566-4452-9ecb-0f58c5df5d92" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cache/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/backend/web/b.txt" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\03\031d59d06f7c077349cb4bd9c9e3f1f2.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\06\0610e12aa9884836ed2eb78babb18e04.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\07\072297cc4ce6ffba1564c1fc4567a71d.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\07\07b9c3c25fee5925ce64e3e43483792c.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\08\08b93633a31e083cb10ffb3bd8a858d6.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\08\08cde37fe5e961ac02bcefbfee54d9ea.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\0a\0ae6f59096eb37035d95777db4cd688c.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\0b\0b16eaa855093cb4752bb63f785013c7.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\0b\0bf678c0a89f6f9f65a55fe6ef839713.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\0c\0c8c687dab0006a6644f16b8d25cd6ba.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\0c\0cc31062c10cc5e9775b45def25afd88.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\0e\0e208487ece511282bbfdc3bbafc8e3a.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\10\1043768027521b663ca9d1f03525625f.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\10\105f2f384683d30d4de660d614c4a7ef.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\10\10a03120f61ab78b8e25336ffeb4c429.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\11\111a010e62f7e0e6fa0f56eb90caffed.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\12\12672398f1ed1cdf02fa4d00c21c93db.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\12\12969df9aa1ac86abaa37a8d8d1695ff.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\14\146d9366e74b2c2fb5039180e94b2cd7.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\1b\1b68191dd8d2bcbeb56b6ee2ae00b306.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\1c\1c6acbec1a7a24c65e779b861606823d.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\1c\1ce51f59c4f849d116fc9acfe837f961.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\1c\1cf03adea252f460a25e39afe3c0285e.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\20\20ad1c5d8cf853aa3a3deee2abe4b8a2.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\21\21694d97d7a4aaa86f6bf6dbffa14e9d.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\22\22a74afd2e0f509787ced90c9f177a12.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\22\22e856127aca27ec1eb8f4dea4959557.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\23\235a94ef4939244ef4ddc8bcc3989a91.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\24\2406de1cdb0ca2a529986afa43d2a580.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\25\255790d5fd75b00c16ac78e07ff73df4.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\26\2665ea0a544c33283c1c1dab186da34c.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\26\269934ae9b426da796fd5cb129a7d02d.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\27\27a0fa4fdcb4caf1de8b9eec746ba06d.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\28\28c23c3311485dd7da1ae2e20e060aa2.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\29\29859aee5204f578cced4a154d628065.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\29\2999a4f2662482e12a3c8669958e5c3b.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\2d\2dfb87dae6e0b1aa109fb17637fdde62.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\2e\2ecca9d408244935d5ae2d9fa9e27556.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\31\31dc74b2b4431dbf5691b64ef9202aa0.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\36\36041da1f67390783c0eecd67bc72524.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\36\36d8de85c5d178965af506c90a8d3932.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\3a\3a9948b807732f4c857f6b69cb845b4f.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\3c\3c386c0e1ded18d8d87cd0124d22c73c.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\3d\3dccb245dd08eb562150e8f9c1593bb8.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\3f\3f5e284610ab3aa442f55bf827fcf4a9.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\3f\3f7d09017fa30902bfc0d862d2eb8c99.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\41\417c4197a227790c471885dc405a0f70.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\42\4248fe4cd866d24d62700859b98239c7.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\43\43692e4b6458a14bcbb87a2394c5e39c.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\43\4391c4a17fe56edc3f2b4419bb0dacbb.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\45\45c7820f20ac22cebf8bffa0b59ff4d3.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\48\48493492badbb418eed1bf16ac539b0b.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\4b\4bfa9d387832ee1ea9ef91c6e3aaba66.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\4c\4c3003d4c0e94ff22599738c06f4ba43.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\4c\4c4e8dc6e478a3ec5d3e901e987bcd6f.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\4f\4f014bb975a98bd26b3c927ebf12e70c.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\4f\4fd4916abeb447d51f82e293a3fe6a10.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\50\50ebabd48b666d308397a5a53b640252.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\51\51be57aef0dc9ea5af542133f96d2cbe.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\53\536c17f6a91b810a5b34f6ffa59950f7.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\54\54e7ef4495b8b8712f09f2ac2c44ba4b.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\54\54f6ccd3f3bc7fd924faf794528f2ff7.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\55\559e2d04ce66f3d554972dc9fc47e518.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\57\570b37692ee97fee3e9b69476c392d6e.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\57\5788e7ac8b77c997db879c585902c543.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\57\57bd60c9e2f3978e0b2c671cfe3477d1.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\58\587b4569a835f16186666dba4086ef1d.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\58\58f6c621fd5bdf403e866758ecef62d5.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\59\596b6813a07c2f1ed824166e8f408c3e.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\5a\5a95fae771004a7da53f09a9fee16807.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\5d\5df0fecf1400bf7df686bafa3ee17992.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\5f\5f34d43d3bc0590a9178bc9e1373563e.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\60\603a6817a05d96b0d1c0e4d8085dbd7f.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\60\60cb243a8df7f239f516ac30cad33da9.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\62\623d1b8eb006888be3705a381f311cd7.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\62\62618adab12ba5629724ac34de516969.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\62\626c15dc7dc2f684cf9c62cc59e3489f.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\63\63634414fd07815cb759049a20ffabca.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\63\63fc9b32791e278d452ff2192b93cf20.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\66\66a0fcbbf1124fca4945dec745438aee.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\67\671e9fa2ef8a4f147ddc2304c229d04d.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\68\688ac5383c0833065a02cebe36b5f51a.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\68\689c43aece9ec88063a5bbd6ac1e9867.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\69\6919ed9998368f76827366864519ca9d.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\6b\6b8fc97ff5a883eab6c6508f9d3e575a.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\6c\6c8dd3b97a44769a215df73a3cba102e.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\6f\6f38dfea927d83c7cd71e7e818560852.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\70\70ee47753d40e902954556d4b92f021c.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\71\716b2760b5ad099d13678595dab0c140.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\72\7206264c59ca1f3b7f93bde704d466b2.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\72\725d5244035e3d9ca1dd09f0efb4cfab.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\72\7272208fe287b2550babf7c283e7d4f5.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\77\77cd697146f5c5aec8e03f65acbf8c7f.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\7b\7b998620e55285b95817f35fcb9c6d55.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\7b\7be60088243676b351c7e6228ad097e7.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\7c\7c5bb46cd83115adde58c3ef513d9b8f.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\7c\7c8b4fb30192a3ac5e8504e53ecafb4a.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\7d\7d92c470f5c04a4f8e3c4571a67ec93b.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\7f\7f9d3ca569a979cf25244459f2ceeacf.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\80\802fdafab41d212875ff09f081c6e93d.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\82\82a1a99977fa91e1018ae077b488acd6.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\82\82abed3389aa4d64d5e80901742fae5a.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\82\82d9aea1c962eed29ee6dfba62553df6.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\83\83a1fb4cfd37a6282dafc1f51d08d5c5.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\83\83ae7f7584967f7b0017ec46379b4389.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\85\853ea93519b95c2068b168640ac8b459.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\86\86c8f84571fa1f86e6c1783780985204.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\88\88719fa6f755b53542298cafb7a9f543.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\89\8923c2d341de3a59d9eb2707082fd9c9.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\8b\8bb5fc10168d43541dee4f2b7668b5a9.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\8b\8bfffbc5c68c5b47cf97a6705531c4d2.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\91\912aa8cf9490b1629bf60eb10875e2be.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\94\941fe8c4a11eab99755bcb562332f610.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\96\963454f612a8b5fb4a63ba1e97f028a1.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\96\968807fde3e784ad5107e69ed4c3fc86.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\99\99f17e3517dc887d2d54742df7eb994a.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\9b\9b512a8bffe4723adcd7869de9a512cb.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\9c\9c669891c7c226f3bf2f6d979541f0f7.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\9c\9c93dddaed93c68731c3ac3887dc51cb.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\9e\9e0a08a0d9bf57fcd44c85c284a36cf3.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\9e\9ea83b7682c9033dc93d8a93328a1182.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\9f\9f98a75cd37716ff6994f1d0d2ffd86c.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\a0\a0af93f07d68e78d8e89b6242512f483.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\a1\a1f05f102bb508f4cddd80cca5766a7f.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\a3\a34f8779375aa87d7cb4b5bf56ea53e9.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\a5\a586cc25418cca5d94c377611c5b8416.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\a5\a5abb2f4b1a6903c6c6e24b92b797c8d.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\a6\a6ebb543755d6eb1bb55c3d2608cf219.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\a6\a6f187dcaba3ddbe30497933bf267cee.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\a9\a9a7c8c4319b7fe5b214be21824efaea.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\aa\aa642ecf4d21119c21dbf0c351b3df36.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\aa\aa7e81a646313c68bcfc8e3584977845.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\ae\ae284bbaeb75131ae1e103ec842dbc9a.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\ae\aee78b97c1af2b26a85025f19667fcf3.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\af\afe52d09e98d19431a2dcbe0eb5be0a1.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\b0\b082ed303a0021fcdaec73f0b5430a69.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\b1\b1ed0c667ad427080ce1f088c7113d49.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\b2\b2a59b3be21ba2eff8f565071e9a6a11.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\b5\b54ff84734dc12bd0cf3e7fac65165f9.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\b5\b58cee309f98f9480b948e15b406255d.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\b5\b5a12f2bf489279579401180b90b4664.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\b8\b833e2cb526eb11e958d414f89786770.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\ba\ba99bd938c0ab56ed96d9278d959fd77.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\ba\bae2ff27f580fac0ec91883548c4ef6d.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\ba\bae5515124532c29ebb68ddef131b88e.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\ba\bafdadc63f57bcc500a5893bdb10041f.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\bc\bc017f87294a2384f512e69f31ae9479.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\bc\bc184bcae60b00a1e28b39554239814e.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\be\bee09a61371b378168871a17e693efda.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\c2\c2f3d50bc34283ead0b69ba462f1d408.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\c5\c52f4f4dcba07f5d0020e375a5502542.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\c8\c85edc1cc3f94a0207342f3c3a2c20e6.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\c8\c87575aae2b8b3d16eeef0b1282aea8b.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\cb\cbfcd65724fcf521147930ada9bcc3bc.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\cf\cfed1b21b0f922b64239893ec29d6c9b.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\co\columns.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\d0\d0d4a76c4fa0866f43274b21b6cc4eee.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\d2\d29c6345bbd56b8208e6bd6e4449d589.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\d2\d2f6e137ea9c485f004599eef0598f5c.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\d3\d3dd420a6e6d10c93a29f889d98334d1.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\d4\d40134aa0ab1a227af7f6df1a4f9b3a0.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\d4\d446fe482d547599f454472e55a7db20.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\d4\d48edfe43a0f93e35bac551e14d65593.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\d5\d55f632ff481a84a5ab71cfe113927ae.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\d6\d641df65371e2ed2ff212ef1a6226bf8.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\d9\d91079355f9f7d9defec83f6caa89a96.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\da\dab16ea1bfb8ff0595e00732adba00da.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\db\dbcff79d97911a8177c91b3347695a27.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\db\dbedad2007c12dfb89eaad22a00b8b61.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\dc\dc0285662c698cfcf3ba0c35ae0aebf9.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\dc\dc31a573a8729551e0ba21184f6c1947.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\dd\dd40d7fa666b549a5ae53425d58d0230.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\dd\ddb39c0c18c1f8ff0bc71ca2d5a77fe1.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\df\dfa1ae351f779aee0f2ef570c7ca85c2.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\e3\e3fbb4c6cfca38d05f8733d70aa53856.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\e4\e4373ba25079c6f3b00ebf056a20ea9b.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\e5\e527682bb73774a64c17a8404de8f7e6.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\e6\e629ce18ffa0580329ef3150b5c62aa3.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\e6\e63ee056e58b33f9e95363eae6af287b.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\e6\e6b00bb8f200efc08976fde0a439d59b.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\ea\eac95f937e8eb523f86cf5dc4065177a.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\eb\eb7ae680db189c246a73a8227c90cabf.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\eb\ebe8f0cd8dd00bd66bce36c11c65207f.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\ec\ec6634b9fbf9bccd3a0629d40f74a521.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\ec\ec7dc4a99a89a835d655f847874521d4.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\ec\eccc5e61bfebcb4456f74e99549adb73.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\ed\edc7d39eefc5f490c8a3e181b7455a95.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\ef\ef9a5c47a489719f6c14db54e31b7602.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\f0\f0829714756e70402999a75d7c93c5a5.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\f4\f42c67d2f8ec85eb98e0bf60aad3a849.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\f5\f56d16c04f0b7ab9853c9cd80a3e3771.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\f6\f64c9f9ea27706a06ecec94dd3758a81.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\f7\f70e65632818c2b55c447ecb2b1807ed.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\f7\f7c2c6a409157eabe5b01d8d19bdfb99.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\f8\f8ded97055aba373bc85b9c9bf100f07.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\f9\f96acae822833e20c0163d767a24704a.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\f9\f9f4fd36d6162ecb26f7cd4600a50ddd.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\fa\fa7a3dc264be3551f95af9ec8e1eb552.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\fb\fb10dc2475ed9d671f776bd93a32b047.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\fc\fc261148f3bf228fa594c10fb50a2aed.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\fc\fccce5b729618a733d08eb777887f22d.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\fd\fde53f9133fe6d36e2eccffbbd9e16e0.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\fe\fe00121d3f8379e03e33c3abcb3d2bb0.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\fe\fe0d4f23aaf9289b1ce54e861cb796f2.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\fe\fe120750b5cf321cad80938369bc3be4.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\mo\models.bin" afterPath="" />
+      <change type="DELETED" beforePath="D:\www\yii2cms\cache\te\template.bin" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/views/index/gzt.php" afterPath="$PROJECT_DIR$/frontend/views/index/gzt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="yii2cms.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="yii2cms" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="column.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/widgets/views/column.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="1444">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gzt.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/views/index/gzt.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1406">
+              <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hualiang.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hualiang.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5358">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="articlepager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/widgets/views/articlepager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Column.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/widgets/Column.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="513">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <element signature="e#6#83#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hual.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/views/layouts/hual.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.04328018" vertical-offset="285" max-vertical-offset="1330">
+              <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
+              <folding>
+                <element signature="e#6#27#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="133">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/views/index/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="912">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/frontend/views/index/gzt.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii2cms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="File.Encoding" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/hualiang.sql" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\www\yii2cms\cache" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-env-vars>false</pass-parent-env-vars>
+      <envs />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03842a62-4566-4452-9ecb-0f58c5df5d92" name="Default" comment="" />
+      <created>1427768378126</created>
+      <option name="number" value="Default" />
+      <updated>1427768378126</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17760417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="133">
+          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/index/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="912">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/widgets/views/column.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="1672">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/widgets/views/pager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/widgets/views/articlepager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/widgets/Column.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="594">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#6#83#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/layouts/hual.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1342">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#27#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/config/main-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/index/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="1056">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/widgets/views/column.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="553" max-vertical-offset="1444">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/config/main-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/widgets/views/column.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="1444">
+          <caret line="41" column="13" selection-start-line="40" selection-start-column="12" selection-end-line="41" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/controllers/ColumnController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2052" max-vertical-offset="4351">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/layouts/hual.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="1178">
+          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+          <folding>
+            <element signature="e#6#27#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/index/jrwm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="1083">
+          <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="78" max-vertical-offset="1197">
+          <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/index/map.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="988">
+          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/index/lxwm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/index/show_nbh.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="646">
+          <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/index/nbh.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="931">
+          <caret line="18" column="95" selection-start-line="18" selection-start-column="95" selection-end-line="18" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/widgets/views/column.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="1444">
+          <caret line="41" column="13" selection-start-line="40" selection-start-column="12" selection-end-line="41" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/layouts/hual.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="1159">
+          <caret line="34" column="72" selection-start-line="34" selection-start-column="72" selection-end-line="34" selection-end-column="72" />
+          <folding>
+            <element signature="e#6#27#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/models/Column.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1482" max-vertical-offset="2451">
+          <caret line="107" column="32" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/index/jrwm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="1083">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/layouts/left.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="1387">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/widgets/views/column.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="1444">
+          <caret line="41" column="13" selection-start-line="40" selection-start-column="12" selection-end-line="41" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/layouts/hual.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1159">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#27#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/layouts/left.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="1387">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/views/layouts/left.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="1387">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/models/Column.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1482" max-vertical-offset="2451">
+          <caret line="107" column="32" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/config/main-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="919">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.178572" vertical-offset="0" max-vertical-offset="494">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/controllers/ArticleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.892857" vertical-offset="2643" max-vertical-offset="3686">
+          <caret line="171" column="0" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/index/nbh.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="931">
+          <caret line="18" column="95" selection-start-line="18" selection-start-column="95" selection-end-line="18" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/index/show_nbh.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="646">
+          <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74635243" vertical-offset="0" max-vertical-offset="912">
+          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/index/lxwm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7890011" vertical-offset="0" max-vertical-offset="891">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/index/map.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12570146" vertical-offset="97" max-vertical-offset="988">
+          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.93602693" vertical-offset="78" max-vertical-offset="1197">
+          <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/index/jrwm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8006834" vertical-offset="114" max-vertical-offset="1083">
+          <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/controllers/ColumnController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3030303" vertical-offset="2052" max-vertical-offset="4351">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/config/main-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="919">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/widgets/views/pager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="380">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/widgets/views/articlepager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="399">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/widgets/Column.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="594">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#6#83#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/index/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="1056">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="133">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/widgets/views/column.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="1672">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hualiang.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5358">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/index/gzt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1406">
+          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/views/layouts/hual.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04328018" vertical-offset="285" max-vertical-offset="1330">
+          <caret line="17" column="69" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
+          <folding>
+            <element signature="e#6#27#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
