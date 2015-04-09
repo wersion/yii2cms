@@ -43,7 +43,7 @@ class Column extends \yii\db\ActiveRecord
     {
         return [
             [['parentid', 'cname','model_id'], 'required'],
-            [['sort','template_id','file','isArticle','url','isShow','ename','content'],'safe'],
+            [['sort','template_id','file','isArticle','url','isShow','content'],'safe'],
             [['parentid', 'status'], 'integer']
         ];
     }
@@ -58,7 +58,7 @@ class Column extends \yii\db\ActiveRecord
             'parentid' => 'Pid',
             'sort' => '排序',
             'cname' => '栏目名称',
-            'ename' => '英文名称',
+
             'model_id' => '选择模型',
             'template_id' => '选择模板',
             'isArticle' => '是否单网页',
