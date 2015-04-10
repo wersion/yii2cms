@@ -1,7 +1,6 @@
 <?php
 use common\helps\column;
 $cl = new column();
-$cl = new column();
 switch($_COOKIE['language'])
 {
     case 'cn':
@@ -10,8 +9,10 @@ switch($_COOKIE['language'])
     case 'en':
         $lang = 1;
         break;
+    case 'tw':
+        $lang = 2;
+        break;
 }
-
 ?>
 <div class="cont_left">
     <div class="cont_left_bt">

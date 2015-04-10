@@ -5,12 +5,14 @@ switch($_COOKIE['language'])
 {
     case 'cn':
         $lang = 0;
-    break;
+        break;
     case 'en':
         $lang = 1;
         break;
+    case 'tw':
+        $lang = 2;
+        break;
 }
-
 ?>
 <div class="cont_left">
     <div class="cont_left_bt">
