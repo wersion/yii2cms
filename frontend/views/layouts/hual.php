@@ -10,6 +10,27 @@ use frontend\widgets\Column;
 /* @var $content string */
 
 HualAsset::register($this);
+if($_COOKIE['language'])
+{
+
+    switch($_COOKIE['language'])
+    {
+        case 'cn':
+            $lang = 0;
+            break;
+        case 'en':
+            $lang = 1;
+            break;
+        case 'tw':
+            $lang = 2;
+            break;
+
+    }
+}else
+{
+    $lang = 0;
+}
+?>
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -48,7 +69,7 @@ HualAsset::register($this);
 		<ul class="nav_cont">
 				
                 <li <?php if(Yii::$app->request->get('_url')==''):?> class="style hover" <?php endif?>><a href="/">首页</a></li>
-                <?= Column::widget()?>
+                <?= Column::widget(['lang'=>$lang])?>
 		</ul>	
 
 		<div class="clear"></div>
