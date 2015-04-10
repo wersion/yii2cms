@@ -15,7 +15,7 @@ switch($_COOKIE['language'])
 ?>
 <div class="cont_left">
     <div class="cont_left_bt">
-        <span><?= $cache['column_'.$id.'_parent']['cname']?></span><br />
+        <span><?= $cl->lang($cache['column_'.$id.'_parent']['cname'])[$lang]?></span><br />
         Walk into us
     </div>
 

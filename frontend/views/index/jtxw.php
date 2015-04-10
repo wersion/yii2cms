@@ -1,8 +1,21 @@
 <?php
 use frontend\widgets\Pager;
-
+use common\helps\column;
 $page_size = 2;
 $array = Yii::$app->request->get('page')?array_slice($cache['column_'.$id.'_articles'],$page_size*(Yii::$app->request->get('page')-1),$page_size):array_slice($cache['column_'.$id.'_articles'],0,$page_size);
+
+$cl = new column();
+$cl = new column();
+switch($_COOKIE['language'])
+{
+    case 'cn':
+        $lang = 0;
+        break;
+    case 'en':
+        $lang = 1;
+        break;
+}
+
 ?>
 
 <!--内容区-->
@@ -10,7 +23,7 @@ $array = Yii::$app->request->get('page')?array_slice($cache['column_'.$id.'_arti
     <div id="cont">
         <?php include '../views/index/left_l.php'?>
         <div class="cont_right">
-            <div class="cont_right_weizhi">当前位置：<span>首页</span>&gt;<span><?= $cache['column_'.$id.'_parent']['cname']?></span>&gt;<span><?= $cache['column-'.$id]['cname']?></span></div>
+            <div class="cont_right_weizhi">当前位置：<span>首页</span>&gt;<span><?= $cl->lang($cache['column_'.$id.'_parent']['cname'])[$lang]?></span>&gt;<span><?= $cl->lang($cache['column_'.$id]['cname'])[$lang]?></span></div>
             <div class="zoujin">
                 <div class="zoujin_bt"><?= $cache['column_'.$id]['cname']?></div>
                 <div class="zoujin_nr">
