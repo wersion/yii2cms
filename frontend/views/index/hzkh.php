@@ -21,7 +21,7 @@
             <div class="hezuo">
                 <ul>
                     <?php foreach($cache['column_'.$id.'_photos'] as $photo):?>
-                    <li><img src="http://admin.yii2.com/<?= $photo['url']?>" /></li>
+                    <li><img src="<?= Yii::$app->params['adminUrl'].$photo['url']?>" /></li>
                     <?php endforeach?>
 
                 </ul>

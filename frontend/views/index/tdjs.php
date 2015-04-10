@@ -29,7 +29,7 @@ switch($_COOKIE['language'])
 
                                 <div class="yy_bt"><?= $article['title']?></div>
 
-                                <div class="yy_img"><img src="http://admin.yii2.com<?= $article['file']?>"/></div>
+                                <div class="yy_img"><img src="<?= Yii::$app->params['adminUrl'].$article['file']?>"/></div>
 
                                 <div class="yy_js">
 
