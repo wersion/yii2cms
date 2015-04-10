@@ -47,7 +47,7 @@ HualAsset::register($this);
         <div id="nav">
             <ul class="nav_cont">
 
-                <li <?php if(Yii::$app->request->get('_url')==''):?> class="style hover" <?php endif?>><a href="/">HOME</a></li>
+                <li <?php if(Yii::$app->request->get('_url')==''):?> class="style hover" <?php endif?>><a href="/">首頁</a></li>
 
                 <?= Column::widget(['lang'=>2])?>
             </ul>
