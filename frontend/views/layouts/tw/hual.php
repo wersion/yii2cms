@@ -47,9 +47,9 @@ HualAsset::register($this);
         <div id="nav">
             <ul class="nav_cont">
 
-                <li <?php if(Yii::$app->request->get('_url')==''):?> class="style hover" <?php endif?>><a href="/">HOME</a></li>
+                <li <?php if(Yii::$app->request->get('_url')==''):?> class="style hover" <?php endif?>><a href="/">首頁</a></li>
 
-                <?= Column::widget(['lang'=>1])?>
+                <?= Column::widget(['lang'=>2])?>
             </ul>
 
             <div class="clear"></div>
@@ -59,7 +59,7 @@ HualAsset::register($this);
     <?= $content ?>
 
     <div id="footer">
-        <p class="footer_list"><a href="#">网站地图2</a><a href="#">招贤纳士</a><a href="#">联系我们</a></p>
+        <p class="footer_list"><a href="#">网站地图3</a><a href="#">招贤纳士</a><a href="#">联系我们</a></p>
         <p class="footer_company">@Copyright 2013-2014中国华粮集团有限公司&nbsp;沪ICP备050190号</p>
     </div>
     <?php $this->endBody() ?>

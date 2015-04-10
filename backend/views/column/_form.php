@@ -16,7 +16,7 @@ use yii\widgets\Template;
 
     <?php $form = ActiveForm::begin();?>
 
-    <?= $form->field($model, 'cname')->textInput(['maxlength' => 32]) ?>
+    <?= $form->field($model, 'cname')->textInput() ?>
 
 
     <?= Models::widget(['model'=>$model,'form'=>$form])?>
