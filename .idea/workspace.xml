@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03842a62-4566-4452-9ecb-0f58c5df5d92" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/helps/column.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/views/layouts/en/hual.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/widgets/Column.php" afterPath="$PROJECT_DIR$/frontend/widgets/Column.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/widgets/views/column.php" afterPath="$PROJECT_DIR$/frontend/widgets/views/column.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/views/layouts/hual.php" afterPath="$PROJECT_DIR$/frontend/views/layouts/hual.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/views/layouts/cn/hual.php" afterPath="$PROJECT_DIR$/frontend/views/layouts/cn/hual.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/views/index/left.php" afterPath="$PROJECT_DIR$/frontend/views/index/left.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/views/index/left_l.php" afterPath="$PROJECT_DIR$/frontend/views/index/left_l.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/views/index/left_s.php" afterPath="$PROJECT_DIR$/frontend/views/index/left_s.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="03842a62-4566-4452-9ecb-0f58c5df5d92" name="Default" comment="" />
     <ignored path="yii2cms.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -634,7 +623,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />

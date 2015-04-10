@@ -8,7 +8,7 @@ switch($_COOKIE['language'])
 
     case 'en':
         $lang = 1;
-        
+
 }
 ?>
 <div class="cont_left">
