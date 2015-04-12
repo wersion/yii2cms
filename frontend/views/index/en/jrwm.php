@@ -3,21 +3,21 @@
     <div id="cont">
         <div class="cont_left">
             <div class="cont_left_bt">
-                <span>华粮联盟</span><br />
+                <span><?= $cl->lang($cache['column_'.$id]['cname'])[$lang]?></span><br />
                 Walk into us
             </div>
 
             <div class="cont_left_list">
                 <ul>
                     <?php foreach($cache['column_'.$id.'_brother'] as $child):?>
-                        <li <?php if($id==$child['id']):?> class="hover" <?php endif?> ><a href="/column/<?= $child['id']?>"><?= $child['cname']?></a></li>
+                        <li <?php if($id==$child['id']):?> class="hover" <?php endif?> ><a href="/column/<?= $child['id']?>"><?= $cl->lang($child['cname'])[$lang]?></a></li>
                     <?php endforeach;?>
                 </ul>
             </div>
             
         </div>
         <div class="cont_right">
-            <div class="cont_right_weizhi">当前位置：<span>首页</span>&gt;<span>华粮联盟</span>&gt;<span>加入我们</span></div>
+            <div class="cont_right_weizhi">Posion：<span>Home</span> <?= $position?></div>
             <div class="jiaru">
                <!-- <div class="jiaru_bt"><span>招贤纳士 /</span>  join us</div>
                 <p>我们是一群平凡的年轻人，因为一个共同的梦想，为了通过运动帮助更多人解决健康问题，我们齐聚魔都。我们一直在前进的路上，从未停歇，如果你想加入我们那就来吧！行修健身开疆扩土连锁店进行中，招兵买马打造年轻人最稳定的工作平台...</p>

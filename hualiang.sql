@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : bendi
-Source Server Version : 50519
-Source Host           : localhost:3306
+Source Server         : aliyun2
+Source Server Version : 50173
+Source Host           : 121.40.57.25:3306
 Source Database       : hualiang
 
 Target Server Type    : MYSQL
-Target Server Version : 50519
+Target Server Version : 50173
 File Encoding         : 65001
 
-Date: 2015-04-09 18:03:10
+Date: 2015-04-10 20:51:19
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -64,54 +64,6 @@ INSERT INTO `article` VALUES ('36', '3', null, '1', '上海第二十六届农博
 INSERT INTO `article` VALUES ('37', '16', null, '1', '11111111', null, '<p>3332234111</p>', '0', '', '', '', '', null, '1427447051', '1427447051');
 
 -- ----------------------------
--- Table structure for `columns`
--- ----------------------------
-DROP TABLE IF EXISTS `columns`;
-CREATE TABLE `columns` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `parentid` int(11) NOT NULL,
-  `template_id` int(2) DEFAULT NULL,
-  `model_id` smallint(2) NOT NULL,
-  `cname` varchar(32) NOT NULL,
-  `url` varchar(255) DEFAULT NULL,
-  `sort` smallint(4) DEFAULT NULL,
-  `isArticle` smallint(5) NOT NULL,
-  `isShow` smallint(5) NOT NULL,
-  `content` text,
-  `file` varchar(200) DEFAULT NULL,
-  `status` smallint(6) NOT NULL DEFAULT '10',
-  `created_at` int(11) NOT NULL,
-  `updated_at` int(11) NOT NULL,
-  PRIMARY KEY (`id`),
-  KEY `model_f` (`model_id`),
-  CONSTRAINT `model_f` FOREIGN KEY (`model_id`) REFERENCES `models` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of columns
--- ----------------------------
-INSERT INTO `columns` VALUES ('1', '0', '1', '1', '走进华粮//come into hua liang', '1234帮不帮1123', '1', '1', '1', '<p>我们是<span style=\"margin: 0px; padding: 0px; font-size: 72px;\">谁？</span></p><p>中国华粮集团有限责任公司</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; background-color: rgb(85, 186, 100);\">中国华粮集团有限公司秉承“善本、归元、循道”的理念，立足三农、服务民生，致力于农林牧副渔等行业，以农业、文化、网络、金融、小镇经济为五大产业方向，是高端大农业产品“标准化”的制定者、实施者。</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; background-color: rgb(85, 186, 100);\">华粮使命：</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; background-color: rgb(85, 186, 100);\">1、让员工和家人更健康；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; background-color: rgb(85, 186, 100);\">2、让投资者回报更高；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; background-color: rgb(85, 186, 100);\">3、让农民耕种快乐、种好地，好种地，地种好；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; background-color: rgb(85, 186, 100);\">4、奉献“品质、环保、简约、方便、便宜”的好产品；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; background-color: rgb(85, 186, 100);\">5、让人们体验喜悦和生命的美好；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(255, 255, 255); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; background-color: rgb(85, 186, 100);\">6、为社会贡献一个受人尊敬的企业。</p><p><br/></p>', '/uploads/files/Koala.jpg', '10', '1426860398', '1426860398');
-INSERT INTO `columns` VALUES ('2', '0', '3', '1', '耕织堂//gzt', '122', '2', '1', '1', '<p>22</p>', '', '10', '1426860646', '1426860646');
-INSERT INTO `columns` VALUES ('3', '0', '4', '1', '农博会//nbh', 'aa', '3', '2', '1', '<p>222</p>', '', '10', '1426860665', '1426860665');
-INSERT INTO `columns` VALUES ('8', '1', '14', '1', '华粮溯源//hlsy', '123', '1', '2', '1', '<p>aaa</p>', '/uploads/files/suyuan.jpg', '10', '1426898856', '1426898856');
-INSERT INTO `columns` VALUES ('9', '1', '9', '1', '企业荣誉//qyry', '123', '3', '2', '1', '<p>爱爱爱</p>', '', '10', '1426898887', '1426898887');
-INSERT INTO `columns` VALUES ('10', '1', '2', '1', '团队介绍//tdjs', '12', '2', '1', '1', '<p>11</p>', '', '10', '1426898960', '1426898960');
-INSERT INTO `columns` VALUES ('13', '1', '10', '1', '品牌理念//ppln', 'q\'q\'q', '4', '1', '1', '<p>12</p>', '', '10', '1427082642', '1427082642');
-INSERT INTO `columns` VALUES ('14', '1', '11', '1', '科研创新//kycx', '122', '5', '1', '1', '<p>123</p>', '', '10', '1427082745', '1427082745');
-INSERT INTO `columns` VALUES ('15', '1', '6', '1', '集团新闻//jtxw', '12', '6', '2', '1', '<p>34</p>', '', '10', '1427082784', '1427082784');
-INSERT INTO `columns` VALUES ('16', '1', '6', '1', '媒体报道//mtbd', '11', '7', '2', '1', '<p>12</p>', '', '10', '1427082803', '1427082803');
-INSERT INTO `columns` VALUES ('17', '2', '6', '1', '国家政策//gjzc', '1', '1', '2', '1', '<p>11</p>', '', '10', '1427082914', '1427082914');
-INSERT INTO `columns` VALUES ('18', '2', '6', '1', '世界趋势//sjqs', '11', '2', '2', '1', '<p>11</p>', '', '10', '1427082950', '1427082950');
-INSERT INTO `columns` VALUES ('19', '2', '6', '1', '心灵鸡汤//xljt', '11', '3', '2', '1', '<p>11</p>', '', '10', '1427082980', '1427082980');
-INSERT INTO `columns` VALUES ('20', '0', '1', '1', '华粮商道//hlsd', '11', '4', '1', '1', '<p>11</p>', '', '10', '1427093555', '1427093555');
-INSERT INTO `columns` VALUES ('21', '0', '13', '1', '华粮联盟//hllm', 'AA', '5', '1', '1', '<p style=\"text-align: center;\"><strong><br/></strong></p><p style=\"text-align: center;\"><strong>11222</strong></p><p><strong>AAAAAAAAAAAA</strong></p>', '', '10', '1427093599', '1427093599');
-INSERT INTO `columns` VALUES ('22', '3', '5', '1', '异地特色//ydts', 'aa', null, '1', '1', '<p>11</p>', '', '10', '1427098876', '1427098876');
-INSERT INTO `columns` VALUES ('23', '20', '1', '1', '官方商城//gfsc', '11', null, '1', '1', '<p>1</p>', '', '10', '1427098913', '1427098913');
-INSERT INTO `columns` VALUES ('24', '21', '7', '1', '合作客户//hzkh', '11', '1', '1', '1', '<p>2233</p>', '', '10', '1427266726', '1427266726');
-INSERT INTO `columns` VALUES ('29', '21', '8', '1', '联系我们//lxwm', '11', '1', '1', '1', '<p>12</p>', '', '10', '1427443264', '1427443264');
-INSERT INTO `columns` VALUES ('30', '21', '12', '1', '加入我们//jrwm', '111', '3', '1', '1', '<p>234</p>', '', '10', '1427443329', '1427443329');
-
--- ----------------------------
 -- Table structure for `column_photo`
 -- ----------------------------
 DROP TABLE IF EXISTS `column_photo`;
@@ -130,6 +82,54 @@ CREATE TABLE `column_photo` (
 -- ----------------------------
 -- Records of column_photo
 -- ----------------------------
+
+-- ----------------------------
+-- Table structure for `columns`
+-- ----------------------------
+DROP TABLE IF EXISTS `columns`;
+CREATE TABLE `columns` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `parentid` int(11) NOT NULL,
+  `template_id` int(2) DEFAULT NULL,
+  `model_id` smallint(2) NOT NULL,
+  `cname` varchar(255) NOT NULL,
+  `url` varchar(255) DEFAULT NULL,
+  `sort` smallint(4) DEFAULT NULL,
+  `isArticle` smallint(5) NOT NULL,
+  `isShow` smallint(5) NOT NULL,
+  `content` text,
+  `file` varchar(200) DEFAULT NULL,
+  `status` smallint(6) NOT NULL DEFAULT '10',
+  `created_at` int(11) NOT NULL,
+  `updated_at` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `model_f` (`model_id`),
+  CONSTRAINT `model_f` FOREIGN KEY (`model_id`) REFERENCES `models` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of columns
+-- ----------------------------
+INSERT INTO `columns` VALUES ('1', '0', '1', '1', '走进华粮//Into Hualiang//走進華糧', '1234帮不帮1123', '1', '1', '1', '<p style=\"font-size:48px; font-family: &#39;microsoft yahei&#39;;color: #6B635A;\">我们是<span style=\"margin: 0px; padding: 0px; font-size: 72px;\">谁？</span></p><p style=\"font-size: 18px;\r\ncolor: #FE944E;font-family: &#39;microsoft yahei&#39;;\">中国华粮集团有限责任公司</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(0, 0, 12); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; \">中国华粮集团有限公司秉承“善本、归元、循道”的理念，立足三农、服务民生，致力于农林牧副渔等行业，以农业、文化、网络、金融、小镇经济为五大产业方向，是高端大农业产品“标准化”的制定者、实施者。</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(0, 0, 12);line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal;\">华粮使命：</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(0, 0, 12);line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; \">1、让员工和家人更健康；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(0, 0, 12); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal;\">2、让投资者回报更高；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(0, 0, 12); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; \">3、让农民耕种快乐、种好地，好种地，地种好；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(0, 0, 12); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal;\">4、奉献“品质、环保、简约、方便、便宜”的好产品；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(0, 0, 12); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal;\">5、让人们体验喜悦和生命的美好；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px;  color: rgb(0, 0, 12); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; \">6、为社会贡献一个受人尊敬的企业。</p><p><br/></p>', '/uploads/files/about.jpg', '10', '1426860398', '1426860398');
+INSERT INTO `columns` VALUES ('2', '0', '3', '1', '耕织堂//Farming and weaving//耕織堂', '122', '2', '1', '1', '<p>22</p>', '', '10', '1426860646', '1426860646');
+INSERT INTO `columns` VALUES ('3', '0', '4', '1', '农博会//Agricultural Fair//農博會', 'aa', '3', '2', '1', '<p>222</p>', '', '10', '1426860665', '1426860665');
+INSERT INTO `columns` VALUES ('8', '1', '14', '1', '华粮溯源//Hualiang traceability//華糧溯源', '123', '1', '2', '1', '<p>aaa</p>', '/uploads/files/suyuan(1).jpg', '10', '1426898856', '1426898856');
+INSERT INTO `columns` VALUES ('9', '1', '9', '1', '企业荣誉//Enterprise honor//企業榮譽', '123', '3', '2', '1', '<p>爱爱爱</p>', '', '10', '1426898887', '1426898887');
+INSERT INTO `columns` VALUES ('10', '1', '2', '1', '团队介绍//Team Introduction//團隊介紹', '12', '2', '1', '1', '<p>11</p>', '', '10', '1426898960', '1426898960');
+INSERT INTO `columns` VALUES ('13', '1', '10', '1', '品牌理念//Brand concept//品牌理念', 'q\'q\'q', '4', '1', '1', '<p>12</p>', '', '10', '1427082642', '1427082642');
+INSERT INTO `columns` VALUES ('14', '1', '11', '1', '科研创新//Research and innovation//科研創新', '122', '5', '1', '1', '<p>123</p>', '', '10', '1427082745', '1427082745');
+INSERT INTO `columns` VALUES ('15', '1', '6', '1', '集团新闻//Group news//集團新聞', '12', '6', '2', '1', '<p>34</p>', '', '10', '1427082784', '1427082784');
+INSERT INTO `columns` VALUES ('16', '1', '6', '1', '媒体报道//Media reports//媒體報道', '11', '7', '2', '1', '<p>12</p>', '', '10', '1427082803', '1427082803');
+INSERT INTO `columns` VALUES ('17', '2', '6', '1', '国家政策//The national policy//國家政策', '1', '1', '2', '1', '<p>11</p>', '', '10', '1427082914', '1427082914');
+INSERT INTO `columns` VALUES ('18', '2', '6', '1', '世界趋势//World Trend//世界趨勢', '11', '2', '2', '1', '<p>11</p>', '', '10', '1427082950', '1427082950');
+INSERT INTO `columns` VALUES ('19', '2', '6', '1', '心灵鸡汤//Chicken Soup for the soul//心靈雞湯', '11', '3', '2', '1', '<p>11</p>', '', '10', '1427082980', '1427082980');
+INSERT INTO `columns` VALUES ('20', '0', '1', '1', '华粮商道//Hualiang business//華糧商道', '11', '4', '1', '1', '<p>11</p>', '', '10', '1427093555', '1427093555');
+INSERT INTO `columns` VALUES ('21', '0', '13', '1', '华粮联盟//Hualiang alliance//華糧聯盟', 'AA', '5', '1', '1', '<p style=\"text-align: center;\"><strong><br/></strong></p><p style=\"text-align: center;\"><strong>11222</strong></p><p><strong>AAAAAAAAAAAA</strong></p>', '', '10', '1427093599', '1427093599');
+INSERT INTO `columns` VALUES ('22', '3', '5', '1', '异地特色//Different characteristics//異地特色', 'aa', null, '1', '1', '<p>11</p>', '', '10', '1427098876', '1427098876');
+INSERT INTO `columns` VALUES ('23', '20', '1', '1', '官方商城//The official mall//官方商城', '11', null, '1', '1', '<p>1</p>', '', '10', '1427098913', '1427098913');
+INSERT INTO `columns` VALUES ('24', '21', '7', '1', '合作客户//Customer cooperation//合作客戶', '11', '1', '1', '1', '<p>2233</p>', '', '10', '1427266726', '1427266726');
+INSERT INTO `columns` VALUES ('29', '21', '8', '1', '联系我们//Contact us//聯系我們', '11', '1', '1', '1', '<p>12</p>', '', '10', '1427443264', '1427443264');
+INSERT INTO `columns` VALUES ('30', '21', '12', '1', '加入我们//Join us//加入我們', '111', '3', '1', '1', '<p>234</p>', '', '10', '1427443329', '1427443329');
 
 -- ----------------------------
 -- Table structure for `migration`
@@ -158,7 +158,7 @@ CREATE TABLE `models` (
   `name` varchar(30) NOT NULL COMMENT '模型名称',
   `ename` varchar(100) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of models

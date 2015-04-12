@@ -11,6 +11,8 @@ return [
             'showScriptName' => false,
             'enableStrictParsing' => false,
             'rules' => [
+
+                '<lang:\d+>'=>'index/index',
                 'column/<column:\d+>' => 'index/column',
                 'page/<id:\d+>' => 'index/page',
                 'nbh/<id:\d+>' => 'index/nbh',

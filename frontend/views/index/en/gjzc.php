@@ -2,7 +2,7 @@
     <div id="cont">
         <div class="cont_left">
             <div class="cont_left_bt">
-                <span>耕织堂</span><br />
+                <span><?= $cl->lang($cache['column_'.$id]['cname'])?></span><br />
                 Plow&nbsp;woven
             </div>
 
@@ -16,7 +16,7 @@
             
         </div>
         <div class="cont_right">
-            <div class="cont_right_weizhi">当前位置：<span>首页</span>&gt;<span>耕织堂</span>&gt;<span>国家政策</span></div>
+            <div class="cont_right_weizhi">Posion：<span>Home</span> <?= $position?></div>
             <div class="zoujin">
                 <div class="zoujin_bt"><?= $cache['column_'.$id]['cname']?></div>
                 <div class="zoujin_nr">

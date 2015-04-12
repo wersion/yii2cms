@@ -1,7 +1,8 @@
 <?php
 use common\helps\column;
 $cl = new column();
-switch($_COOKIE['language'])
+$session = Yii::$app->session;
+switch($session['language'])
 {
     case 'cn':
         $lang = 0;

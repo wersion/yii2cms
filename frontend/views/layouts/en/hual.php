@@ -31,7 +31,7 @@ HualAsset::register($this);
     <div id="toper">
         <div id="topcont">
             <div class="topcont_logo"><img src="/images/logo.png"/></div>
-            <div class="lei"><a href="javascript:" onclick="changeLanguage('cn')">简体中文</a>/<a href="javascript:" onclick="changeLanguage('tw')">繁體中文</a>/<a href="javascript:" onclick="changeLanguage('en')">English</a></div>
+            <div class="lei"><a href="?lang=cn">简体中文</a>/<a href="?lang=tw">繁體中文</a>/<a href="?lang=en">English</a></div>
             <div class="topcont_dhlei">
 
                 <div class="bshare-custom icon-medium" style="padding-top:19px; text-align:right;  font-size:14px; color:#868686; margin-left:5px;"><span style="margin-right:10px;">分享到</span><a title="分享到QQ空间" class="bshare-qzone"></a><a title="分享到新浪微博" class="bshare-sinaminiblog"></a><a title="分享到人人网" class="bshare-renren"></a><a title="分享到腾讯微博" class="bshare-qqmb"></a><a title="分享到网易微博" class="bshare-neteasemb"></a><a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a><!--<span class="BSHARE_COUNT bshare-share-count">0</span>--></div><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh"></script><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
@@ -47,8 +47,7 @@ HualAsset::register($this);
         <div id="nav">
             <ul class="nav_cont">
 
-                <li <?php if(Yii::$app->request->get('_url')==''):?> class="style hover" <?php endif?>><a href="/">HOME</a></li>
-
+                <li <?php if(Yii::$app->request->get('_url')==''):?> class="style hover" <?php endif?>><a href="/?lang=<?= Yii::$app->session['language']?>">HOME</a></li>
                 <?= Column::widget(['lang'=>1])?>
             </ul>
 
@@ -59,7 +58,7 @@ HualAsset::register($this);
     <?= $content ?>
 
     <div id="footer">
-        <p class="footer_list"><a href="#">网站地图2</a><a href="#">招贤纳士</a><a href="#">联系我们</a></p>
+        <p class="footer_list"><a href="#">网站地图</a><a href="#">招贤纳士</a><a href="#">联系我们</a></p>
         <p class="footer_company">@Copyright 2013-2014中国华粮集团有限公司&nbsp;沪ICP备050190号</p>
     </div>
     <?php $this->endBody() ?>

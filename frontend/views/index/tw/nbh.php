@@ -9,9 +9,9 @@ $array = Yii::$app->request->get('page')?array_slice($cache['column_'.$id.'_arti
 <div id="content">
     <div id="cont2">
 
-        <div class="cont2_right_weizhi">当前位置：<span>首页</span>&gt;<span>农博会</span></div>
+        <div class="cont2_right_weizhi">當前位置：<span>首頁</span> <?= $position?></div>
         <div class="nbh" >
-            <div class="nbh_leftbt">农博会</div>
+            <div class="nbh_leftbt"><?= $cl->lang($cache['column_'.$id]['cname'])[$lang]?></div>
             <div class="nbh_rightnr">
                 <ul>
                     <?php foreach($array as $key=>$article):?>

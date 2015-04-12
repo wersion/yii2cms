@@ -68,5 +68,6 @@ function procHtml($tree,$lang)
 }
 
 $tree = getTree($columns, 0);
+
 echo procHtml($tree,$lang);
 ?>

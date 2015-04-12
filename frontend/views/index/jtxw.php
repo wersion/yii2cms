@@ -3,20 +3,7 @@ use frontend\widgets\Pager;
 use common\helps\column;
 $page_size = 2;
 $array = Yii::$app->request->get('page')?array_slice($cache['column_'.$id.'_articles'],$page_size*(Yii::$app->request->get('page')-1),$page_size):array_slice($cache['column_'.$id.'_articles'],0,$page_size);
-
 $cl = new column();
-switch($_COOKIE['language'])
-{
-    case 'cn':
-        $lang = 0;
-        break;
-    case 'en':
-        $lang = 1;
-        break;
-    case 'tw':
-        $lang = 2;
-        break;
-}
 ?>
 <!--内容区-->
 <div id="content">

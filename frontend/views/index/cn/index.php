@@ -1,14 +1,14 @@
 
-<!--å›¾ç‰‡è½®æ’­å†…å®¹åŒº-->
+<!--Í¼Æ¬ÂÖ²¥ÄÚÈÝÇø-->
 <!-- Slider -->
 <div id="Adv">
-    <!--å›¾ç‰‡åˆ—è¡¨-->
+    <!--Í¼Æ¬ÁÐ±í-->
     <div class="ImgList" style="background:url('images/maxbanner2.jpg') no-repeat center top"></div>
     <div class="ImgList" style="background:url('images/maxbanner1.jpg') no-repeat center top"></div>
     <div class="ImgList" style="background:url('images/maxbanner3.jpg') no-repeat center top"></div>
     <div class="ImgList" style="background:url('images/maxbanner4.jpg') no-repeat center top"></div>
 
-    <!--å°å›¾-->
+    <!--Ð¡Í¼-->
     <div class="xiaotu">
         <ul>
             <li class="hover"><img src="images/minbanner2.jpg" width="296"  height="166" /><p><img src="images/chun.png" /></p></li>
@@ -19,7 +19,7 @@
     </div>
 
 
-    <!--è½®æ’­çš„æŒ‰æ‰­-->
+    <!--ÂÖ²¥µÄ°´Å¤-->
     <div class="ydbutton">
         <ul class="button">
             <li class="hover"></li>
@@ -29,7 +29,7 @@
         </ul>
     </div>
 
-    <!--å·¦å³æŒ‰é’®-->
+    <!--×óÓÒ°´Å¥-->
     <div class="leftbutton">
         <div class="btimg"></div>
     </div>

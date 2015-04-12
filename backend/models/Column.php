@@ -110,8 +110,9 @@ class Column extends \yii\db\ActiveRecord
             $pid.= ','.$this->getParents($pid_row['parentid']);
         }
 
-        return $id.','.$pid;
+        return $pid;
     }
+
     /**
      * @return \yii\db\ActiveQuery
      */

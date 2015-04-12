@@ -3,7 +3,7 @@
     <div id="cont">
         <?php include '../views/index/left_l.php'?>
         <div class="cont_right">
-            <div class="cont_right_weizhi">当前位置：<span>首页</span>&gt;<span>走进华粮</span>&gt;<span>品牌理念</span></div>
+            <div class="cont_right_weizhi">Posion：<span>Home</span> <?= $position?></div>
             <div class="zoujin">
                 <div class="zoujin_bt">品牌理念</div>
                 <div class="zoujin_nr">

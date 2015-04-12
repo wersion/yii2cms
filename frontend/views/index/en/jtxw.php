@@ -3,9 +3,9 @@ use frontend\widgets\Pager;
 use common\helps\column;
 $page_size = 2;
 $array = Yii::$app->request->get('page')?array_slice($cache['column_'.$id.'_articles'],$page_size*(Yii::$app->request->get('page')-1),$page_size):array_slice($cache['column_'.$id.'_articles'],0,$page_size);
-
+$session = Yii::$app->session;
 $cl = new column();
-switch($_COOKIE['language'])
+switch($session['language'])
 {
     case 'cn':
         $lang = 0;
@@ -23,9 +23,9 @@ switch($_COOKIE['language'])
     <div id="cont">
         <?php include '../views/index/left_l.php'?>
         <div class="cont_right">
-            <div class="cont_right_weizhi">当前位置：<span>首页</span>&gt;<span><?= $cl->lang($cache['column_'.$id.'_parent']['cname'])[$lang]?></span>&gt;<span><?= $cl->lang($cache['column_'.$id]['cname'])[$lang]?></span></div>
+            <div class="cont_right_weizhi">Position：<span>HOME <?= $position?></div>
             <div class="zoujin">
-                <div class="zoujin_bt"><?= $cache['column_'.$id]['cname']?></div>
+                <div class="zoujin_bt"><?= $cl->lang($cache['column_'.$id]['cname'])[$lang]?></div>
                 <div class="zoujin_nr">
 
                     <div class="new_iconimg"><img src="../images/newicon.jpg"  /></div>

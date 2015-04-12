@@ -131,7 +131,11 @@ Eof;
 
         $cache['column_'.$id.'_parent'] = $column->getParent($pid);
 
-        $cache['column_'.$id.'_parents'] = explode(',',$column->getParents($id));
+        $parents = explode(',',$id.','.$column->getParents($id));
+
+        array_pop($parents);
+
+        $cache['column_'.$id.'_parents'] = $parents;
 
         $cache['column_'.$id.'_articles'] = $columnObject->articles;
 
