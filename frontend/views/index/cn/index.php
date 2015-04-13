@@ -1,14 +1,14 @@
 
-<!--Í¼Æ¬ÂÖ²¥ÄÚÈÝÇø-->
+<!--å›¾ç‰‡è½®æ’­å†…å®¹åŒº-->
 <!-- Slider -->
 <div id="Adv">
-    <!--Í¼Æ¬ÁÐ±í-->
+    <!--å›¾ç‰‡åˆ—è¡¨-->
     <div class="ImgList" style="background:url('images/maxbanner2.jpg') no-repeat center top"></div>
     <div class="ImgList" style="background:url('images/maxbanner1.jpg') no-repeat center top"></div>
     <div class="ImgList" style="background:url('images/maxbanner3.jpg') no-repeat center top"></div>
     <div class="ImgList" style="background:url('images/maxbanner4.jpg') no-repeat center top"></div>
 
-    <!--Ð¡Í¼-->
+    <!--å°å›¾-->
     <div class="xiaotu">
         <ul>
             <li class="hover"><img src="images/minbanner2.jpg" width="296"  height="166" /><p><img src="images/chun.png" /></p></li>
@@ -19,7 +19,7 @@
     </div>
 
 
-    <!--ÂÖ²¥µÄ°´Å¤-->
+    <!--è½®æ’­çš„æŒ‰æ‰­-->
     <div class="ydbutton">
         <ul class="button">
             <li class="hover"></li>
@@ -29,7 +29,7 @@
         </ul>
     </div>
 
-    <!--×óÓÒ°´Å¥-->
+    <!--å·¦å³æŒ‰é’®-->
     <div class="leftbutton">
         <div class="btimg"></div>
     </div>
@@ -41,3 +41,6 @@
 
 
 
+<?php
+//print_r($cache['columns'])
+?>

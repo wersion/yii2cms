@@ -23,6 +23,8 @@ use yii\widgets\Template;
 
     <?= Template::widget(['model'=>$model,'form'=>$form])?>
 
+    <?= $form->field($model, 'url')->textInput() ?>
+
     <?= $form->field($model,'isShow')->radioList(['1'=>'是','2'=>'否'],[])?>
 
     <?= $form->field($model,'sort')->textInput(['maxlength' => 4,'style'=>'width:50px']) ?>

@@ -74,6 +74,7 @@ class IndexController extends HualController{
 
     public function actionIndex()
     {
+        $cache = Yii::$app->cache;
         $session = Yii::$app->session;
         Yii::$app->language= $session['language']?$session['language']:Yii::$app->request->get('lang')?Yii::$app->request->get('lang'):'cn';
         $session['language'] = Yii::$app->request->get('lang')? Yii::$app->request->get('lang'):'cn';
@@ -89,7 +90,7 @@ class IndexController extends HualController{
                 $lang = 2;
                 break;
         }
-        return $this->render('index',['lang'=>$lang]);
+        return $this->render('index',['lang'=>$lang,'cache'=>$cache]);
     }
 
     public function actionPage()

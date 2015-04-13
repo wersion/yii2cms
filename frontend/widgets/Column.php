@@ -17,6 +17,7 @@ class Column extends \yii\bootstrap\Widget{
 
         $cache = Yii::$app->cache;
         $columns = $cache['columns'];
+        unset($columns[2]);
         return $this->render('column',['columns'=>$columns,'lang'=>$this->lang]);
     }
 

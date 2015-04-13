@@ -58,6 +58,7 @@ class Column extends \yii\db\ActiveRecord
             'parentid' => 'Pid',
             'sort' => '排序',
             'cname' => '栏目名称',
+            'url' => '链接地址',
 
             'model_id' => '选择模型',
             'template_id' => '选择模板',
@@ -89,7 +90,7 @@ class Column extends \yii\db\ActiveRecord
 
     public function getBrother($id)
     {
-        return $this->find()->select(['id','cname'])->where("parentid=".$id)->asArray()->all();
+        return $this->find()->where("parentid=".$id)->asArray()->all();
     }
 
     public function getParent($pid)
