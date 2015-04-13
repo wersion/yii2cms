@@ -3,21 +3,21 @@
     <div id="cont">
         <div class="cont_left">
             <div class="cont_left_bt">
-                <span>华粮联盟</span><br />
+                <span><?= $cl->lang($cache['column_'.$id.'_parent']['cname'])[$lang]?></span><br />
                 Walk into us
             </div>
 
             <div class="cont_left_list">
                 <ul>
                     <?php foreach($cache['column_'.$id.'_brother'] as $child):?>
-                        <li <?php if($id==$child['id']):?> class="hover" <?php endif?> ><a href="/column/<?= $child['id']?>"><?= $child['cname']?></a></li>
+                        <li <?php if($id==$child['id']):?> class="hover" <?php endif?> ><a href="/column/<?= $child['id']?>"><?= $cl->lang($child['cname'])[$lang]?></a></li>
                     <?php endforeach;?>
                 </ul>
             </div>
             
         </div>
         <div class="cont_right">
-            <div class="cont_right_weizhi">当前位置：<span>首页</span>&gt;<span>华粮联盟</span>&gt;<span>联系我们</span></div>
+            <div class="cont_right_weizhi">當前位置：<span>首頁</span> <?= $position?></div>
             <div class="cont_right_nr">
                 <p class="lianxi"><img src="../images/contact2.jpg" />联系我们</p>
               	<div class="juti">
@@ -28,7 +28,7 @@
                     <p>联系电话：40-600-8888</p>
                 </div>
                 <div class="map" id="dituContent"></div>
-                <?= $cache['column_'.$id]['content']?>
+
                 <div class="biaozhi"><img src="../images/jiao.png" /></div>
             </div>
 

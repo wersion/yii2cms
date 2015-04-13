@@ -3,7 +3,7 @@
     <div id="cont">
         <div class="cont_left">
             <div class="cont_left_bt">
-                <span>华粮联盟</span><br />
+                <span><?= $cl->lang($cache['column_'.$id.'_parent']['cname'])[$lang]?></span><br />
                 Walk into us
             </div>
 
