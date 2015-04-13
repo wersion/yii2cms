@@ -4,18 +4,7 @@ use common\helps\column;
 $page_size = 2;
 $array = Yii::$app->request->get('page')?array_slice($cache['column_'.$id.'_articles'],$page_size*(Yii::$app->request->get('page')-1),$page_size):array_slice($cache['column_'.$id.'_articles'],0,$page_size);
 $session = Yii::$app->session;
-switch($session['language'])
-{
-    case 'cn':
-        $lang = 0;
-        break;
-    case 'en':
-        $lang = 1;
-        break;
-    case 'tw':
-        $lang = 2;
-        break;
-}
+
 ?>
 <!--内容区-->
 <div id="content">
@@ -24,7 +13,7 @@ switch($session['language'])
         <div class="cont_right">
             <div class="cont_right_weizhi">当前位置：<span>首页</span>&gt;<span><?= $cl->lang($cache['column_'.$id.'_parent']['cname'])[$lang]?></span>&gt;<span><?= $cl->lang($cache['column_'.$id]['cname'])[$lang]?></span></div>
             <div class="zoujin">
-                <div class="zoujin_bt"><?= $cache['column_'.$id]['cname']?></div>
+                <div class="zoujin_bt"><?= $cl->lang($cache['column_'.$id]['cname'])[$lang]?></div>
                 <div class="zoujin_nr">
 
                     <div class="new_iconimg"><img src="../images/newicon.jpg"  /></div>

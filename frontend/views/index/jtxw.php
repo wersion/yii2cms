@@ -12,7 +12,7 @@ $cl = new column();
         <div class="cont_right">
             <div class="cont_right_weizhi">当前位置：<span>首页</span>&gt;<span><?= $cl->lang($cache['column_'.$id.'_parent']['cname'])[$lang]?></span>&gt;<span><?= $cl->lang($cache['column_'.$id]['cname'])[$lang]?></span></div>
             <div class="zoujin">
-                <div class="zoujin_bt"><?= $cache['column_'.$id]['cname']?></div>
+                <div class="zoujin_bt"><?= $cl->lang($cache['column_'.$id]['cname'])[$lang]?></div>
                 <div class="zoujin_nr">
 
                     <div class="new_iconimg"><img src="../images/newicon.jpg"  /></div>
