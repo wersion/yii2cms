@@ -1,3 +1,6 @@
+<script>
+    window.location.href = 'http://yiitest.xiuyun99.com/column/29'
+</script>
 <!--内容区-->
 <div id="content">
     <div id="cont">
