@@ -2,6 +2,7 @@
 
 use yii\helpers\Html;
 use yii\grid\GridView;
+use yii\widgets\LinkPager;
 
 /* @var $this yii\web\View */
 /* @var $searchModel common\models\ArticleSearch */
@@ -44,4 +45,13 @@ $this->params['breadcrumbs'][] = $this->title;
 <?php endforeach;?>
     </tbody>
 </table>
+
+<?= LinkPager::widget([
+    'pagination' => new yii\data\Pagination([
+        'totalCount'=>$count,
+        'pageSize'=>$pageSize
+    ]),
+    'activePageCssClass'=>'active'
+
+])?>
 

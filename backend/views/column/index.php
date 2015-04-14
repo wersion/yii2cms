@@ -28,10 +28,5 @@ $this->params['breadcrumbs'][] = $this->title;
         ?>
     </table>
 </div>
-<?php
-echo '<pre>';
-$cache = Yii::$app->cache;
-//print_r($cache['column_32_parents']);
-echo '</pre>';
-?>
+
 

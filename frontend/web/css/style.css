@@ -1,6 +1,6 @@
 /* CSS Document */
 *{margin:0px;padding:0px;}
-body{font-family:Arial,sans-serif,"Times New Roman","楷体";font-size:12px; background-color:#f7f8f8;}
+body{font-family:Arial,sans-serif;font-size:12px; background-color:#f7f8f8;}
 ul li{ list-style-type:none;}
 img{border:none;}
 a{ text-decoration:none;}
@@ -13,7 +13,7 @@ a{ text-decoration:none;}
 #topcont .topcont_logo{  padding-left:34px; float:left;}
 
 #topcont .topcont_nav{ margin-top:40px; margin-left:200px; float:left;}
-#topcont .topcont_nav ul li{ float:left; padding:0px 20px 20px; 20px; position:relative; }
+#topcont .topcont_nav ul li{ float:left; padding:0px 20px 20px 20px; position:relative; }
 #topcont .topcont_nav ul li img{ vertical-align:middle; margin-left:5px;}
 #topcont .topcont_nav ul li a{ color:#949494; font-size:12px;}
 #topcont .topcont_nav ul li.style a{ color:#55BA64;}

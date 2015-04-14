@@ -28,37 +28,29 @@ class ArticleController extends BaseController
         ];
     }
 
+
     /**
-     * Lists all Article models.
-     * @return mixed
+     * @return string
      */
     public function actionIndex()
     {
-        if(Yii::$app->request->get('id'))
-        {
+        $provider = new \yii\data\ActiveDataProvider([
+            'query' => Article::find()->where(['column_id'=>Yii::$app->request->get('id')]),
+            'pagination' => [
+                'pageSize' => 20,
+            ],
 
-            $columnObject = Column::findOne(Yii::$app->request->get('id'));
-            return $this->render('index', [
+        ]);
+        $articles = $provider->getModels();
+        $count = $provider->totalCount;
+        return $this->render('index', [
 
-                'article' =>$columnObject->articles,
+            'article' =>$articles,
+            'count'=>$count,
+            'pageSize'=>20
+        ]);
 
-            ]);
-        }else
-        {
-            $articles = Article::find()->asArray()->all();
-            return $this->render('index', [
 
-                'article' =>$articles,
-
-            ]);
-            $searchModel = new ArticleSearch();
-            $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
-
-            return $this->render('index', [
-                'searchModel' => $searchModel,
-                'dataProvider' => $dataProvider,
-            ]);
-        }
     }
 
     /**
@@ -120,7 +112,7 @@ class ArticleController extends BaseController
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             $this->actionCacheOne($model->column_id,$model->id);
-            return $this->redirect(['index?column_id='.Yii::$app->request->get('column_id').'&article_id='.Yii::$app->request->get('article_id'), 'id' => $model->column_id]);
+            return $this->redirect(['index?id='.$model->column_id]);
 
         } else {
             return $this->render('update', [

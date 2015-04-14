@@ -84,8 +84,7 @@ Eof;
     {
         $request = Yii::$app->request;
         $model = new Column();
-        $model->created_at = time();
-        $model->updated_at = time();
+
         $model->parentid = $request->get('id')?$request->get('id'):0;
 
         if ($model->load($request->post()) && $model->save()) {

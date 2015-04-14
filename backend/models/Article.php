@@ -55,6 +55,14 @@ class Article extends \yii\db\ActiveRecord
         ];
     }
 
+    public function init()
+    {
+        parent::init();
+
+    }
+
+
+
     /**
      * @inheritdoc
      */

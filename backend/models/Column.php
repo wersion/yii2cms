@@ -3,6 +3,7 @@
 namespace backend\models;
 
 use common\models\PhotoColumn;
+use yii\behaviors\TimestampBehavior;
 use Yii;
 
 /**
@@ -28,9 +29,18 @@ class Column extends \yii\db\ActiveRecord
         return 'columns';
     }
 
+
     public function init()
     {
         parent::init();
+    }
+
+    public function behaviors()
+    {
+        return [
+            \yii\behaviors\TimestampBehavior::className(),
+           // \yii\behaviors\BlameableBehavior::className()
+        ];
     }
 
 
@@ -97,15 +107,15 @@ class Column extends \yii\db\ActiveRecord
     {
         if($pid)
             return $this->findOne($pid)->toArray();
-        else
-            return '';
     }
 
     public function getParents($id)
     {
 
         $pid_row = $this->findOne($id)->toArray();
-        $pid=$a=$pid_row['parentid'];
+
+        $pid=$pid_row['parentid'];
+
         if($pid_row['parentid'])
         {
             $pid.= ','.$this->getParents($pid_row['parentid']);
