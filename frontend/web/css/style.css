@@ -1,7 +1,7 @@
 /* CSS Document */
 *{margin:0px;padding:0px;}
-@font-face{font-family:muzi;src:url(font/FZKTJW.ttf);}
-body{font-family:muzi; font-size:15px; background-color:#f7f8f8;}
+
+body{font-family:楷体; font-size:15px; background-color:#f7f8f8;}
 ul li{ list-style-type:none;}
 img{border:none;}
 a{ text-decoration:none;}
