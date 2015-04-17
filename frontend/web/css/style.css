@@ -1,10 +1,12 @@
 /* CSS Document */
 *{margin:0px;padding:0px;}
-body{font-family:"楷体"; font-size:15px; background-color:#f7f8f8;}
+@font-face{font-family:muzi;src:url(font/FZKTJW.ttf);}
+body{font-family:muzi; font-size:15px; background-color:#f7f8f8;}
 ul li{ list-style-type:none;}
 img{border:none;}
 a{ text-decoration:none;}
 .clear{ clear:both}
+
 
 
 
@@ -223,8 +225,8 @@ html[xmlns] .slides {display: block;}
 #Adv .xiaotu ul li.hover p img{ display:none;}
 
 
-#Adv .leftbutton{ position:absolute; left:0px; top:40%; z-index:9999; width:48px; height:50px; background:url(../images/left.png) no-repeat;}
-#Adv .rightbutton{ position:absolute; right:0px; top:40%; z-index:9999; width:48px; height:50px;background:url(../images/right.png) no-repeat;}
+#Adv .leftbutton{ position:absolute; left:0px; top:40%; z-index:9999; width:48px; height:50px}
+#Adv .rightbutton{ position:absolute; right:0px; top:40%; z-index:9999; width:48px; height:50px}
 #Adv .rightbutton .btimg,#Adv .leftbutton .btimg{ cursor:pointer;}
 
 
