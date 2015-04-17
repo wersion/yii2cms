@@ -61,7 +61,18 @@ class Article extends \yii\db\ActiveRecord
 
     }
 
-
+    public function fields()
+    {
+        return [
+            'id',
+            'title',
+            'created_at'=>function($this)
+            {
+                return date('Y-m-d',$this->created_at);
+            },
+            'content'
+        ];
+    }
 
     /**
      * @inheritdoc

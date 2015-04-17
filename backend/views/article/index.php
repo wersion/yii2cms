@@ -55,3 +55,8 @@ $this->params['breadcrumbs'][] = $this->title;
 
 ])?>
 
+<?php
+$cache=Yii::$app->cache;
+print_r($cache['column_31_article_38'])
+?>
+
