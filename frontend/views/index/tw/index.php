@@ -30,13 +30,13 @@
 	</div>
 	
 	<!--左右按钮-->
-	<div class="leftbutton">
-		<div class="btimg"></div>
-	</div>
-	
-	<div class="rightbutton">
-		<div class="btimg"></div>	
-	</div>
+    <div class="leftbutton">
+        <div class="btimg"><img src="images/left.png" /></div>
+    </div>
+
+    <div class="rightbutton">
+        <div class="btimg"><img src="images/right.png" /></div>
+    </div>
 </div>
 
 
