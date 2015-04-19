@@ -2,6 +2,8 @@
 
 [![Build Status](https://img.shields.io/travis/creocoder/yii2-nested-sets/master.svg?style=flat-square)](https://travis-ci.org/creocoder/yii2-nested-sets)
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/creocoder/yii2-nested-sets/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/creocoder/yii2-nested-sets/?branch=master)
+[![Packagist Version](https://img.shields.io/packagist/v/creocoder/yii2-nested-sets.svg?style=flat-square)](https://packagist.org/packages/creocoder/yii2-nested-sets)
+[![Total Downloads](https://img.shields.io/packagist/dt/creocoder/yii2-nested-sets.svg?style=flat-square)](https://packagist.org/packages/creocoder/yii2-nested-sets)
 
 A modern nested sets behavior for the Yii framework utilizing the Modified Preorder Tree Traversal algorithm.
 
@@ -12,13 +14,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```bash
-$ php composer.phar require creocoder/yii2-nested-sets:dev-master
+$ composer require creocoder/yii2-nested-sets
 ```
 
 or add
 
 ```
-"creocoder/yii2-nested-sets": "dev-master"
+"creocoder/yii2-nested-sets": "0.9.*"
 ```
 
 to the `require` section of your `composer.json` file.

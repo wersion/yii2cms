@@ -19,7 +19,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "twig/twig": "*"
+        "twig/twig": "~1.0"
     },
     "autoload": {
         "psr-4": { "yii\\twig\\": "" }
@@ -27,6 +27,10 @@
     "extra": {
         "branch-alias": {
             "dev-master": "2.0.x-dev"
+        },
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
         }
     }
 }

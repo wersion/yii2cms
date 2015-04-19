@@ -1,7 +1,7 @@
 <?php
 /**
  * @package     SimpleImage class
- * @version     2.5.4
+ * @version     2.5.5
  * @author      Cory LaViska for A Beautiful Site, LLC (http://www.abeautifulsite.net/)
  * @author      Nazar Mokrynskyi <nazar@mokrynskyi.com> - merging of forks, namespace support, PhpDoc editing, adaptive_resize() method, other fixes
  * @license     This software is licensed under the MIT license: http://opensource.org/licenses/MIT
@@ -309,13 +309,34 @@ class SimpleImage {
     }
 
     /**
-     * Desaturate (grayscale)
+     * Desaturate
+     *
+     * @param int           $percentage Level of desaturization.
      *
      * @return SimpleImage
      *
      */
-    function desaturate() {
-        imagefilter($this->image, IMG_FILTER_GRAYSCALE);
+    function desaturate($percentage = 100) {
+
+        // Determine percentage
+        $percentage = $this->keep_within($percentage, 0, 100);
+
+        if( $percentage === 100 ) {
+            imagefilter($this->image, IMG_FILTER_GRAYSCALE);
+        } else {
+            // Make a desaturated copy of the image
+            $new = imagecreatetruecolor($this->width, $this->height);
+            imagealphablending($new, false);
+            imagesavealpha($new, true);
+            imagecopy($new, $this->image, 0, 0, 0, 0, $this->width, $this->height);
+            imagefilter($new, IMG_FILTER_GRAYSCALE);
+
+            // Merge with specified percentage
+            $this->imagecopymerge_alpha($this->image, $new, 0, 0, 0, 0, $this->width, $this->height, $percentage);
+            imagedestroy($new);
+
+        }
+
         return $this;
     }
 
@@ -625,10 +646,6 @@ class SimpleImage {
                 throw new Exception('Unsupported image format: '.$this->filename);
                 break;
         }
-
-        // Since no more output can be sent, call the destructor to free up memory
-        $this->__destruct();
-
     }
 
     /**

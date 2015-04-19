@@ -6,7 +6,7 @@ return array (
   'yiisoft/yii2-swiftmailer' => 
   array (
     'name' => 'yiisoft/yii2-swiftmailer',
-    'version' => '2.0.3.0',
+    'version' => '9999999-dev',
     'alias' => 
     array (
       '@yii/swiftmailer' => $vendorDir . '/yiisoft/yii2-swiftmailer',
@@ -15,7 +15,7 @@ return array (
   'yiisoft/yii2-codeception' => 
   array (
     'name' => 'yiisoft/yii2-codeception',
-    'version' => '2.0.3.0',
+    'version' => '9999999-dev',
     'alias' => 
     array (
       '@yii/codeception' => $vendorDir . '/yiisoft/yii2-codeception',
@@ -24,7 +24,7 @@ return array (
   'yiisoft/yii2-bootstrap' => 
   array (
     'name' => 'yiisoft/yii2-bootstrap',
-    'version' => '2.0.3.0',
+    'version' => '9999999-dev',
     'alias' => 
     array (
       '@yii/bootstrap' => $vendorDir . '/yiisoft/yii2-bootstrap',
@@ -33,7 +33,7 @@ return array (
   'yiisoft/yii2-debug' => 
   array (
     'name' => 'yiisoft/yii2-debug',
-    'version' => '2.0.3.0',
+    'version' => '9999999-dev',
     'alias' => 
     array (
       '@yii/debug' => $vendorDir . '/yiisoft/yii2-debug',
@@ -42,7 +42,7 @@ return array (
   'yiisoft/yii2-gii' => 
   array (
     'name' => 'yiisoft/yii2-gii',
-    'version' => '2.0.3.0',
+    'version' => '9999999-dev',
     'alias' => 
     array (
       '@yii/gii' => $vendorDir . '/yiisoft/yii2-gii',
@@ -51,7 +51,7 @@ return array (
   'yiisoft/yii2-faker' => 
   array (
     'name' => 'yiisoft/yii2-faker',
-    'version' => '2.0.3.0',
+    'version' => '9999999-dev',
     'alias' => 
     array (
       '@yii/faker' => $vendorDir . '/yiisoft/yii2-faker',
@@ -60,16 +60,25 @@ return array (
   'yiisoft/yii2-twig' => 
   array (
     'name' => 'yiisoft/yii2-twig',
-    'version' => '2.0.3.0',
+    'version' => '9999999-dev',
     'alias' => 
     array (
       '@yii/twig' => $vendorDir . '/yiisoft/yii2-twig',
     ),
   ),
+  'creocoder/yii2-nested-sets' => 
+  array (
+    'name' => 'creocoder/yii2-nested-sets',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@creocoder/nestedsets' => $vendorDir . '/creocoder/yii2-nested-sets/src',
+    ),
+  ),
   'kartik-v/yii2-krajee-base' => 
   array (
     'name' => 'kartik-v/yii2-krajee-base',
-    'version' => '1.7.4.0',
+    'version' => '9999999-dev',
     'alias' => 
     array (
       '@kartik/base' => $vendorDir . '/kartik-v/yii2-krajee-base',
@@ -78,19 +87,55 @@ return array (
   'kartik-v/yii2-widget-activeform' => 
   array (
     'name' => 'kartik-v/yii2-widget-activeform',
-    'version' => '1.4.1.0',
+    'version' => '9999999-dev',
     'alias' => 
     array (
       '@kartik/form' => $vendorDir . '/kartik-v/yii2-widget-activeform',
     ),
   ),
-  'creocoder/yii2-nested-sets' => 
+  'kartik-v/yii2-widget-alert' => 
   array (
-    'name' => 'creocoder/yii2-nested-sets',
-    'version' => '0.9.0.0',
+    'name' => 'kartik-v/yii2-widget-alert',
+    'version' => '9999999-dev',
     'alias' => 
     array (
-      '@creocoder/nestedsets' => $vendorDir . '/creocoder/yii2-nested-sets/src',
+      '@kartik/alert' => $vendorDir . '/kartik-v/yii2-widget-alert',
+    ),
+  ),
+  '2amigos/yii2-gallery-widget' => 
+  array (
+    'name' => '2amigos/yii2-gallery-widget',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@dosamigos/gallery' => $vendorDir . '/2amigos/yii2-gallery-widget/src',
+    ),
+  ),
+  '2amigos/yii2-file-upload-widget' => 
+  array (
+    'name' => '2amigos/yii2-file-upload-widget',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@dosamigos/fileupload' => $vendorDir . '/2amigos/yii2-file-upload-widget/src',
+    ),
+  ),
+  'yiisoft/yii2-imagine' => 
+  array (
+    'name' => 'yiisoft/yii2-imagine',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@yii/imagine' => $vendorDir . '/yiisoft/yii2-imagine',
+    ),
+  ),
+  'pendalf89/yii2-filemanager' => 
+  array (
+    'name' => 'pendalf89/yii2-filemanager',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@pendalf89/filemanager' => $vendorDir . '/pendalf89/yii2-filemanager',
     ),
   ),
   'costa-rico/yii2-images' => 
