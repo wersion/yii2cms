@@ -4,6 +4,7 @@ use yii\grid\GridView;
 /* @var $this yii\web\View */
 /* @var $searchModel backend\models\photoColumnSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
+
 $this->title = '栏目图片';
 $this->params['breadcrumbs'][] = $this->title;
 ?>

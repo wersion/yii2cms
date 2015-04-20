@@ -3,6 +3,7 @@ use yii\helpers\Html;
 use yii\widgets\DetailView;
 /* @var $this yii\web\View */
 /* @var $model common\models\PhotoColumn */
+
 $this->title = $model->title;
 $this->params['breadcrumbs'][] = ['label' => 'Photo Columns', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;

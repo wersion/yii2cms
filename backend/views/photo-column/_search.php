@@ -4,6 +4,7 @@ use yii\widgets\ActiveForm;
 /* @var $this yii\web\View */
 /* @var $model backend\models\photoColumnSearch */
 /* @var $form yii\widgets\ActiveForm */
+
 ?>
 
 <div class="photo-column-search">
