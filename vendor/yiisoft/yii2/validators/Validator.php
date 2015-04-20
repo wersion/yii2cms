@@ -27,7 +27,6 @@ use yii\base\NotSupportedException;
  * - `date`: [[DateValidator]]
  * - `default`: [[DefaultValueValidator]]
  * - `double`: [[NumberValidator]]
- * - `each`: [[EachValidator]]
  * - `email`: [[EmailValidator]]
  * - `exist`: [[ExistValidator]]
  * - `file`: [[FileValidator]]
@@ -58,7 +57,6 @@ class Validator extends Component
         'date' => 'yii\validators\DateValidator',
         'default' => 'yii\validators\DefaultValueValidator',
         'double' => 'yii\validators\NumberValidator',
-        'each' => 'yii\validators\EachValidator',
         'email' => 'yii\validators\EmailValidator',
         'exist' => 'yii\validators\ExistValidator',
         'file' => 'yii\validators\FileValidator',

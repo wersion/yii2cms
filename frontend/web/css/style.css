@@ -206,8 +206,8 @@ html[xmlns] .slides {display: block;}
 
 
 /*广告样式*/
-#Adv{width:100%;height:1009px;  position:relative; background:url(../images/banner_bg2.jpg) no-repeat bottom;}
-#Adv .ImgList{width:100%; height:738px; position:absolute;/*绝对定位*/ left:0px; top:0px;
+#Adv{width:100%;height:817px;  position:relative; background:url(../images/banner_bg2.jpg) no-repeat bottom;}
+#Adv .ImgList{width:100%; height:560px; position:absolute;/*绝对定位*/ left:0px; top:0px;
     z-index:2;}
 
 #Adv .ydbutton{ height:20px; position:absolute;left:0px; bottom:45px;z-index:3; display:inline-block;/*行内块级元素*/ width:100%; height:22px; /*background:url(../images/line.png) repeat-x 0px 10px;*/}
@@ -217,16 +217,16 @@ html[xmlns] .slides {display: block;}
 #Adv .ydbutton ul.button li.hover{ background:url(../images/index_y2.png) no-repeat center center;;}
 
 #Adv .xiaotu{ width:100%; position:absolute; left:0px; bottom:103px; z-index:9999;}
-#Adv .xiaotu ul { width:1184px; margin:0px auto;}
+#Adv .xiaotu ul { width:1184px; margin:0px auto; }
 #Adv .xiaotu ul li{ width:296px; height:166px; float:left;  list-style-type:none; /*opacity:0.7; filter:alpha(opacity=70);-moz-opacity:0.7; -o-opacity:0.7; background:#000000;*/ position:relative;}
 #Adv .xiaotu ul li p{ position:absolute; left:0px; top:0px; background:rgba(0,0,0,0.4); text-align:center; width:296px; height:166px; }
 #Adv .xiaotu ul li p img{ vertical-align:middle; padding-top:65px;}
 #Adv .xiaotu ul li.hover p{ background:none;}
 #Adv .xiaotu ul li.hover p img{ display:none;}
 
-
-#Adv .leftbutton{ position:absolute; left:0px; top:40%; z-index:9999; width:48px; height:50px}
-#Adv .rightbutton{ position:absolute; right:0px; top:40%; z-index:9999; width:48px; height:50px}
+#Adv .butcontainer{ width:1600px; margin:0px auto; position:relative; height:546px;}
+#Adv .leftbutton{ position:absolute; left:0px; top:45%; z-index:9999; width:48px; height:50px;}
+#Adv .rightbutton{ position:absolute; right:0px; top:45%; z-index:9999; width:48px; height:50px;}
 #Adv .rightbutton .btimg,#Adv .leftbutton .btimg{ cursor:pointer;}
 
 
@@ -234,4 +234,5 @@ html[xmlns] .slides {display: block;}
 #footer{ width:100%; height:100px; text-align:center;color:#5d514d; background:url(../images/foot_bg.jpg) no-repeat center top; padding-top:8px;}
 #footer p.footer_list a{  color:#5d514d; display:inline-block; margin:0px 10px; line-height:55px;}
 #footer p.footer_list a:hover{ color:#55BA64;}
+
 

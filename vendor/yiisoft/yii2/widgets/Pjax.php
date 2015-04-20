@@ -49,16 +49,14 @@ class Pjax extends Widget
      */
     public $options = [];
     /**
-     * @var string|false the jQuery selector of the links that should trigger pjax requests.
+     * @var string the jQuery selector of the links that should trigger pjax requests.
      * If not set, all links within the enclosed content of Pjax will trigger pjax requests.
-     * If set to false, no code will be registered to handle links.
      * Note that if the response to the pjax request is a full page, a normal request will be sent again.
      */
     public $linkSelector;
     /**
-     * @var string|false the jQuery selector of the forms whose submissions should trigger pjax requests.
+     * @var string the jQuery selector of the forms whose submissions should trigger pjax requests.
      * If not set, all forms with `data-pjax` attribute within the enclosed content of Pjax will trigger pjax requests.
-     * If set to false, no code will be registered to handle forms.
      * Note that if the response to the pjax request is a full page, a normal request will be sent again.
      */
     public $formSelector;
@@ -169,20 +167,12 @@ class Pjax extends Widget
         $this->clientOptions['timeout'] = $this->timeout;
         $this->clientOptions['scrollTo'] = $this->scrollTo;
         $options = Json::encode($this->clientOptions);
-        $js = '';
-        if ($this->linkSelector !== false) {
-            $linkSelector = Json::encode($this->linkSelector !== null ? $this->linkSelector : '#' . $id . ' a');
-            $js .= "jQuery(document).pjax($linkSelector, \"#$id\", $options);";
-        }
-        if ($this->formSelector !== false) {
-            $formSelector = Json::encode($this->formSelector !== null ? $this->formSelector : '#' . $id . ' form[data-pjax]');
-            $js .= "\njQuery(document).on('submit', $formSelector, function (event) {jQuery.pjax.submit(event, '#$id', $options);});";
-        }
+        $linkSelector = Json::encode($this->linkSelector !== null ? $this->linkSelector : '#' . $id . ' a');
+        $formSelector = Json::encode($this->formSelector !== null ? $this->formSelector : '#' . $id . ' form[data-pjax]');
         $view = $this->getView();
         PjaxAsset::register($view);
-
-        if ($js !== '') {
-            $view->registerJs($js);
-        }
+        $js = "jQuery(document).pjax($linkSelector, \"#$id\", $options);";
+        $js .= "\njQuery(document).on('submit', $formSelector, function (event) {jQuery.pjax.submit(event, '#$id', $options);});";
+        $view->registerJs($js);
     }
 }

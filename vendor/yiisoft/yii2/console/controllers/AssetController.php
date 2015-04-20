@@ -11,7 +11,6 @@ use Yii;
 use yii\console\Exception;
 use yii\console\Controller;
 use yii\helpers\Console;
-use yii\helpers\FileHelper;
 use yii\helpers\VarDumper;
 use yii\web\AssetBundle;
 
@@ -248,7 +247,7 @@ class AssetController extends Controller
                 $this->loadDependency($dependencyBundle, $result);
                 $result[$name] = $dependencyBundle;
             } elseif ($result[$name] === false) {
-                throw new Exception("A circular dependency is detected for bundle '{$name}': " . $this->composeCircularDependencyTrace($name, $result) . ".");
+                throw new Exception("A circular dependency is detected for bundle '$name'.");
             }
         }
     }
@@ -326,7 +325,9 @@ class AssetController extends Controller
      */
     protected function buildTarget($target, $type, $bundles)
     {
+        $tempFile = $target->basePath . '/' . strtr($target->$type, ['{hash}' => 'temp']);
         $inputFiles = [];
+
         foreach ($target->depends as $name) {
             if (isset($bundles[$name])) {
                 if (!$this->isBundleExternal($bundles[$name])) {
@@ -338,24 +339,16 @@ class AssetController extends Controller
                 throw new Exception("Unknown bundle: '{$name}'");
             }
         }
-
-        if (empty($inputFiles)) {
-            $target->$type = [];
+        if ($type === 'js') {
+            $this->compressJsFiles($inputFiles, $tempFile);
         } else {
-            FileHelper::createDirectory($target->basePath, $this->getAssetManager()->dirMode);
-            $tempFile = $target->basePath . '/' . strtr($target->$type, ['{hash}' => 'temp']);
-
-            if ($type === 'js') {
-                $this->compressJsFiles($inputFiles, $tempFile);
-            } else {
-                $this->compressCssFiles($inputFiles, $tempFile);
-            }
-
-            $targetFile = strtr($target->$type, ['{hash}' => md5_file($tempFile)]);
-            $outputFile = $target->basePath . '/' . $targetFile;
-            rename($tempFile, $outputFile);
-            $target->$type = [$targetFile];
+            $this->compressCssFiles($inputFiles, $tempFile);
         }
+
+        $targetFile = strtr($target->$type, ['{hash}' => md5_file($tempFile)]);
+        $outputFile = $target->basePath . '/' . $targetFile;
+        rename($tempFile, $outputFile);
+        $target->$type = [$targetFile];
     }
 
     /**
@@ -423,9 +416,9 @@ class AssetController extends Controller
                 $this->registerBundle($bundles, $depend, $registered);
             }
             unset($registered[$name]);
-            $registered[$name] = $bundle;
+            $registered[$name] = true;
         } elseif ($registered[$name] === false) {
-            throw new Exception("A circular dependency is detected for target '{$name}': " . $this->composeCircularDependencyTrace($name, $registered) . ".");
+            throw new Exception("A circular dependency is detected for target '$name'.");
         }
     }
 
@@ -755,27 +748,5 @@ EOD;
         $config = Yii::getObjectVars($bundle);
         $config['class'] = get_class($bundle);
         return $config;
-    }
-
-    /**
-     * Composes trace info for bundle circular dependency.
-     * @param string $circularDependencyName name of the bundle, which have circular dependency
-     * @param array $registered list of bundles registered while detecting circular dependency.
-     * @return string bundle circular dependency trace string.
-     */
-    private function composeCircularDependencyTrace($circularDependencyName, array $registered)
-    {
-        $dependencyTrace = [];
-        $startFound = false;
-        foreach ($registered as $name => $value) {
-            if ($name === $circularDependencyName) {
-                $startFound = true;
-            }
-            if ($startFound && $value === false) {
-                $dependencyTrace[] = $name;
-            }
-        }
-        $dependencyTrace[] = $circularDependencyName;
-        return implode(' -> ', $dependencyTrace);
     }
 }

@@ -566,7 +566,7 @@ class File extends \Faker\Provider\Base
      *
      * @param  string  $sourceDirectory The directory to look for random file taking
      * @param  string  $targetDirectory
-     * @param  boolean $fullPath        Whether to have the full path or just the filename
+     * @param  boolean $fullPath        Wether to have the full path or just the filename
      * @return string
      */
     public static function file($sourceDirectory = '/tmp', $targetDirectory = '/tmp', $fullPath = true)
@@ -577,10 +577,6 @@ class File extends \Faker\Provider\Base
 
         if (!is_dir($targetDirectory)) {
             throw new \InvalidArgumentException(sprintf('Target directory %s does not exist or is not a directory.', $targetDirectory));
-        }
-
-        if ($sourceDirectory == $targetDirectory) {
-            throw new \InvalidArgumentException('Source and target directories must differ.');
         }
 
         // Drop . and .. and reset array keys

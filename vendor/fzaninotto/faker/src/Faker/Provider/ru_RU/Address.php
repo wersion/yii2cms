@@ -2,7 +2,7 @@
 
 namespace Faker\Provider\ru_RU;
 
-class Address extends \Faker\Provider\Address
+class Address extends \Faker\Provider\Base
 {
     protected static $cityPrefix = array('город');
 
@@ -135,7 +135,7 @@ class Address extends \Faker\Provider\Address
         return static::randomElement(static::$cityPrefix);
     }
 
-    public function city()
+    public static function city()
     {
         return static::randomElement(static::$city);
     }

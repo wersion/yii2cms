@@ -98,7 +98,7 @@ class Schema extends \yii\db\Schema
      */
     protected function findTableNames($schema = '')
     {
-        $sql = "SELECT DISTINCT tbl_name FROM sqlite_master WHERE tbl_name<>'sqlite_sequence' ORDER BY tbl_name";
+        $sql = "SELECT DISTINCT tbl_name FROM sqlite_master WHERE tbl_name<>'sqlite_sequence'";
 
         return $this->db->createCommand($sql)->queryColumn();
     }

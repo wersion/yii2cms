@@ -124,7 +124,7 @@ class MigrateController extends BaseMigrateController
         $query = new Query;
         $rows = $query->select(['version', 'apply_time'])
             ->from($this->migrationTable)
-            ->orderBy('apply_time DESC, version DESC')
+            ->orderBy('version DESC')
             ->limit($limit)
             ->createCommand($this->db)
             ->queryAll();

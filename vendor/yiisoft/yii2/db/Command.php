@@ -157,26 +157,28 @@ class Command extends Component
     {
         if (empty($this->params)) {
             return $this->_sql;
-        }
-        $params = [];
-        foreach ($this->params as $name => $value) {
-            if (is_string($value)) {
-                $params[$name] = $this->db->quoteValue($value);
-            } elseif ($value === null) {
-                $params[$name] = 'NULL';
-            } elseif (!is_object($value) && !is_resource($value)) {
-                $params[$name] = $value;
+        } else {
+            $params = [];
+            foreach ($this->params as $name => $value) {
+                if (is_string($value)) {
+                    $params[$name] = $this->db->quoteValue($value);
+                } elseif ($value === null) {
+                    $params[$name] = 'NULL';
+                } else {
+                    $params[$name] = $value;
+                }
+            }
+            if (isset($params[1])) {
+                $sql = '';
+                foreach (explode('?', $this->_sql) as $i => $part) {
+                    $sql .= (isset($params[$i]) ? $params[$i] : '') . $part;
+                }
+
+                return $sql;
+            } else {
+                return strtr($this->_sql, $params);
             }
         }
-        if (!isset($params[1])) {
-            return strtr($this->_sql, $params);
-        }
-        $sql = '';
-        foreach (explode('?', $this->_sql) as $i => $part) {
-            $sql .= (isset($params[$i]) ? $params[$i] : '') . $part;
-        }
-
-        return $sql;
     }
 
     /**

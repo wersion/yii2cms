@@ -2,9 +2,9 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use yii\widgets\Ueditor;
-use yii\widgets\ImageUpload;
-use yii\widgets\Models;
+use common\widgets\Ueditor;
+use common\widgets\ImageUpload;
+use common\widgets\Models;
 use yii\widgets\Template;
 use pendalf89\filemanager\widgets\FileInput;
 use pendalf89\filemanager\widgets\TinyMCE;

@@ -2,7 +2,7 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use yii\widgets\ImageUpload;
+use common\widgets\ImageUpload;
 
 /* @var $this yii\web\View */
 /* @var $model common\models\photo */

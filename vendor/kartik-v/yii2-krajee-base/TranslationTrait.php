@@ -24,15 +24,13 @@ trait TranslationTrait
      *
      * @return void
      */
-    public function initI18N($dir = '')
+    public function initI18N()
     {
         if (empty($this->_msgCat)) {
             return;
         }
-        if (empty($dir)) {
-            $reflector = new \ReflectionClass(get_class($this));
-            $dir = dirname($reflector->getFileName());
-        }
+        $reflector = new \ReflectionClass(get_class($this));
+        $dir = dirname($reflector->getFileName());
         Yii::setAlias("@{$this->_msgCat}", $dir);
         if (empty($this->i18n)) {
             $this->i18n = [
