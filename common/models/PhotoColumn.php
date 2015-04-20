@@ -45,7 +45,7 @@ class PhotoColumn extends \yii\db\ActiveRecord
         return [
             [['title', 'url', 'description'], 'required'],
             [['column_id', 'status'], 'integer'],
-            [['sort','column_id'],'safe'],
+            [['sort','column_id','place'],'safe'],
             [['title', 'description'], 'string', 'max' => 255],
             [['url'], 'string', 'max' => 200]
         ];

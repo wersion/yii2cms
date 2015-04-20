@@ -41,7 +41,7 @@ class photoColumnSearch extends PhotoColumn
      */
     public function search($params)
     {
-        $query = PhotoColumn::find();
+        $query = PhotoColumn::find()->where(['column_id'=>Yii::$app->request->get('column_id')]);
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,

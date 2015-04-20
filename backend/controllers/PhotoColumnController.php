@@ -33,18 +33,19 @@ class PhotoColumnController extends BaseController
     public function actionIndex()
     {
         $articleObject = Column::findOne(Yii::$app->request->get('column_id'));
-        return $this->render('index', [
+       /* return $this->render('index', [
 
             'photos' =>$articleObject->photos,
 
-        ]);
-       /* $searchModel = new photoColumnSearch();
+        ]);*/
+        $searchModel = new photoColumnSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
+            'photos' =>$articleObject->photos,
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
-        ]);*/
+        ]);
     }
 
     /**
