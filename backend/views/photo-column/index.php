@@ -23,6 +23,14 @@ $this->params['breadcrumbs'][] = $this->title;
                 ['class' => 'yii\grid\SerialColumn'],
 
                 'id',
+                [
+                    'attribute' => 'url',
+                    'label'=>'图片',
+                    'format'=>'html',
+                    'value' => function ($model) {
+                        return  Html::img($model->url,['width'=>128,'style'=>'margin-left:20px']);
+                    },
+                ],
                 'column_id',
                 'title',
                 [
@@ -46,6 +54,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     ]
                 ],
             ],
-        ]); ?>
+        ]);
+        ?>
 
 </div>

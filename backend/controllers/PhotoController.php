@@ -32,12 +32,27 @@ class PhotoController extends BaseController
      */
     public function actionIndex()
     {
-        $articleObject = Article::findOne(Yii::$app->request->get('article_id'));
+        $provider = new \yii\data\ActiveDataProvider([
+            'query' => Photo::find()->where(['article_id'=>Yii::$app->request->get('article_id')]),
+            'pagination' => [
+                'pageSize' => 20,
+            ],
+
+        ]);
+
+        $searchModel = new PhotoSearch();
+
+        return $this->render('index', [
+            'searchModel' => $searchModel,
+            'dataProvider' => $provider,
+        ]);
+
+       /* $articleObject = Article::findOne(Yii::$app->request->get('article_id'));
         return $this->render('index', [
 
             'photos' =>$articleObject->photos,
 
-        ]);
+        ]);*/
     }
 
     /**

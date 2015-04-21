@@ -42,7 +42,7 @@ class ArticleSearch extends Article
      */
     public function search($params)
     {
-        $query = Article::find();
+        $query = Article::find()->where(['column_id'=>Yii::$app->request->get('id')]);
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,

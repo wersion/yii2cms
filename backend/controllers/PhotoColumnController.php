@@ -33,11 +33,7 @@ class PhotoColumnController extends BaseController
     public function actionIndex()
     {
         $articleObject = Column::findOne(Yii::$app->request->get('column_id'));
-       /* return $this->render('index', [
 
-            'photos' =>$articleObject->photos,
-
-        ]);*/
         $searchModel = new photoColumnSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
@@ -105,9 +101,10 @@ class PhotoColumnController extends BaseController
      */
     public function actionDelete($id)
     {
+        $column_id = $this->findModel($id)->column_id;
         $this->findModel($id)->delete();
 
-        return $this->redirect(['index?column_id='.Yii::$app->request->get('column_id')]);
+        return $this->redirect(['index','id'=>$column_id]);
     }
 
     /**

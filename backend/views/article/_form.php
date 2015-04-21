@@ -2,8 +2,8 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
-use yii\widgets\ImageUpload;
-use yii\widgets\Ueditor;
+use common\widgets\ImageUpload;
+use common\widgets\Ueditor;
 /* @var $this yii\web\View */
 /* @var $model backend\models\Article */
 /* @var $form yii\widgets\ActiveForm */

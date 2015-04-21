@@ -31,9 +31,8 @@ class IndexController extends HualController{
             {
                 Yii::$app->language='cn';
                 $session['language']='cn';
-             }
-         }
-
+            }
+        }
         switch($session['language'])
         {
             case 'cn':
@@ -149,6 +148,36 @@ class IndexController extends HualController{
     public function actionNbh()
     {
         $cache = Yii::$app->cache;
+
+        $session = Yii::$app->session;
+
+        if(Yii::$app->request->getQueryParam('lang'))
+        {
+            Yii::$app->language=Yii::$app->request->getQueryParam('lang');
+            $session['language']=Yii::$app->request->getQueryParam('lang');
+        }else
+        {
+            if($session['language'])
+            {
+                Yii::$app->language=$session['language'];
+            }else
+            {
+                Yii::$app->language='cn';
+                $session['language']='cn';
+            }
+        }
+        switch($session['language'])
+        {
+            case 'cn':
+                $lang = 0;
+                break;
+            case 'en':
+                $lang = 1;
+                break;
+            case 'tw':
+                $lang = 2;
+                break;
+        }
         return $this->render('show_nbh',[
             'id'=>Yii::$app->request->get('id'),
             'node'=>Yii::$app->request->getQueryParam('column'),

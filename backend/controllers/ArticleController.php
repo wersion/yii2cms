@@ -41,15 +41,13 @@ class ArticleController extends BaseController
             ],
 
         ]);
-        $articles = $provider->getModels();
-        $count = $provider->totalCount;
+
+        $searchModel = new ArticleSearch();
+
         return $this->render('index', [
-
-            'article' =>$articles,
-            'count'=>$count,
-            'pageSize'=>20
+            'searchModel' => $searchModel,
+            'dataProvider' => $provider,
         ]);
-
 
     }
 
@@ -129,9 +127,10 @@ class ArticleController extends BaseController
      */
     public function actionDelete($id)
     {
+        $column_id = $this->findModel($id)->column_id;
         $this->findModel($id)->delete();
 
-        return $this->redirect(['index']);
+        return $this->redirect(['index','id'=>$column_id]);
     }
 
     /**

@@ -32,24 +32,47 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\ActionColumn'],
         ],
     ]);*/ ?>
-    <table class="table table-striped table-bordered">
-        <thead>
-        <tr>
-            <th><a href="" data-sort="id">ID</a></th><th><a href="" data-sort="pid">Pid</a></th><th><a href="" data-sort="cname">title</a></th><th><a href="" data-sort="status">Status</a></th><th><a href="" data-sort="created_at">Created At</a></th><th>&nbsp;</th>
-        </tr>
 
-        </thead>
-        <tbody>
-    <?php foreach($photos as $v):?>
-        <tr>
-            <td><?= $v['id']?></td><td><?= $v['article_id']?></td><td><?= $v['title']?></td><td><?= $v['id']?></td><td><?= $v['created_at']?></td>
-            <td>
-                <a href="/photo/view?id=<?= $v['id']?>" >查看</a> |
-                <a href="/photo/update??column_id=<?= $v['column_id']?>&article_id=<?= $v['article_id']?>&id=<?= $v['id']?>" >更新</a> |
-                <a href="/photo/delete?column_id=<?= $v['column_id']?>&article_id=<?= $v['article_id']?>&id=<?= $v['id']?>">删除</a>
+    <?= GridView::widget([
+        'dataProvider' => $dataProvider,
+        'filterModel' => $searchModel,
+        'columns' => [
+            ['class' => 'yii\grid\SerialColumn'],
 
-            </td>
-        </tr>
-    <?php endforeach;?>
+            'id',
+            'column_id',
+            'title',
+            [
+                'attribute' => 'created_at',
+                'label'=>'上传时间',
+                'value' => function ($model) {
+                    return  date('Y-m-d H:i:s',$model->created_at);
+                },
+            ],
+            [
+                'attribute' => 'url',
+                'label'=>'图片',
+                'format'=>'html',
+                'value' => function ($model) {
+                    return  Html::img($model->url,['width'=>128,'style'=>'margin-left:20px']);
+                },
+            ],
+            [
+                'class' => 'yii\grid\ActionColumn',
+                'template' => '{view} {update} {delete}',
+                'buttons'=>[
+                    'delete'=>function ($url, $model, $key) {
+                        return Html::a('<span class="glyphicon glyphicon-trash"></span>', $url, [
+                            'title' => Yii::t('yii', 'Delete'),
+                            'data-confirm' => Yii::t('yii', 'Are you sure you want to delete this item?'),
+                            // 'data-method' => 'post',
+                            'data-pjax' => '0',
+                        ]);
+                    }
+                ]
+            ],
+        ],
+    ]);
+    ?>
 
 </div>
