@@ -80,7 +80,13 @@ class PhotoController extends BaseController
         $model->article_id = Yii::$app->request->get('article_id');
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
            // return $this->redirect(['index', 'id' => $model->id]);
-            return $this->redirect(['index?column_id='.Yii::$app->request->get('column_id').'&article_id='.Yii::$app->request->get('article_id'), 'id' => $model->column_id]);
+            return $this->redirect(
+                [
+                    'index',
+                    'column_id'=>Yii::$app->request->get('column_id'),
+                    'article_id'=>Yii::$app->request->get('article_id')
+                ]
+            );
 
         } else {
             return $this->render('create', [
