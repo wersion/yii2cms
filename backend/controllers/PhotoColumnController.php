@@ -104,7 +104,7 @@ class PhotoColumnController extends BaseController
         $column_id = $this->findModel($id)->column_id;
         $this->findModel($id)->delete();
 
-        return $this->redirect(['index','id'=>$column_id]);
+        return $this->redirect(['index','column_id'=>$column_id]);
     }
 
     /**

@@ -108,7 +108,11 @@ class PhotoController extends BaseController
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             $this->actionCache($model->article_id);
             //return $this->redirect(['index', 'id' => $model->id]);
-            return $this->redirect(['index?column_id='.Yii::$app->request->get('column_id').'&article_id='.Yii::$app->request->get('article_id'), 'id' => $model->column_id]);
+            return $this->redirect([
+                'index',
+                'column_id'=>$model->column_id,
+                'article_id'=>$model->article_id
+            ]);
 
         } else {
             return $this->render('update', [
@@ -139,9 +143,15 @@ class PhotoController extends BaseController
 
     public function actionDelete($id)
     {
+        $model = $this->findModel($id);
+        $column_id = $model->column_id;
+        $article_id = $model->article_id;
         $this->findModel($id)->delete();
-
-        return $this->redirect(['index?column_id='.Yii::$app->request->get('column_id').'&article_id='.Yii::$app->request->get('article_id')]);
+        return $this->redirect([
+            'index',
+            'column_id'=>$column_id,
+            'article_id'=>$article_id
+        ]);
     }
 
     /**
