@@ -31,7 +31,6 @@ $this->params['breadcrumbs'][] = $this->title;
                         return  Html::img($model->url,['width'=>128,'style'=>'margin-left:20px']);
                     },
                 ],
-                'column_id',
                 'title',
                 [
                     'attribute' => 'created_at',
