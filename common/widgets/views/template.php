@@ -1,5 +1,5 @@
 <?php
-namespace yii\widgets\views;
+namespace common\widgets\views;
 
 use yii;
 ?>

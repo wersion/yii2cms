@@ -5,7 +5,7 @@ use yii\widgets\ActiveForm;
 use common\widgets\Ueditor;
 use common\widgets\ImageUpload;
 use common\widgets\Models;
-use yii\widgets\Template;
+use common\widgets\Template;
 use pendalf89\filemanager\widgets\FileInput;
 use pendalf89\filemanager\widgets\TinyMCE;
 //use yii\bootstrap\ActiveForm;

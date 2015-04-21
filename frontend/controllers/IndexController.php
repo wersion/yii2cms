@@ -96,10 +96,53 @@ class IndexController extends HualController{
     public function actionPage()
     {
         $cache = Yii::$app->cache;
+        $session = Yii::$app->session;
+
+        if(Yii::$app->request->getQueryParam('lang'))
+        {
+            Yii::$app->language=Yii::$app->request->getQueryParam('lang');
+            $session['language']=Yii::$app->request->getQueryParam('lang');
+        }else
+        {
+            if($session['language'])
+            {
+                Yii::$app->language=$session['language'];
+            }else
+            {
+                Yii::$app->language='cn';
+                $session['language']='cn';
+            }
+        }
+        switch($session['language'])
+        {
+            case 'cn':
+                $lang = 0;
+                break;
+            case 'en':
+                $lang = 1;
+                break;
+            case 'tw':
+                $lang = 2;
+                break;
+        }
+
+        $id = Yii::$app->request->get('column');
+
+        $parentsArray = array_reverse($cache['column_'.$id.'_parents']);
+        $position='';
+        foreach($parentsArray as $key=>$row)
+        {
+            $cname[$key] = explode('//',$cache['column_'.$row]['cname']);
+            $position.=  '&gt;<span>'.$cname[$key][$lang].'</span>';
+        }
+
         return $this->render('show_xinwen',[
             'id'=>Yii::$app->request->get('id'),
-            'node'=>Yii::$app->request->getQueryParam('column'),
-            'cache'=>$cache
+            'column_id'=>Yii::$app->request->getQueryParam('column'),
+            'cache'=>$cache,
+            'lang'=>$lang,
+            'cl'=>new column(),
+            'position'=>$position,
         ]);
     }
 

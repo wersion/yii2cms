@@ -1,19 +1,6 @@
 <?php
 use common\helps\column;
 $cl = new column();
-$session = Yii::$app->session;
-switch($session['language'])
-{
-    case 'cn':
-        $lang = 0;
-        break;
-    case 'en':
-        $lang = 1;
-        break;
-    case 'tw':
-        $lang = 2;
-        break;
-}
 ?>
 <div class="cont_left">
     <div class="cont_left_bt">
