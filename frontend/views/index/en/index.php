@@ -17,10 +17,14 @@
         <div class="xiaotu">
             <ul>
                 <?php foreach($cache['column_31_photos'] as $key=>$photo):?>
-                    <?php if($key==0 and $photo['place']=='2'):?>
+                    <?php if($key==1 and $photo['place']=='2'):?>
                         <li class="hover"><img src="<?= Yii::$app->params['adminUrl'].$photo['url']?>" width="296"  height="136" /><p><img src="images/chun.png" /></p></li>
-                    <?php elseif($photo['place']=='2'):?>
+                    <?php elseif($key==3 and $photo['place']=='2'):?>
                         <li><img src="<?= Yii::$app->params['adminUrl'].$photo['url']?>"  width="296"  height="136"  /><p><img src="images/xiay.png" /></p></li>
+                    <?php elseif($key==5 and $photo['place']=='2'):?>
+                        <li><img src="<?= Yii::$app->params['adminUrl'].$photo['url']?>"  width="296"  height="136"  /><p><img src="images/qiu.png" /></p></li>
+                    <?php elseif($key==7 and $photo['place']=='2'):?>
+                        <li><img src="<?= Yii::$app->params['adminUrl'].$photo['url']?>"  width="296"  height="136"  /><p><img src="images/dong.png" /></p></li>
                     <?php endif;?>
                 <?php endforeach;?>
 
@@ -50,3 +54,4 @@
         </div>
     </div>
 </div>
+
