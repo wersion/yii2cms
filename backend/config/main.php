@@ -12,14 +12,6 @@ return [
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
     'modules' => [
-        'cms' => [
-            'class' => 'funson86\cms\Module',
-            'controllerNamespace' => 'funson86\cms\controllers\backend'
-        ],
-        'blog' => [
-            'class' => 'funson86\blog\Module',
-            'controllerNamespace' => 'funson86\blog\controllers\backend'
-        ],
         'filemanager' => [
             'class' => 'pendalf89\filemanager\Module',
             // Upload routes
