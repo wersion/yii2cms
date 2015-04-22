@@ -85,7 +85,7 @@ class PhotoColumnController extends BaseController
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
+            return $this->redirect(['index', 'column_id' => $model->column_id]);
         } else {
             return $this->render('update', [
                 'model' => $model,
