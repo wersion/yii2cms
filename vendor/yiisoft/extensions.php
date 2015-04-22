@@ -57,4 +57,33 @@ return array (
       '@yii/faker' => $vendorDir . '/yiisoft/yii2-faker',
     ),
   ),
+  'mihaildev/yii2-ckeditor' => 
+  array (
+    'name' => 'mihaildev/yii2-ckeditor',
+    'version' => '1.0.1.0',
+    'alias' => 
+    array (
+      '@mihaildev/ckeditor' => $vendorDir . '/mihaildev/yii2-ckeditor',
+    ),
+  ),
+  'funson86/yii2-setting' => 
+  array (
+    'name' => 'funson86/yii2-setting',
+    'version' => '0.01.0.0',
+    'alias' => 
+    array (
+      '@funson86/setting' => $vendorDir . '/funson86/yii2-setting',
+    ),
+    'bootstrap' => 'funson86\\setting\\Bootstrap',
+  ),
+  'funson86/yii2-cms' => 
+  array (
+    'name' => 'funson86/yii2-cms',
+    'version' => '2.0.1.0',
+    'alias' => 
+    array (
+      '@funson86/cms' => $vendorDir . '/funson86/yii2-cms',
+    ),
+    'bootstrap' => 'funson86\\cms\\Bootstrap',
+  ),
 );

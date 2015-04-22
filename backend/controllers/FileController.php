@@ -7,7 +7,7 @@
  */
 
 namespace backend\controllers;
-use \Aliyun\OSS\OSSClient;
+use Aliyun\OSS\OSSClient;
 use yii\base\Controller;
 use Yii;
 

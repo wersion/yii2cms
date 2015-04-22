@@ -2,44 +2,51 @@
 <!--图片轮播内容区-->
 <!-- Slider -->
 <div id="Adv">
-    <!--图片列表-->
-    <div class="ImgList" style="background:url('images/maxbanner2.jpg') no-repeat center top"></div>
-    <div class="ImgList" style="background:url('images/maxbanner1.jpg') no-repeat center top"></div>
-    <div class="ImgList" style="background:url('images/maxbanner3.jpg') no-repeat center top"></div>
-    <div class="ImgList" style="background:url('images/maxbanner4.jpg') no-repeat center top"></div>
+    <div class="adva">
+        <!--图片列表-->
+        <div style="width:1184px; margin:0px auto; position:relative; ">
+            <?php foreach($cache['column_31_photos'] as $key=>$photo):?>
+                <?php if($photo['place']=='1'):?>
+                    <div class="ImgList" style="background:url('<?= Yii::$app->params['adminUrl'].$photo['url']?>') no-repeat center top"></div>
+                <?php endif;?>
+            <?php endforeach;?>
 
-    <!--小图-->
-    <div class="xiaotu">
-        <ul>
-            <li class="hover"><img src="images/minbanner2.jpg" width="296"  height="166" /><p><img src="images/chun.png" /></p></li>
-            <li><img src="images/minbanner1.jpg"  width="296"  height="166"  /><p><img src="images/xiay.png" /></p></li>
-            <li><img src="images/minbanner3.jpg"   width="296"  height="166"  /><p><img src="images/qiu.png" /></p></li>
-            <li><img src="images/minbanner4.jpg"  width="296"  height="166" /><p><img src="images/dong.png" /></p></li>
-        </ul>
-    </div>
-
-
-    <!--轮播的按扭-->
-    <div class="ydbutton">
-        <ul class="button">
-            <li class="hover"></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </div>
-
-    <!--左右按钮-->
-    <div class="butcontainer">
-        <div class="leftbutton">
-            <div class="btimg"><img src="images/left.png" /></div>
         </div>
 
-        <div class="rightbutton">
-            <div class="btimg"><img src="images/right.png" /></div>
+        <!--小图-->
+        <div class="xiaotu">
+            <ul>
+                <?php foreach($cache['column_31_photos'] as $key=>$photo):?>
+                    <?php if($key==0 and $photo['place']=='2'):?>
+                        <li class="hover"><img src="<?= Yii::$app->params['adminUrl'].$photo['url']?>" width="296"  height="136" /><p><img src="images/chun.png" /></p></li>
+                    <?php elseif($photo['place']=='2'):?>
+                        <li><img src="<?= Yii::$app->params['adminUrl'].$photo['url']?>"  width="296"  height="136"  /><p><img src="images/xiay.png" /></p></li>
+                    <?php endif;?>
+                <?php endforeach;?>
+
+            </ul>
+        </div>
+
+
+        <!--轮播的按扭-->
+        <div class="ydbutton">
+            <ul class="button">
+                <li class="hover"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+        <!--左右按钮-->
+        <div class="butcontainer">
+            <div class="leftbutton">
+                <div class="btimg"><img src="images/left.png" /></div>
+            </div>
+
+            <div class="rightbutton">
+                <div class="btimg"><img src="images/right.png" /></div>
+            </div>
         </div>
     </div>
 </div>
-
-
-

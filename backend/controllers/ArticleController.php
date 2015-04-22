@@ -9,7 +9,7 @@ use common\models\ArticleSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use \Aliyun\OSS\OSSClient;
+use Aliyun\OSS\OSSClient;
 
 /**
  * ArticleController implements the CRUD actions for Article model.

@@ -18,7 +18,7 @@ use common\widgets\ImageUpload;
 
     <?= $form->field($model, 'sort')->textInput() ?>
 
-    <?= $form->field($model, 'place')->textInput() ?>
+    <?= $form->field($model, 'place')->dropDownList(array('1'=>'banner大图','2'=>'banner小图')) ?>
 
     <?= ImageUpload::widget(['model'=>$model,'attribute'=>'url'])?>
 

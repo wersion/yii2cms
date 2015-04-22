@@ -26,7 +26,9 @@
         "yiisoft/yii2-faker": "*",
         "johnlui/aliyun-oss": "1.1",
         "abhi1693/yii2-system-info": "1.0.0",
-        "kartik-v/bootstrap-fileinput": "dev-master"
+        "kartik-v/bootstrap-fileinput": "dev-master",
+        "funson86/yii2-cms": "*",
+        "funson86/yii2-blog": "*"
     },
     "config": {
         "process-timeout": 1800
