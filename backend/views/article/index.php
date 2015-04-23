@@ -11,17 +11,15 @@ use yii\widgets\LinkPager;
 $this->title = Yii::t('app', 'Articles');
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="article-index">
+
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
-    <p>
-        <?= Html::a(Yii::t('app', 'Create Article'), ['create?column_id='.Yii::$app->request->get('id')], ['class' => 'btn btn-success']) ?>
-    </p>
+<p>
+    <?= Html::a(Yii::t('app', 'Create Article'), ['create?column_id='.Yii::$app->request->get('id')], ['class' => 'btn btn-success']) ?>
+</p>
 
 
-
-</div>
 
 <?= GridView::widget([
     'dataProvider' => $dataProvider,
@@ -58,3 +56,4 @@ $this->params['breadcrumbs'][] = $this->title;
     ],
 ]);
 ?>
+

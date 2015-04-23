@@ -8,25 +8,21 @@ use common\widgets\ImageUpload;
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
-<div class="photo-column-form">
+<?php $form = ActiveForm::begin(); ?>
 
-    <?php $form = ActiveForm::begin(); ?>
+<?= $form->field($model, 'title')->textInput(['maxlength' => 255]) ?>
 
-    <?= $form->field($model, 'title')->textInput(['maxlength' => 255]) ?>
+<?= $form->field($model, 'description')->textInput(['maxlength' => 255]) ?>
 
-    <?= $form->field($model, 'description')->textInput(['maxlength' => 255]) ?>
+<?= $form->field($model, 'sort')->textInput() ?>
 
-    <?= $form->field($model, 'sort')->textInput() ?>
+<?= $form->field($model, 'place')->dropDownList(array('1'=>'banner大图','2'=>'banner小图')) ?>
 
-    <?= $form->field($model, 'place')->dropDownList(array('1'=>'banner大图','2'=>'banner小图')) ?>
-
-    <?= ImageUpload::widget(['model'=>$model,'attribute'=>'url'])?>
+<?= ImageUpload::widget(['model'=>$model,'attribute'=>'url'])?>
 
 
-    <div class="form-group">
-        <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
-    </div>
-
-    <?php ActiveForm::end(); ?>
-
+<div class="form-group">
+    <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
 </div>
+
+<?php ActiveForm::end(); ?>

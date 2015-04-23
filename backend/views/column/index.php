@@ -11,22 +11,15 @@ use yii\grid\ActionColumn;
 $this->title = '栏目';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="category-index">
 
+<p>
+    <?= Html::a('创建栏目', ['create'], ['class' => 'btn btn-success']) ?>
+    <?= Html::a('更新栏目缓存', ['cache'], ['class' => 'btn btn-success']) ?>
+</p>
 
-    <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
-
-    <p>
-        <?= Html::a('创建栏目', ['create'], ['class' => 'btn btn-success']) ?>
-        <?= Html::a('更新栏目缓存', ['cache'], ['class' => 'btn btn-success']) ?>
-    </p>
-
-    <table class="table table-bordered">
-        <tr><th>id</th><th>名称</th><th>操作</th></tr>
-        <?php
-        echo $columnTree;
-        ?>
-    </table>
-</div>
-
+<?php // echo $this->render('_search', ['model' => $searchModel]); ?>
+<table class="table table-bordered table-striped">
+    <tr><th>id</th><th>名称</th><th>操作</th></tr>
+    <?= $columnTree;?>
+</table>
 
