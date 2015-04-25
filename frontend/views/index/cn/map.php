@@ -9,8 +9,8 @@
 
             <div class="cont_left_list">
                 <ul>
-                    <?php foreach($cache['column_21_children'] as $v):?>
-                    <li><a href="/column/<?= $v['id']?>"><?= $v['cname']?></a></li>
+                    <?php foreach($cache['menu_21_children'] as $v):?>
+                    <li><a href="/menu/<?= $v['id']?>"><?= $v['cname']?></a></li>
                     <?php endforeach;?>
 
                 </ul>
@@ -21,13 +21,13 @@
             <div class="cont_right_weizhi">当前位置：<span>首页</span>&gt;<span>华粮联盟</span>&gt;<span>加入我们</span></div>
             <div class="ditu">
                 <ul>
-                    <?php foreach($cache['column_1_brother'] as $column):?>
+                    <?php foreach($cache['menu_1_brother'] as $menu):?>
                     <li>
 
-                        <span><a href="/column/<?= $column['id']?>"><?= $column['cname']?></a></span>
+                        <span><a href="/menu/<?= $menu['id']?>"><?= $menu['cname']?></a></span>
 
-                        <?php foreach($cache['column_'.$column['id'].'_children'] as $chiid):?>
-                             <p><a href="/column/<?= $chiid['id']?>"><?= $chiid['cname']?></a></p>
+                        <?php foreach($cache['menu_'.$menu['id'].'_children'] as $chiid):?>
+                             <p><a href="/menu/<?= $chiid['id']?>"><?= $chiid['cname']?></a></p>
                         <?php endforeach;?>
 
                     </li>

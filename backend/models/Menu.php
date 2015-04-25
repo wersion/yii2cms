@@ -2,7 +2,7 @@
 
 namespace backend\models;
 
-use common\models\PhotoColumn;
+use common\models\PhotoMenu;
 use yii\behaviors\TimestampBehavior;
 use Yii;
 
@@ -19,14 +19,14 @@ use Yii;
  * @property Article[] $articles
  * @property Article $id0
  */
-class Column extends \yii\db\ActiveRecord
+class menu extends \yii\db\ActiveRecord
 {
     /**
      * @inheritdoc
      */
     public static function tableName()
     {
-        return 'columns';
+        return 'menu';
     }
 
 
@@ -87,14 +87,14 @@ class Column extends \yii\db\ActiveRecord
      */
     public function getArticles()
     {
-        return $this->hasMany(Article::className(), ['column_id' => 'id'])->asArray();
+        return $this->hasMany(Article::className(), ['menu_id' => 'id'])->asArray();
 
     }
 
 
     public function getPhotos()
     {
-        return $this->hasMany(PhotoColumn::className(), ['column_id' => 'id'])->asArray();
+        return $this->hasMany(PhotoMenu::className(), ['menu_id' => 'id'])->asArray();
 
     }
 
@@ -129,6 +129,6 @@ class Column extends \yii\db\ActiveRecord
      */
     public function getId()
     {
-        return $this->hasOne(Article::className(), ['column_id' => 'id']);
+        return $this->hasOne(Article::className(), ['menu_id' => 'id']);
     }
 }

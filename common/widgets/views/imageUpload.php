@@ -14,4 +14,4 @@ imageUploadAsset::register($this);
     <input id="xFilePath" name="<?= $model->formName() ?>[<?= $name?>]" value="<?= $model->$name;?>" type="text" size="60" />
     <input type ="button" value="上传图片" onclick="BrowseServer();" />
 </div>
-<img id="img" src="<?= $model->$name;?>"  width='128' height='128' class="img-thumbnail">
+<img id="img" src="<?= $model->$name;?>"   height='55' class="img-thumbnail">

@@ -76,14 +76,14 @@ class PhotoController extends BaseController
     {
 
         $model = new Photo();
-        $model->column_id = Yii::$app->request->get('column_id');
+        $model->menu_id = Yii::$app->request->get('menu_id');
         $model->article_id = Yii::$app->request->get('article_id');
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
            // return $this->redirect(['index', 'id' => $model->id]);
             return $this->redirect(
                 [
                     'index',
-                    'column_id'=>Yii::$app->request->get('column_id'),
+                    'menu_id'=>Yii::$app->request->get('menu_id'),
                     'article_id'=>Yii::$app->request->get('article_id')
                 ]
             );
@@ -110,7 +110,7 @@ class PhotoController extends BaseController
             //return $this->redirect(['index', 'id' => $model->id]);
             return $this->redirect([
                 'index',
-                'column_id'=>$model->column_id,
+                'menu_id'=>$model->menu_id,
                 'article_id'=>$model->article_id
             ]);
 
@@ -144,12 +144,12 @@ class PhotoController extends BaseController
     public function actionDelete($id)
     {
         $model = $this->findModel($id);
-        $column_id = $model->column_id;
+        $menu_id = $model->menu_id;
         $article_id = $model->article_id;
         $this->findModel($id)->delete();
         return $this->redirect([
             'index',
-            'column_id'=>$column_id,
+            'menu_id'=>$menu_id,
             'article_id'=>$article_id
         ]);
     }

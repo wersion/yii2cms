@@ -1,6 +1,6 @@
 <?php
-use common\helps\column;
-$cl = new column();
+use common\helps\menu;
+$cl = new menu();
 $session = Yii::$app->session;
 switch($session['language'])
 {
@@ -19,13 +19,13 @@ switch($session['language'])
     <div id="cont">
         <?php include '../views/index/left_l.php'?>
         <div class="cont_right">
-            <div class="cont_right_weizhi">当前位置：<span>首页</span>&gt;<span>走进华粮</span>&gt;<span><?= $cl->lang($cache['column_'.$id]['cname'])[$lang]?></span></div>
+            <div class="cont_right_weizhi">当前位置：<span>首页</span>&gt;<span>走进华粮</span>&gt;<span><?= $cl->lang($cache['menu_'.$id]['cname'])[$lang]?></span></div>
             <div class="tuandui">
 
                 <div class="wc960">
                     <div id="wrapBox1" class="wrapBox">
                         <ul id="count1" class="count">
-                            <?php foreach($cache['column_'.$id.'_articles'] as $article):?>
+                            <?php foreach($cache['menu_'.$id.'_articles'] as $article):?>
 
                             <li class="yy">
 
@@ -72,7 +72,7 @@ switch($session['language'])
                 </script>
 
                 <div class="renyuan">
-                    <?php foreach($cache['column_'.$id.'_articles'] as $article):?>
+                    <?php foreach($cache['menu_'.$id.'_articles'] as $article):?>
                     <?= $article['title']?>
                     <?php endforeach?>
 

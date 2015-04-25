@@ -2,12 +2,11 @@
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 /* @var $this yii\web\View */
-/* @var $model backend\models\photoColumnSearch */
+/* @var $model backend\models\photoMenuSearch */
 /* @var $form yii\widgets\ActiveForm */
 
 ?>
 
-<div class="photo-column-search">
 
     <?php $form = ActiveForm::begin([
         'action' => ['index'],
@@ -38,5 +37,3 @@ use yii\widgets\ActiveForm;
     </div>
 
     <?php ActiveForm::end(); ?>
-
-</div>

@@ -1,5 +1,5 @@
 <script>
-    window.location.href = "/column/17"
+    window.location.href = "/menu/17"
 </script>
 <div id="content">
     <div id="cont">

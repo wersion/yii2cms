@@ -13,7 +13,7 @@ return [
             'rules' => [
 
                 '<lang:\d+>'=>'index/index',
-                'column/<column:\d+>' => 'index/column',
+                'menu/<menu:\d+>' => 'index/menu',
                 'page/<id:\d+>' => 'index/page',
                 'nbh/<id:\d+>' => 'index/nbh',
             ],

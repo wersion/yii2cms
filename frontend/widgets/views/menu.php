@@ -5,7 +5,7 @@
  * Date: 2015/3/23
  * Time: 14:29
  */
-use common\helps\column;
+use common\helps\menu;
 
 function getTree($data, $pId)
 {
@@ -23,7 +23,7 @@ function getTree($data, $pId)
 
 function procHtml($tree,$lang)
 {
-    $cl = new column();
+    $cl = new menu();
     $cache = Yii::$app->cache;
     $html = '';
     foreach($tree as $t)
@@ -31,33 +31,33 @@ function procHtml($tree,$lang)
         if($t['children'] == '' and $t['parentid']==0)
         {
 
-            $html .= "<li><a href='/column/{$t['id']}'>".$cl->lang($t['cname'])[$lang]."</a></li>";
+            $html .= "<li><a href='/menu/{$t['id']}'>".$cl->lang($t['cname'])[$lang]."</a></li>";
 
 
         }
         elseif($t['children'] == '' and $t['parentid'] !==0)
         {
-            $html.= "<p><a href='/column/{$t['id']}'>{$cl->lang($t['cname'])[$lang]}</a></p>";
+            $html.= "<p><a href='/menu/{$t['id']}'>{$cl->lang($t['cname'])[$lang]}</a></p>";
         }else
         {
-            if(Yii::$app->request->get('column'))
+            if(Yii::$app->request->get('menu'))
             {
 
-                if(in_array($t['id'],$cache['column_'.Yii::$app->request->get('column').'_parents']))
+                if(in_array($t['id'],$cache['menu_'.Yii::$app->request->get('menu').'_parents']))
                 {
 
-                    $html .= "<li class='style hover'><a href='/column/{$t['id']}'>".$cl->lang($t['cname'])[$lang]."</a>";
+                    $html .= "<li class='style hover'><a href='/menu/{$t['id']}'>".$cl->lang($t['cname'])[$lang]."</a>";
                     $html.= '<div class="menu">'.procHtml($t['children'],$lang).'</div>';
                     $html.="</li>";
                 }else
                 {
-                    $html .= "<li><a href='/column/{$t['id']}'>".$cl->lang($t['cname'])[$lang]."</a>";
+                    $html .= "<li><a href='/menu/{$t['id']}'>".$cl->lang($t['cname'])[$lang]."</a>";
                     $html.= '<div class="menu">'.procHtml($t['children'],$lang).'</div>';
                     $html.="</li>";
                 }
             }else
             {
-                $html .= "<li><a href='/column/{$t['id']}'>".$cl->lang($t['cname'])[$lang]."</a>";
+                $html .= "<li><a href='/menu/{$t['id']}'>".$cl->lang($t['cname'])[$lang]."</a>";
                 $html.= '<div class="menu">'.procHtml($t['children'],$lang).'</div>';
                 $html.="</li>";
             }
@@ -67,7 +67,7 @@ function procHtml($tree,$lang)
     return $html;
 }
 
-$tree = getTree($columns, 0);
+$tree = getTree($menu, 0);
 
 echo procHtml($tree,$lang);
 ?>

@@ -3,7 +3,7 @@
 namespace backend\controllers;
 
 use Yii;
-use backend\models\Column;
+use backend\models\Menu;
 use backend\models\Article;
 use common\models\ArticleSearch;
 use yii\web\Controller;
@@ -35,7 +35,7 @@ class ArticleController extends BaseController
     public function actionIndex()
     {
         $provider = new \yii\data\ActiveDataProvider([
-            'query' => Article::find()->where(['column_id'=>Yii::$app->request->get('id')]),
+            'query' => Article::find()->where(['menu_id'=>Yii::$app->request->get('id')]),
             'pagination' => [
                 'pageSize' => 20,
             ],
@@ -85,11 +85,11 @@ class ArticleController extends BaseController
     public function actionCreate()
     {
         $model = new Article();
-        $model->column_id = Yii::$app->request->get('column_id');
+        $model->menu_id = Yii::$app->request->get('menu_id');
         $model->user_id = Yii::$app->user->id;
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            $this->actionCacheOne($model->column_id,$model->id);
-            return $this->redirect(['index', 'id' => $model->column_id]);
+            $this->actionCacheOne($model->menu_id,$model->id);
+            return $this->redirect(['index', 'id' => $model->menu_id]);
 
         } else {
             return $this->render('create', [
@@ -109,8 +109,8 @@ class ArticleController extends BaseController
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            $this->actionCacheOne($model->column_id,$model->id);
-            return $this->redirect(['index?id='.$model->column_id]);
+            $this->actionCacheOne($model->menu_id,$model->id);
+            return $this->redirect(['index?id='.$model->menu_id]);
 
         } else {
             return $this->render('update', [
@@ -127,10 +127,10 @@ class ArticleController extends BaseController
      */
     public function actionDelete($id)
     {
-        $column_id = $this->findModel($id)->column_id;
+        $menu_id = $this->findModel($id)->menu_id;
         $this->findModel($id)->delete();
 
-        return $this->redirect(['index','id'=>$column_id]);
+        return $this->redirect(['index','id'=>$menu_id]);
     }
 
     /**
@@ -151,16 +151,16 @@ class ArticleController extends BaseController
 
     /**
      * 缓存单篇文章
-     * @param $column_id
+     * @param $menu_id
      * @param $id
      */
-    public function actionCacheOne($column_id,$id)
+    public function actionCacheOne($menu_id,$id)
     {
         $cache = Yii::$app->cache;
 
-        $cache['column_'.$column_id.'_article_'.$id] = Article::findOne(['id'=>$id])->toArray();
+        $cache['menu_'.$menu_id.'_article_'.$id] = Article::findOne(['id'=>$id])->toArray();
 
-        $cache['column_'.$column_id.'_article_'.$id.'_pages'] = explode('_ueditor_page_break_tag_',$cache['column_'.$column_id.'_article_'.$id]['content']);
+        $cache['menu_'.$menu_id.'_article_'.$id.'_pages'] = explode('_ueditor_page_break_tag_',$cache['menu_'.$menu_id.'_article_'.$id]['content']);
 
 
     }
@@ -177,7 +177,7 @@ class ArticleController extends BaseController
 
         foreach($articles as $article)
         {
-            $this->actionCacheOne($article['column_id'],$article['id']);
+            $this->actionCacheOne($article['menu_id'],$article['id']);
 
             $articleObject = \backend\models\Article::findOne($article['id']);
 

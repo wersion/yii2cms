@@ -37,7 +37,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'label'=>'图片',
             'format'=>'html',
             'value' => function ($model) {
-                return  Html::img($model->url,['width'=>128,'style'=>'margin-left:20px']);
+                return  Html::img($model->url,['height'=>'55','style'=>'margin-left:20px']);
             },
         ],
         [

@@ -7,11 +7,10 @@ use yii\base\Model;
 use yii\data\ActiveDataProvider;
 
 
-
 /**
  * CategorySearch represents the model behind the search form about `app\models\Category`.
  */
-class ColumnSearch extends Column
+class MenuSearch extends Menu
 {
     /**
      * @inheritdoc
@@ -33,9 +32,9 @@ class ColumnSearch extends Column
         return Model::scenarios();
     }
 
-    public function columnList()
+    public function menuList()
     {
-        $data = Column::find()->orderBy('sort')->asArray()->all();
+        $data = Menu::find()->orderBy('sort')->asArray()->all();
         return $data;
     }
 
@@ -49,7 +48,7 @@ class ColumnSearch extends Column
      */
     public function search($params)
     {
-        $query = Column::find();
+        $query = Menu::find();
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,

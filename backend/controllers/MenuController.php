@@ -2,17 +2,17 @@
 
 namespace backend\controllers;
 
-use backend\models\Column;
+use backend\models\Menu;
 use Yii;
-use backend\models\ColumnSearch;
+use backend\models\MenuSearch;
 use common\lib\tree;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- *ColumnController implements the CRUD actions forColumn model.
+ *menuController implements the CRUD actions formenu model.
  */
-class ColumnController extends BaseController
+class MenuController extends BaseController
 {
     public function behaviors()
     {
@@ -27,47 +27,47 @@ class ColumnController extends BaseController
     }
 
     /**
-     * Lists allColumn models.
+     * Lists allmenu models.
      * @return mixed
      */
     public function actionIndex()
     {
        // $cache = Yii::$app->cache;
-        //$columnList = $cache['columns'];
-        $searchModel = new ColumnSearch();
-        $columnList = $searchModel->columnList();
+        //$menuList = $cache['menus'];
+        $searchModel = new MenuSearch();
+        $menuList = $searchModel->menuList();
         $tree = new tree();
-        $tree->init($columnList);
+        $tree->init($menuList);
 
         $str=<<<Eof
         <tr>
             <td>\$id</td>
             <td> \$spacer\$cname</td>
             <td>
-                <a href='/column/create?id=\$id'>添加子类</a> |
-                <a href='/column/update?id=\$id'>更新</a> |
-                <a href='/column/delete?id=\$id'>删除</a> |
-                <a href='/column/manage?id=\$id'>内容管理</a> |
-                <a href='/photo-column/index?column_id=\$id'>栏目图片</a>
+                <a href='/menu/create?id=\$id'>添加子类</a> |
+                <a href='/menu/update?id=\$id'>更新</a> |
+                <a href='/menu/delete?id=\$id'>删除</a> |
+                <a href='/menu/manage?id=\$id'>内容管理</a> |
+                <a href='/photo-menu/index?menu_id=\$id'>栏目图片</a>
             </td>
         </tr>
 Eof;
-        $columnTree = $tree->get_tree(0,$str);
+        $menuTree = $tree->get_tree(0,$str);
         return $this->render('index',[
-            'columnTree'=>$columnTree
+            'menuTree'=>$menuTree
         ]);
     }
 
 
     /**
-     * Displays a single Column model.
+     * Displays a single menu model.
      * @param integer $id
      * @return mixed
      */
     public function actionView($id)
     {
 
-        $getArticles = Column::findOne(Yii::$app->request->get('id'));
+        $getArticles = Menu::findOne(Yii::$app->request->get('id'));
         return $this->render('view', [
             'model' => $this->findModel($id),
             'article' =>$getArticles->articles,
@@ -76,14 +76,14 @@ Eof;
     }
 
     /**
-     * Creates a new Column model.
+     * Creates a new menu model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
         $request = Yii::$app->request;
-        $model = new Column();
+        $model = new Menu();
 
         $model->parentid = $request->get('id')?$request->get('id'):0;
 
@@ -99,54 +99,54 @@ Eof;
 
     public function actionCache()
     {
-        $searchModel = new ColumnSearch();
-        $columnList = $searchModel->columnList();
+        $searchModel = new MenuSearch();
+        $menuList = $searchModel->menuList();
         $cache = Yii::$app->cache;
-        $cache['columns'] = $columnList;
-        foreach($columnList as $columnOne)
+        $cache['menu'] = $menuList;
+        foreach($menuList as $menuOne)
         {
-            $this->cacheColumnOneAction($columnOne['id'],$columnOne['parentid']);
+            $this->cacheMenuOneAction($menuOne['id'],$menuOne['parentid']);
         }
         return $this->redirect('index');
 
     }
 
 
-    public function cacheColumnOneAction($id,$pid)
+    public function cacheMenuOneAction($id,$pid)
     {
 
         $cache = Yii::$app->cache;
 
-        $columnOne = Column::findOne($id)->toArray();
+        $menuOne = menu::findOne($id)->toArray();
 
-        $column_tmp = \backend\models\Template::findOne($columnOne['template_id'])->toArray();
-        $columnOne['tmp'] = $column_tmp['ename'];
+        $menu_tmp = \backend\models\Template::findOne($menuOne['template_id'])->toArray();
+        $menuOne['tmp'] = $menu_tmp['ename'];
 
-        $cache['column_'.$id] = $columnOne;
+        $cache['menu_'.$id] = $menuOne;
 
-        $columnObject = Column::findOne($id);
+        $menuObject = Menu::findOne($id);
 
-        $column = new Column();
+        $menu = new Menu();
 
-        $cache['column_'.$id.'_parent'] = $column->getParent($pid);
+        $cache['menu_'.$id.'_parent'] = $menu->getParent($pid);
 
-        $parents = explode(',',$id.','.$column->getParents($id));
+        $parents = explode(',',$id.','.$menu->getParents($id));
 
         array_pop($parents);
 
-        $cache['column_'.$id.'_parents'] = $parents;
+        $cache['menu_'.$id.'_parents'] = $parents;
 
-        $cache['column_'.$id.'_articles'] = $columnObject->articles;
+        $cache['menu_'.$id.'_articles'] = $menuObject->articles;
 
-        $cache['column_'.$id.'_photos'] = $columnObject->photos;
+        $cache['menu_'.$id.'_photos'] = $menuObject->photos;
 
-        $cache['column_'.$id.'_brother'] = $column->getBrother($pid);
+        $cache['menu_'.$id.'_brother'] = $menu->getBrother($pid);
 
-        $cache['column_'.$id.'_children'] = $column->getBrother($id);
+        $cache['menu_'.$id.'_children'] = $menu->getBrother($id);
     }
 
     /**
-     * Updates an existing Column model.
+     * Updates an existing menu model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -165,7 +165,7 @@ Eof;
     }
 
     /**
-     * Deletes an existing Column model.
+     * Deletes an existing menu model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
@@ -178,15 +178,15 @@ Eof;
     }
 
     /**
-     * Finds theColumn model based on its primary key value.
+     * Finds themenu model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @returnColumn the loaded model
+     * @returnmenu the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = Column::findOne($id)) !== null) {
+        if (($model = menu::findOne($id)) !== null) {
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');
@@ -196,13 +196,13 @@ Eof;
     public function  actionManage()
     {
         $cache = Yii::$app->cache;
-        $columnList = $cache['columns'];
+        $menuList = $cache['menus'];
         $id =  Yii::$app->request->get('id');
-        foreach($columnList as $key=>$column)
+        foreach($menuList as $key=>$menu)
         {
-            if($column['id'] == $id)
+            if($menu['id'] == $id)
             {
-                $model_id = $column['model_id'];
+                $model_id = $menu['model_id'];
             }
         }
 
@@ -221,8 +221,8 @@ Eof;
 
     public function getPhotos()
     {
-        return $this->hasMany(\common\models\PhotoColumn::className(), ['column_id' => 'id']);
+        return $this->hasMany(\common\models\PhotoMenu::className(), ['menu_id' => 'id']);
         //return $this->hasMany(\common\models\Photo::className(), ['article_id' => 'id'])->asArray();
-        // return $this->hasMany(Article::className(), ['column_id' => 'id']);
+        // return $this->hasMany(Article::className(), ['menu_id' => 'id']);
     }
 }

@@ -5,7 +5,7 @@
     <div class="adva">
         <!--图片列表-->
         <div style="width:1184px; margin:0px auto; position:relative; ">
-            <?php foreach($cache['column_31_photos'] as $key=>$photo):?>
+            <?php foreach($cache['menu_31_photos'] as $key=>$photo):?>
                 <?php if($photo['place']=='1'):?>
                     <div class="ImgList" style="background:url('<?= Yii::$app->params['adminUrl'].$photo['url']?>') no-repeat center top"></div>
                 <?php endif;?>
@@ -16,7 +16,7 @@
         <!--小图-->
         <div class="xiaotu">
             <ul>
-                <?php foreach($cache['column_31_photos'] as $key=>$photo):?>
+                <?php foreach($cache['menu_31_photos'] as $key=>$photo):?>
                     <?php if($key==1 and $photo['place']=='2'):?>
                         <li class="hover"><img src="<?= Yii::$app->params['adminUrl'].$photo['url']?>" width="296"  height="136" /><p><img src="images/chun.png" /></p></li>
                     <?php elseif($key==3 and $photo['place']=='2'):?>

@@ -8,13 +8,13 @@
 
 namespace frontend\controllers;
 
-use common\helps\column;
+use common\helps\menu;
 use Yii;
 use frontend\controllers\BaseController;
 
 class IndexController extends HualController{
 
-    public function actionColumn()
+    public function actionMenu()
     {
         $session = Yii::$app->session;
 
@@ -46,26 +46,26 @@ class IndexController extends HualController{
                 break;
         }
 
-        $id = Yii::$app->request->get('column');
+        $id = Yii::$app->request->get('menu');
         $cache = Yii::$app->cache;
-        $column = $cache['column_'.$id];
+        $menu = $cache['menu_'.$id];
 
-        $parentsArray = array_reverse($cache['column_'.$id.'_parents']);
+        $parentsArray = array_reverse($cache['menu_'.$id.'_parents']);
         $position='';
         foreach($parentsArray as $key=>$row)
         {
-            $cname[$key] = explode('//',$cache['column_'.$row]['cname']);
+            $cname[$key] = explode('//',$cache['menu_'.$row]['cname']);
             $position.=  '&gt;<span>'.$cname[$key][$lang].'</span>';
         }
 
-        return $this->render($column['tmp'],[
+        return $this->render($menu['tmp'],[
             'cache'=>$cache,
-            'column'=>$column,
-            'id'=>Yii::$app->request->get('column'),
+            'menu'=>$menu,
+            'id'=>Yii::$app->request->get('menu'),
             'lang'=>$lang,
             'position'=>$position,
             'cname'=>$cname[0][$lang],
-            'cl'=>new column()
+            'cl'=>new menu()
 
         ]);
     }
@@ -125,22 +125,22 @@ class IndexController extends HualController{
                 break;
         }
 
-        $id = Yii::$app->request->get('column');
+        $id = Yii::$app->request->get('menu');
 
-        $parentsArray = array_reverse($cache['column_'.$id.'_parents']);
+        $parentsArray = array_reverse($cache['menu_'.$id.'_parents']);
         $position='';
         foreach($parentsArray as $key=>$row)
         {
-            $cname[$key] = explode('//',$cache['column_'.$row]['cname']);
+            $cname[$key] = explode('//',$cache['menu_'.$row]['cname']);
             $position.=  '&gt;<span>'.$cname[$key][$lang].'</span>';
         }
 
         return $this->render('show_xinwen',[
             'id'=>Yii::$app->request->get('id'),
-            'column_id'=>Yii::$app->request->getQueryParam('column'),
+            'menu_id'=>Yii::$app->request->getQueryParam('menu'),
             'cache'=>$cache,
             'lang'=>$lang,
-            'cl'=>new column(),
+            'cl'=>new menu(),
             'position'=>$position,
         ]);
     }
@@ -178,10 +178,19 @@ class IndexController extends HualController{
                 $lang = 2;
                 break;
         }
+        $id = Yii::$app->request->get('menu');
+        $parentsArray = array_reverse($cache['menu_'.$id.'_parents']);
+        $position='';
+        foreach($parentsArray as $key=>$row)
+        {
+            $cname[$key] = explode('//',$cache['menu_'.$row]['cname']);
+            $position.=  '&gt;<span>'.$cname[$key][$lang].'</span>';
+        }
         return $this->render('show_nbh',[
             'id'=>Yii::$app->request->get('id'),
-            'node'=>Yii::$app->request->getQueryParam('column'),
-            'cache'=>$cache
+            'node'=>Yii::$app->request->getQueryParam('menu'),
+            'cache'=>$cache,
+            'position'=>$position,
         ]);
     }
 

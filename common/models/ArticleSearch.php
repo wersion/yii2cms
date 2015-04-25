@@ -19,7 +19,7 @@ class ArticleSearch extends Article
     public function rules()
     {
         return [
-            [['id', 'column_id', 'user_id', 'comments_count'], 'integer'],
+            [['id', 'menu_id', 'user_id', 'comments_count'], 'integer'],
             [['title', 'slug', 'content', 'meta_title', 'meta_description', 'meta_keywords', 'created_at', 'updated_at'], 'safe'],
         ];
     }
@@ -42,7 +42,7 @@ class ArticleSearch extends Article
      */
     public function search($params)
     {
-        $query = Article::find()->where(['column_id'=>Yii::$app->request->get('id')]);
+        $query = Article::find()->where(['menu_id'=>Yii::$app->request->get('id')]);
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
@@ -58,7 +58,7 @@ class ArticleSearch extends Article
 
         $query->andFilterWhere([
             'id' => $this->id,
-            'column_id' => $this->column_id,
+            'menu_id' => $this->menu_id,
             'user_id' => $this->user_id,
             'comments_count' => $this->comments_count,
             'created_at' => $this->created_at,

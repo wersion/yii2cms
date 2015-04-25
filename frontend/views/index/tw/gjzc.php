@@ -8,7 +8,7 @@
 
             <div class="cont_left_list">
                 <ul>
-                    <?php foreach($cache['column_'.$id.'_brother'] as $child):?>
+                    <?php foreach($cache['menu_'.$id.'_brother'] as $child):?>
                         <li <?php if($id==$child['id']):?> class="hover" <?php endif?> ><a href="/node/<?= $child['id']?>"><?= $child['cname']?></a></li>
                     <?php endforeach;?>
                 </ul>
@@ -18,7 +18,7 @@
         <div class="cont_right">
             <div class="cont_right_weizhi">當前位置：<span>首頁</span> <?= $position?></div>
             <div class="zoujin">
-                <div class="zoujin_bt"><?= $cache['column_'.$id]['cname']?></div>
+                <div class="zoujin_bt"><?= $cache['menu_'.$id]['cname']?></div>
                 <div class="zoujin_nr">
 
                     <div class="new_iconimg"><img src="../images/newicon.jpg"  /></div>

@@ -5,12 +5,12 @@ namespace backend\models;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use common\models\PhotoColumn;
+use common\models\PhotoMenu;
 
 /**
- * photoColumnSearch represents the model behind the search form about `common\models\PhotoColumn`.
+ * PhotoMenuSearch represents the model behind the search form about `common\models\PhotoMenu`.
  */
-class photoColumnSearch extends PhotoColumn
+class photoMenuSearch extends PhotoMenu
 {
     /**
      * @inheritdoc
@@ -18,7 +18,7 @@ class photoColumnSearch extends PhotoColumn
     public function rules()
     {
         return [
-            [['id', 'column_id', 'sort', 'status', 'created_at', 'updated_at'], 'integer'],
+            [['id', 'menu_id', 'sort', 'status', 'created_at', 'updated_at'], 'integer'],
             [['title', 'url', 'description'], 'safe'],
         ];
     }
@@ -41,7 +41,7 @@ class photoColumnSearch extends PhotoColumn
      */
     public function search($params)
     {
-        $query = PhotoColumn::find()->where(['column_id'=>Yii::$app->request->get('column_id')]);
+        $query = PhotoMenu::find()->where(['menu_id'=>Yii::$app->request->get('menu_id')]);
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
@@ -57,7 +57,7 @@ class photoColumnSearch extends PhotoColumn
 
         $query->andFilterWhere([
             'id' => $this->id,
-            'column_id' => $this->column_id,
+            'menu_id' => $this->menu_id,
             'sort' => $this->sort,
             'status' => $this->status,
             'created_at' => $this->created_at,

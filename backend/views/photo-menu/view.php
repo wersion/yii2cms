@@ -1,16 +1,14 @@
-c<?php
-
+<?php
 use yii\helpers\Html;
 use yii\widgets\DetailView;
-
 /* @var $this yii\web\View */
-/* @var $model app\models\Column */
+/* @var $model common\models\PhotoMenu */
 
-$this->title = $model->cname;
-$this->params['breadcrumbs'][] = ['label' => '栏目', 'url' => ['index']];
+$this->title = $model->title;
+$this->params['breadcrumbs'][] = ['label' => 'Photo Columns', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="columny-view">
+<div class="photo-column-view">
 
     <h1><?= Html::encode($this->title) ?></h1>
 
@@ -29,15 +27,15 @@ $this->params['breadcrumbs'][] = $this->title;
         'model' => $model,
         'attributes' => [
             'id',
-            'parentid',
-            'cname',
+            'title',
+            'url:url',
+            'menu_id',
+            'description',
+            'sort',
             'status',
             'created_at',
             'updated_at',
         ],
     ]) ?>
 
-
-
 </div>
-

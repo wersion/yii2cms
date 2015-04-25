@@ -9,7 +9,7 @@
 namespace common\helps;
 
 
-class column {
+class menu {
 
     function lang($str)
     {

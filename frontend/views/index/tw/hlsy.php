@@ -6,7 +6,7 @@
             <div class="cont_right_weizhi">當前位置：<span>首頁</span> <?= $position?></div>
             <div class="new">
                 <div class="newcont">
-                    <img src="<?= Yii::$app->params['adminUrl'].$cache['column_'.$id]['file']?>" style="margin:30px 0px;"/>
+                    <img src="<?= Yii::$app->params['adminUrl'].$cache['menu_'.$id]['file']?>" style="margin:30px 0px;"/>
                 </div>
 
             </div>

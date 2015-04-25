@@ -8,7 +8,7 @@ use Yii;
  * This is the model class for table "column_photo".
  *
  * @property integer $id
- * @property integer $column_id
+ * @property integer $menu_id
  * @property string $image
  * @property integer $place
  * @property string $create_at
@@ -16,7 +16,7 @@ use Yii;
  *
  * @property Column $column
  */
-class ColumnPhoto extends \yii\db\ActiveRecord
+class MenuPhoto extends \yii\db\ActiveRecord
 {
     /**
      * @inheritdoc
@@ -32,8 +32,8 @@ class ColumnPhoto extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['column_id'], 'required'],
-            [['column_id', 'place'], 'integer'],
+            [['menu_id'], 'required'],
+            [['menu_id', 'place'], 'integer'],
             [['create_at'], 'safe'],
             [['image'], 'string', 'max' => 255],
             [['crate_by'], 'string', 'max' => 32]
@@ -47,7 +47,7 @@ class ColumnPhoto extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'column_id' => 'Column ID',
+            'menu_id' => 'Menu ID',
             'image' => 'Image',
             'place' => 'Place',
             'create_at' => 'Create At',
@@ -58,8 +58,8 @@ class ColumnPhoto extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getColumn()
+    public function getMenu()
     {
-        return $this->hasOne(Column::className(), ['id' => 'column_id']);
+        return $this->hasOne(Menu::className(), ['id' => 'menu_id']);
     }
 }

@@ -16,7 +16,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
 <p>
-    <?= Html::a(Yii::t('app', 'Create Article'), ['create?column_id='.Yii::$app->request->get('id')], ['class' => 'btn btn-success']) ?>
+    <?= Html::a(Yii::t('app', 'Create Article'), ['create?menu_id='.Yii::$app->request->get('id')], ['class' => 'btn btn-success']) ?>
 </p>
 
 
@@ -41,7 +41,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'template' => '{view} {update} {delete} {photo}',
             'buttons'=>[
                 'photo'=>function($url,$model,$key){
-                    return '<a href="/photo/index?column_id='.$model->column_id.'&article_id='.$model->id.'">图片管理</a>';
+                    return '<a href="/photo/index?menu_id='.$model->menu_id.'&article_id='.$model->id.'">图片管理</a>';
                 },
                 'delete'=>function ($url, $model, $key) {
                     return Html::a('<span class="glyphicon glyphicon-trash"></span>', $url, [

@@ -9,7 +9,7 @@ use yii\behaviors\TimestampBehavior;
  * This is the model class for table "article".
  *
  * @property integer $id
- * @property integer $column_id
+ * @property integer $menu_id
  * @property integer $user_id
  * @property string $title
  * @property string $slug
@@ -48,7 +48,7 @@ class Article extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['column_id', 'user_id'], 'integer'],
+            [['menu_id', 'user_id'], 'integer'],
             [['user_id', 'title'], 'required'],
             [['created_at', 'updated_at','slug','file','content'], 'safe'],
             [['title', 'slug', 'meta_title', 'meta_description', 'meta_keywords'], 'string', 'max' => 255],
@@ -81,7 +81,7 @@ class Article extends \yii\db\ActiveRecord
     {
         return [
             'id' => Yii::t('app', 'ID'),
-            'column_id' => Yii::t('app', 'column ID'),
+            'menu_id' => Yii::t('app', 'column ID'),
             'user_id' => Yii::t('app', 'User ID'),
             'title' => Yii::t('app', 'Title'),
             'slug' => Yii::t('app', 'Slug'),
@@ -100,9 +100,9 @@ class Article extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getcolumn()
+    public function getMenu()
     {
-        return $this->hasOne(column::className(), ['id' => 'column_id']);
+        return $this->hasOne(Menu::className(), ['id' => 'menu_id']);
     }
 
     public function getPhotos()

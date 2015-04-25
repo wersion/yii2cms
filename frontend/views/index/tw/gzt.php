@@ -1,4 +1,4 @@
 <script>
-    window.location.href = "/column/17"
+    window.location.href = "/menu/17"
 </script>
 

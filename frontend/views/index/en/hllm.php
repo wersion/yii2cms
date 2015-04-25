@@ -1,5 +1,5 @@
 <script>
-    window.location.href = 'http://yiitest.xiuyun99.com/column/29'
+    window.location.href = 'http://yiitest.xiuyun99.com/menu/29'
 </script>
 <!--内容区-->
 <div id="content">
@@ -12,8 +12,8 @@
 
             <div class="cont_left_list">
                 <ul>
-                    <?php foreach($cache['column_'.$id.'_children'] as $child):?>
-                        <li <?php if(Yii::$app->request->get('id')==$child['id']):?> class="hover" <?php endif?> ><a href="/column/<?= $child['id']?>"><?= $child['cname']?></a></li>
+                    <?php foreach($cache['menu_'.$id.'_children'] as $child):?>
+                        <li <?php if(Yii::$app->request->get('id')==$child['id']):?> class="hover" <?php endif?> ><a href="/menu/<?= $child['id']?>"><?= $child['cname']?></a></li>
                     <?php endforeach;?>
                 </ul>
             </div>
@@ -22,7 +22,7 @@
         <div class="cont_right">
             <div class="cont_right_weizhi">Posion：<span>Home</span> <?= $position?></div>
             <div class="cont_right_nr">
-                <?= $cache['column-'.$id]['content']?>
+                <?= $cache['menu-'.$id]['content']?>
 
                 <div class="biaozhi"><img src="../images/jiao.png" /></div>
             </div>
