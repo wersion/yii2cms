@@ -11,5 +11,5 @@ namespace backend\controllers;
 
 use yii\rest\ActiveController;
 class UserController extends ActiveController{
-    public $modelClass = 'backend\models\Article';
+    public $modelClass = 'common\models\user';
 }

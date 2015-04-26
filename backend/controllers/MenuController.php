@@ -117,7 +117,7 @@ Eof;
 
         $cache = Yii::$app->cache;
 
-        $menuOne = menu::findOne($id)->toArray();
+        $menuOne = Menu::findOne($id)->toArray();
 
         $menu_tmp = \backend\models\Template::findOne($menuOne['template_id'])->toArray();
         $menuOne['tmp'] = $menu_tmp['ename'];
@@ -186,7 +186,7 @@ Eof;
      */
     protected function findModel($id)
     {
-        if (($model = menu::findOne($id)) !== null) {
+        if (($model = Menu::findOne($id)) !== null) {
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');
