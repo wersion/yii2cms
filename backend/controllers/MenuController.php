@@ -196,7 +196,8 @@ Eof;
     public function  actionManage()
     {
         $cache = Yii::$app->cache;
-        $menuList = $cache['menus'];
+        $menu = new MenuSearch();
+        $menuList = $menu->menuList();
         $id =  Yii::$app->request->get('id');
         foreach($menuList as $key=>$menu)
         {
