@@ -10,6 +10,10 @@ namespace modules\filemanage\controllers;
 
 use yii;
 use yii\web\Controller;
-class DefaultController {
+class IndexController extends Controller{
 
+        public function actionIndex()
+        {
+            return $this->render('index');
+        }
 } 
