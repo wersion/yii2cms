@@ -12,9 +12,9 @@ return [
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
     'modules' => [
-        'file' => [
+       /* 'file' => [
             'class' => 'modules\filemanage\Module',
-        ],
+        ],*/
         'filemanager' => [
             'class' => 'pendalf89\filemanager\Module',
             // Upload routes
