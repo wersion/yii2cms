@@ -1,4 +1,5 @@
 <?php
+include 'rules.php';
 return [
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
     'components' => [
@@ -10,13 +11,13 @@ return [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'enableStrictParsing' => false,
-            'rules' => [
-
+            'rules' => array_merge([
                 '<lang:\d+>'=>'index/index',
                 'menu/<menu:\d+>' => 'index/menu',
                 'page/<id:\d+>' => 'index/page',
                 'nbh/<id:\d+>' => 'index/nbh',
-            ],
+            ],$rules)
+
         ],
     ],
 ];

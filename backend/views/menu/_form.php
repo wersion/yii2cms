@@ -37,7 +37,7 @@ use pendalf89\filemanager\widgets\TinyMCE;
 
                     <?= Template::widget(['model'=>$model,'form'=>$form])?>
 
-
+                    <?= $form->field($model, 'url')->textInput() ?>
 
                     <?= $form->field($model,'isShow')->radioList(['1'=>'是','2'=>'否'],[])?>
 

@@ -12,10 +12,11 @@ use common\helps\menu;
 use Yii;
 use frontend\controllers\BaseController;
 
-class IndexController extends HualController{
+class IndexController extends HualController  {
 
     public function actionMenu()
     {
+
         $session = Yii::$app->session;
 
         if(Yii::$app->request->getQueryParam('lang'))
