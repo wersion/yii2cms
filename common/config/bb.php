@@ -1,0 +1,25 @@
+<?php 
+     $rules = [
+            'zoujinhualiang/<d:\d+>' => 'index/menu',
+            '/colums/17/<d:\d+>' => 'index/menu',
+            '/<d:\d+>' => 'index/menu',
+            '/<d:\d+>' => 'index/menu',
+            '/<d:\d+>' => 'index/menu',
+            '/<d:\d+>' => 'index/menu',
+            '/<d:\d+>' => 'index/menu',
+            '/<d:\d+>' => 'index/menu',
+            '/<d:\d+>' => 'index/menu',
+            '/<d:\d+>' => 'index/menu',
+            '/<d:\d+>' => 'index/menu',
+            '/<d:\d+>' => 'index/menu',
+            '/<d:\d+>' => 'index/menu',
+            '/<d:\d+>' => 'index/menu',
+            '/<d:\d+>' => 'index/menu',
+            '/<d:\d+>' => 'index/menu',
+            '/<d:\d+>' => 'index/menu',
+            '/<d:\d+>' => 'index/menu',
+            '/<d:\d+>' => 'index/menu',
+            '/<d:\d+>' => 'index/menu',
+            'Assdaas/<d:\d+>' => 'index/menu',
+    ] 
+?>

@@ -101,7 +101,20 @@ Eof;
     {
         $searchModel = new MenuSearch();
         $menuList = $searchModel->menuList();
+
         $cache = Yii::$app->cache;
+        $menu = new Menu();
+        $cache['url'] = $menu->find()->select('url')->column();
+        $str = "<?php \n     \$rules = [\n";
+        foreach($cache['url'] as $v)
+        {
+            $str.= "            '".$v."/<d:\d+>' => 'index/menu',\n";
+        }
+
+        $str.= "    ] \n?>";
+
+        file_put_contents(Yii::getAlias('@common').'/config/bb.php',$str);
+
         $cache['menu'] = $menuList;
         foreach($menuList as $menuOne)
         {
