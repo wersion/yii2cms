@@ -104,16 +104,18 @@ Eof;
 
         $cache = Yii::$app->cache;
         $menu = new Menu();
-        $cache['url'] = $menu->find()->select('url')->column();
+        $url = $menu->find()->select('url')->column();
+        $url = array_filter($url);
+        $cache['url']=$url;
         $str = "<?php \n     \$rules = [\n";
-        foreach($cache['url'] as $v)
+        foreach($url as $v)
         {
-            $str.= "            '".$v."/<d:\d+>' => 'index/menu',\n";
+            $str.= "         '".$v."/<menu:\d+>' => 'index/menu',\n";
         }
 
         $str.= "    ] \n?>";
 
-        file_put_contents(Yii::getAlias('@common').'/config/bb.php',$str);
+        file_put_contents(Yii::getAlias('@common').'/config/rules.php',$str);
 
         $cache['menu'] = $menuList;
         foreach($menuList as $menuOne)
