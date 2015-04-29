@@ -14,8 +14,8 @@ class Template extends Widget
         $cache = Yii::$app->cache;
         $templates = $cache['template'];
         foreach($templates as $v){
-            $tps['val'][$v['id']] = $v['name'];
+            $tps[$v['id']] = $v['name'];
         }
-        return $this->render('template',['model'=>$this->model,'form'=>$this->form,'tps'=>$tps['val']]);
+        return $this->render('template',['model'=>$this->model,'form'=>$this->form,'tps'=>$tps]);
     }
 }
