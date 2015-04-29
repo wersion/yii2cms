@@ -65,7 +65,7 @@ class menu extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'parentid' => 'Pid',
+            'parentid' => '上级菜单',
             'sort' => '排序',
             'cname' => '栏目名称',
             'url' => '链接地址',

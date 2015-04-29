@@ -20,8 +20,8 @@ class Models extends Widget
         $cache = Yii::$app->cache;
         $models = $cache['models'];
         foreach($models as $v){
-            $mds['val'][$v['id']] = $v['name'];
+            $mds[$v['id']] = $v['name'];
         }
-        return $this->render('models',['model'=>$this->model,'form'=>$this->form,'models'=>$mds['val']]);
+        return $this->render('models',['model'=>$this->model,'form'=>$this->form,'models'=>$mds]);
     }
 }

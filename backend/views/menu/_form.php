@@ -6,12 +6,15 @@ use common\widgets\Ueditor;
 use common\widgets\ImageUpload;
 use common\widgets\Models;
 use common\widgets\Template;
+use common\widgets\SelectTree;
 use pendalf89\filemanager\widgets\FileInput;
 use pendalf89\filemanager\widgets\TinyMCE;
 //use yii\bootstrap\ActiveForm;
 /* @var $this yii\web\View */
 /* @var $model backend\models\Column */
 /* @var $form yii\widgets\ActiveForm */
+$cache = Yii::$app->cache;
+$data = $cache['menu'];
 ?>
 <!-- START CUSTOM TABS -->
 
@@ -27,7 +30,7 @@ use pendalf89\filemanager\widgets\TinyMCE;
             </ul>
             <div class="tab-content">
                 <div class="tab-pane active" id="tab_1">
-
+                    <?= SelectTree::widget(['model'=>$model,'name'=>'parentid','data'=>$data])?>
                     <?= $form->field($model, 'cname')->textInput() ?>
                     <?= Ueditor::widget(['model'=>$model,'name'=>'content'])?>
 
