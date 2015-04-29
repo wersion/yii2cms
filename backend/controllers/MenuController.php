@@ -107,13 +107,13 @@ Eof;
         $url = $menu->find()->select('url')->column();
         $url = array_filter($url);
         $cache['url']=$url;
-        $str = "<?php \n     \$rules = [\n";
+        $str = "<?php \n\$rules = [\n";
         foreach($url as $v)
         {
-            $str.= "         '".$v."/<menu:\d+>' => 'index/menu',\n";
+            $str.= "     '".$v."/<menu:\d+>' => 'index/menu',\n";
         }
 
-        $str.= "    ] \n?>";
+        $str.= "]; \n?>";
 
         file_put_contents(Yii::getAlias('@common').'/config/rules.php',$str);
 

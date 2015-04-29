@@ -38,24 +38,26 @@ use yii\helpers\Url;
                     <li <?php if(Yii::$app->requestedAction->id=='dashboard'):?> class="active" <?php endif;?> >
                         <a href="/sys/dashboard"><i class="fa fa-angle-double-right"></i> 系统</a>
                     </li>
-                    <li <?php if(Yii::$app->requestedAction->id=='set'):?> class="active" <?php endif;?> >
-                        <a href="/sys/set"><i class="fa fa-angle-double-right"></i> 设置</a>
-                    </li>
 
                 </ul>
             </li>
-            <li class="active">
+            <li <?php if(Yii::$app->requestedAction->controller->id=='config'):?>class="active" <?php endif;?> >
+                <a href="<?= Url::to('/config') ?>" >
+                    <i class="fa fa-dashboard"></i> <span>配置</span>
+                </a>
+            </li>
+            <li <?php if(Yii::$app->requestedAction->controller->id=='models'):?>class="active" <?php endif;?> >
                 <a href="<?= Url::to('/models/index') ?>" >
                     <i class="fa fa-dashboard"></i> <span>模型</span>
                 </a>
             </li>
 
-            <li>
+            <li <?php if(Yii::$app->requestedAction->controller->id=='template'):?>class="active" <?php endif;?> >
                 <a href="/template/index">
                     <i class="fa fa-th"></i> <span>模板</span>
                 </a>
             </li>
-            <li>
+            <li <?php if(Yii::$app->requestedAction->controller->id=='menu'):?>class="active" <?php endif;?> >
                 <a href="/menu/index">
                     <i class="fa fa-th"></i> <span>栏目</span> <small class="badge pull-right bg-green">new</small>
                 </a>

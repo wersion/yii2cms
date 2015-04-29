@@ -12,6 +12,7 @@ use yii\filters\VerbFilter;
  */
 class SysController extends BaseController
 {
+    public $layout = 'admin';
     /**
      * @inheritdoc
      */
@@ -63,28 +64,4 @@ class SysController extends BaseController
         return $this->render('set');
     }
 
-    public function actionLogin()
-    {
-        if (!\Yii::$app->user->isGuest) {
-            return $this->goHome();
-            return $this->redirect('sys/dashboard');
-
-        }
-
-        $model = new LoginForm();
-        if ($model->load(Yii::$app->request->post()) && $model->login()) {
-            return $this->goBack();
-        } else {
-            return $this->render('login', [
-                'model' => $model,
-            ]);
-        }
-    }
-
-    public function actionLogout()
-    {
-        Yii::$app->user->logout();
-
-        return $this->goHome();
-    }
 }

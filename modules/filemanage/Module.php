@@ -13,6 +13,6 @@ use Yii;
 class Module extends \yii\base\Module
 {
     public $defaultRoute = 'index';
+    public $layout = '@backend/views/layouts/admin';
 
-
-} 
+}

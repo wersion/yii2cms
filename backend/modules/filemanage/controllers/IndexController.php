@@ -6,13 +6,14 @@
  * Time: 13:58
  */
 
-namespace modules\filemanage\controllers;
+namespace backend\modules\filemanage\controllers;
 
 use yii;
 use yii\web\Controller;
 class IndexController extends Controller{
+
     public $defaultRoute = 'index';
-    public $layout = 'admin';
+    public $layout = 'main';
 
     public function actionIndex()
     {
