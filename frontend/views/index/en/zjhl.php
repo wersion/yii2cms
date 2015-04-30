@@ -13,8 +13,6 @@
                 <div class="clear"></div>
                 <div style="height:56px;"><p></p></div>
             </div>
-            <div class="biaozhi"><img src="../images/jiao2.png" /></div>
-
 
         </div>
     </div>
