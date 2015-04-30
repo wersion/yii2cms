@@ -1,7 +1,6 @@
 <div class="cont_left">
     <div class="cont_left_bt">
-        <span><?= $cname?>22</span><br />
-        Walk into us
+        <span><?= $cname?>22</span>
     </div>
 
     <div class="cont_left_list">

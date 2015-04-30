@@ -2,8 +2,7 @@
     <div id="cont">
         <div class="cont_left">
             <div class="cont_left_bt">
-                <span><?= $cl->lang($cache['menu_'.$id]['cname'])?></span><br />
-                Plow&nbsp;woven
+                <span><?= $cl->lang($cache['menu_'.$id]['cname'])?></span>
             </div>
 
             <div class="cont_left_list">

@@ -28,7 +28,7 @@
 .clear{ clear:both;}
 
 /*��ҳ*/
-.fenye{ width:964px; text-align:center; color:#404040; padding-top:20px; padding-bottom:30px; background:#E8E8E8; }
+.fenye{ width:850px; text-align:center; color:#404040; padding-top:20px; padding-bottom:30px;/* background:#E8E8E8;*/ }
 .fenye a{ color:#404040; display:inline-block; margin:0px 10px;}
 
 /*------��������-��ϵ����-------*/
@@ -37,61 +37,64 @@
 .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
 
 /*------��������-�����ͻ�-------*/
-.hezuo{ width:919px; height:478px; padding-top:48px; padding-left:45px; position:relative; }
-.hezuo ul li{ width:266px; height:147px;  float:left; margin:19px 12px;}
+.hezuo{ width:805px; height:478px; padding-top:48px; padding-left:45px; position:relative; }
+.hezuo ul li{ width:228px; height:147px;  float:left; margin:19px 12px;}
+.hezuo ul li img{ max-width:100%;}
 
 
 /*------�߽�����-���д���-------*/
 .zoujin{ margin-top:15px; }
-.zoujin .zoujin_bt{ font-size:24px; color:#9fa0a0; width:30px; float:left; padding:0px 30px 0px 65px;}
-.zoujin .zoujin_nr{ float:left; width:750px; position:relative;} 
-.zoujin .zoujin_nr .zoujin_nr_img{ width:360px; text-align:center; color:#6B635A; float:left;}
+.zoujin .zoujin_bt{ font-size:24px; color:#9fa0a0; width:30px; float:left; padding:0px 30px 0px 40px;}
+.zoujin .zoujin_nr{ float:left; width:690px; position:relative;} 
+.zoujin .zoujin_nr .zoujin_nr_img{ width:333px; text-align:center; color:#6B635A; float:left;}
 .zoujin .zoujin_nr .zoujin_nr_img img{ margin-bottom:10px;}
 .zoujin .zoujin_nr p{ line-height:25px;color:#8B8C8C;}
 
 /*------�߽�����-Ʒ������-------*/
-.linian_bt{ width:776px; border-bottom:1px solid #CECECE;height:40px; line-height:40px; margin-bottom:20px; padding-bottom:3px;}
+.linian_bt{ width:690px; border-bottom:1px solid #CECECE;height:40px; line-height:40px; margin-bottom:20px; padding-bottom:3px;}
 .linian_bt ul li{ width:130px;  float:left; text-align:center; color:#6B635A; font-size:14px;}
 .linian_bt ul li.hover{ border-bottom:4px solid #FE944E; cursor:pointer;}
-.linian_nr{ width:776px; height:auto;}
+.linian_nr{ width:690px; height:auto;}
 .linian_nr .hide{ color:#FFFFFF; line-height:25px; display:none;}
 
 
 /*------�߽�����-�����б�ҳ-------*/
 .new_iconimg{ margin:10px 0px 20px 0px;}
-.new_list ul li{ width:767px;  height:44px;margin-bottom:10px; border-bottom:1px solid #C1BFBC;}
+.new_iconimg img{ max-width:100%;}
+.new_list ul li{ width:690px;  height:44px;margin-bottom:10px; border-bottom:1px solid #C1BFBC;}
 .new_list ul li .styleone{ width:88px; height:37px; float:left; color:#A29D98; padding:7px 0px 0px 14px;}
 .new_list ul li .styleone span{ font-size:11px;} 
-.new_list ul li .styletwo{ width:542px; height:44px; line-height:44px; float:left;  padding-left:20px; } 
+.new_list ul li .styletwo{ width:466px; height:44px; line-height:44px; float:left;  padding-left:20px; } 
 .new_list ul li .styletwo a{ color:#6b635a; font-size:15px; }
 .new_list ul li .styletwo a:hover{ text-decoration:underline;} 
 .new_list ul li .stylethree{width:100px; height:44px; line-height:44px; color:#A29D98;  float:left; text-align:center;}
 
 
 /*------�߽�����-��������ҳ-------*/
-.new{ width:964px; height:auto;}
-.newcont{ width:795px; margin:0px auto;}
+.new{ width:850px; height:auto;}
+.newcont{ width:730px; margin:10px auto;}
+.newcont img{ max-width:100%;} 
 .newcont .newcont_bt{ font-size:16px; color:#6B635A; margin-bottom:25px; padding-top:10px; text-align:center;}
 .newcont .newcont_bt p.js{ font-size:12px; margin:5px 0px;}
 .newcont .newcont_nr{ color:#8B8C8C; line-height:25px;}
 
 
 /*------�߽�����-��ҵ����-------*/
-.rongyu{ width:904px; height:auto; padding-top:20px; padding-left:60px;}
+.rongyu{ width:790px; height:auto; padding-top:20px; padding-left:40px;}
 .rongyu .rongyu_bt{ width:24px; font-size:24px; color:#9FA0A0; float:left; margin-right:35px;}
-.rongyu .rongyu_sj{ width:780px; float:left; padding-top:12px;}
+.rongyu .rongyu_sj{ width:680px; float:left; padding-top:12px;}
 .rongyu .rongyu_sj ul li{ width:28px; height:95px; background:#418E4C; color:#FFFFFF; margin-right:24px; font-size:15px; float:left; padding:15px 0px 0px 15px;}
 .rongyu .rongyu_sj ul li.hover{ background:#e4f4e6; color:#418E4C; border:2px solid #418E4C; cursor:pointer; height:91px;}
-.rongyu .rongyu_jx{ width:850px; height:auto; padding-top:63px;}
-.rongyu .rongyu_jx .rongyu_jx_list{width:860px; height:auto; display:none; }
-.rongyu .rongyu_jx .rongyu_jx_list ul li{ width:255px; height:212px; background:rgba(255,255,255,0.9); float:left; padding:12px 10px 12px 10px; margin-right:10px; margin-bottom:10px; box-shadow:1px 1px 1px #C0D0C2; -webkit-box-shadow:1px 1px 1px #C0D0C2; -moz-box-shadow:1px 1px 1px #C0D0C2; -o-box-shadow:1px 1px 1px #C0D0C2;}
-.rongyu .rongyu_jx .rongyu_jx_list ul li p{ width:255px; text-align:center; font-size:16px; color:#6B635A; height:40px; line-height:40px;}
-.rongyu .rongyu_jx .rongyu_jx_list ul li .list_img{ width:256px; height:180px; position:relative; left:0px; top:0px; overflow:hidden;}
+.rongyu .rongyu_jx{ width:790px; height:auto; padding-top:43px;}
+.rongyu .rongyu_jx .rongyu_jx_list{width:790px; height:auto; display:none; }
+.rongyu .rongyu_jx .rongyu_jx_list ul li{ width:233px; height:212px; background:rgba(255,255,255,0.9); float:left; padding:12px 10px 12px 10px; margin-right:10px; margin-bottom:10px; box-shadow:1px 1px 1px #C0D0C2; -webkit-box-shadow:1px 1px 1px #C0D0C2; -moz-box-shadow:1px 1px 1px #C0D0C2; -o-box-shadow:1px 1px 1px #C0D0C2;}
+.rongyu .rongyu_jx .rongyu_jx_list ul li p{ width:233px; text-align:center; font-size:16px; color:#6B635A; height:40px; line-height:40px;}
+.rongyu .rongyu_jx .rongyu_jx_list ul li .list_img{ width:233px; height:180px; position:relative; left:0px; top:0px; overflow:hidden;}
 .rongyu .rongyu_jx .rongyu_jx_list ul li .list_img img{ position:absolute; left:0px; top:0px; }
 
 
 /*------�߽�����-------*/
-.hualiang{ width:944px; height:auto; padding-top:27px; padding-left:20px;}
+.hualiang{ width:850px; height:auto;}
 .hualiang .hualiang_img{ width:427px; height:406px; float:left;}
 .hualiang .hualiang_nr{ width:415px; float:left; margin-left:38px;} 
 .hualiang .hualiang_nr .nr_bt{ font-size:48px; color:#6B635A; margin-top:-25px;} 
@@ -101,8 +104,8 @@
 
 
 /*------�߽�����-�Ŷӽ���-------*/
-.tuandui{ width:964px; height:auto; padding-top:20px; padding-left:42px;}
-.wc960{width:885px; }
+.tuandui{ width:769px; height:auto; padding-top:20px; padding-left:26px;}
+.wc960{width:758px; }
 .count{overflow:hidden;}
 .icon{background:url(../images/lrarrow.png) no-repeat 0 0;}
 .btn{display:block;height:23px;position:absolute;top:0px;width:23px;z-index:200;cursor:pointer;}
@@ -112,7 +115,7 @@
 ul li.yy{ width:885px; float:left;}
 ul li.yy .yy_bt{ font-size:18px; color:#FF781F; margin-bottom:25px;} 
 ul li.yy .yy_img{ width:367px; height:338px; float:left; margin-right:45px;} 
-ul li.yy .yy_js{  width:467px;float:left; color:#6B635A;}
+ul li.yy .yy_js{  width:367px;float:left; color:#6B635A;}
 ul li.yy .yy_js .js_xbt{ font-size:18px; margin-bottom:25px;}
 ul li.yy .yy_js p{ line-height:25px;}
 
@@ -158,7 +161,7 @@ a.img_wrap22{font-size:12px; color:#FFFFFF;}
 
 
 /*------��������-��������-------*/
-.jiaru{ width:964px; height:auto; color:#6B635A; padding:20px 0px 0px 60px; background:url(../images/pin.png) no-repeat 720px 20px;} 
+.jiaru{ width:810px; height:auto; color:#6B635A; padding:35px 0px 0px 40px; background:url(../images/pin.png) no-repeat 681px 35px;} 
 .jiaru .jiaru_bt{ font-size:14px; border-bottom:1px solid #6B635A; padding-bottom:8px; width:625px; margin-bottom:10px;}
 .jiaru .jiaru_bt span{ font-size:18px;} 
 .jiaru p{ line-height:25px; width:625px;}

@@ -6,8 +6,7 @@
     <div id="cont">
         <div class="cont_left">
             <div class="cont_left_bt">
-                <span>华粮联盟</span><br />
-                Walk into us
+                <span>华粮联盟</span>
             </div>
 
             <div class="cont_left_list">

@@ -4,8 +4,7 @@ $cl = new menu();
 ?>
 <div class="cont_left">
     <div class="cont_left_bt">
-        <span>走进华粮</span><br />
-        Walk into us
+        <span>走进华粮</span>
     </div>
 
     <div class="cont_left_list">

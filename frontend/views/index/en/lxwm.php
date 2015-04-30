@@ -3,8 +3,7 @@
     <div id="cont">
         <div class="cont_left">
             <div class="cont_left_bt">
-                <span><?= $cl->lang($cache['menu_'.$id.'_parent']['cname'])[$lang]?></span><br />
-                Walk into us
+                <span><?= $cl->lang($cache['menu_'.$id.'_parent']['cname'])[$lang]?></span>
             </div>
 
             <div class="cont_left_list">

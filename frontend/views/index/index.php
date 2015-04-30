@@ -4,7 +4,7 @@
 <div id="Adv">
     <div class="adva">
         <!--图片列表-->
-        <div style="width:1184px; margin:0px auto; position:relative; ">
+        <div style="width:1000px; margin:0px auto; position:relative; ">
             <?php foreach($cache['menu_31_photos'] as $key=>$photo):?>
                 <?php if($photo['place']=='1'):?>
                     <div class="ImgList" style="background:url('<?= Yii::$app->params['adminUrl'].$photo['url']?>') no-repeat center top"></div>
@@ -18,13 +18,13 @@
             <ul>
                 <?php foreach($cache['menu_31_photos'] as $key=>$photo):?>
                     <?php if($key==1 and $photo['place']=='2'):?>
-                        <li class="hover"><img src="<?= Yii::$app->params['adminUrl'].$photo['url']?>" width="296"  height="136" /><p><img src="images/chun.png" /></p></li>
+                        <li class="hover"><img src="<?= Yii::$app->params['adminUrl'].$photo['url']?>" width="250"  height="136" /><p>春耕</p></li>
                     <?php elseif($key==3 and $photo['place']=='2'):?>
-                        <li><img src="<?= Yii::$app->params['adminUrl'].$photo['url']?>"  width="296"  height="136"  /><p><img src="images/xiay.png" /></p></li>
+                        <li><img src="<?= Yii::$app->params['adminUrl'].$photo['url']?>"  width="250"  height="136"  /><p>夏耘</p></li>
                         <?php elseif($key==5 and $photo['place']=='2'):?>
-                        <li><img src="<?= Yii::$app->params['adminUrl'].$photo['url']?>"  width="296"  height="136"  /><p><img src="images/qiu.png" /></p></li>
+                        <li><img src="<?= Yii::$app->params['adminUrl'].$photo['url']?>"  width="250"  height="136" /><p>秋收</p></li>
                         <?php elseif($key==7 and $photo['place']=='2'):?>
-                        <li><img src="<?= Yii::$app->params['adminUrl'].$photo['url']?>"  width="296"  height="136"  /><p><img src="images/dong.png" /></p></li>
+                        <li><img src="<?= Yii::$app->params['adminUrl'].$photo['url']?>"  width="250"  height="136"   /><p>冬藏</p></li>
                     <?php endif;?>
                 <?php endforeach;?>
 

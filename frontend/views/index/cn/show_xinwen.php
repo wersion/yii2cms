@@ -7,8 +7,7 @@ $page = Yii::$app->request->getQueryParam('page')? Yii::$app->request->getQueryP
     <div id="cont">
         <div class="cont_left">
             <div class="cont_left_bt">
-                <span><?= $cl->lang($cache['menu_'.$menu_id.'_parent']['cname'])[$lang]?></span><br />
-                Walk into us
+                <span><?= $cl->lang($cache['menu_'.$menu_id.'_parent']['cname'])[$lang]?></span>
             </div>
 
             <div class="cont_left_list">

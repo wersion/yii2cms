@@ -5,8 +5,7 @@
     <div id="cont">
         <div class="cont_left">
             <div class="cont_left_bt">
-                <span>耕织堂</span><br />
-                Plow&nbsp;woven
+                <span>耕织堂</span>
             </div>
 
             <div class="cont_left_list">
@@ -14,6 +13,10 @@
                     <li class="hover"><a href="#">国家政策</a></li>
                     <li><a href="#">世界趋势</a></li>
                     <li><a href="#">心灵鸡汤</a></li>
+					<li><a href="#">春耕</a></li>
+					<li><a href="#">夏耘</a></li>
+					<li><a href="#">秋收</a></li>
+					<li><a href="#">冬藏</a></li>
                 </ul>
             </div>
            

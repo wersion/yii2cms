@@ -2,8 +2,7 @@
     <div id="cont">
         <div class="cont_left">
             <div class="cont_left_bt">
-                <span>耕织堂</span><br />
-                Plow&nbsp;woven
+                <span>耕织堂</span>
             </div>
 
             <div class="cont_left_list">
