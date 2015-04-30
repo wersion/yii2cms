@@ -14,7 +14,7 @@ class SelectTree extends Widget
     {
 
         return $this->render('selectTree',['name'=>$this->name,'model'=>$this->model,'menu'=>$this->data]);
-        //return $this->name2;
+
     }
 }
 ?>

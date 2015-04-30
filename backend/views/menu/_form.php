@@ -14,7 +14,16 @@ use pendalf89\filemanager\widgets\TinyMCE;
 /* @var $model backend\models\Column */
 /* @var $form yii\widgets\ActiveForm */
 $cache = Yii::$app->cache;
+
 $data = $cache['menu'];
+foreach($data as $k=>$v)
+{
+    if($v['id']==Yii::$app->request->get('id'))
+    {
+        unset($data[$k]);
+
+    }
+}
 ?>
 <!-- START CUSTOM TABS -->
 

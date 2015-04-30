@@ -6,11 +6,10 @@
         <div class="cont_right">
             <div class="cont_right_weizhi">当前位置：<span>首页</span> <?= $position?></div>
             <div class="hualiang">
-                <div class="hualiang_img"><img src="<?= Yii::$app->params['adminUrl']?><?= $menu['file']?>" width="427" height="406"/></div>
-                <div class="hualiang_nr">
-
-                    <?= $menu['content']?>
+                <div class="hualiang_img">
+                    <img src="<?= Yii::$app->params['adminUrl']?><?= $menu['file']?>"/>
                 </div>
+
                 <div class="clear"></div>
                 <div style="height:56px;"><p></p></div>
             </div>
