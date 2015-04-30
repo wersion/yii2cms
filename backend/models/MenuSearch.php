@@ -34,7 +34,7 @@ class MenuSearch extends Menu
 
     public function menuList()
     {
-        $data = Menu::find()->orderBy('sort')->asArray()->all();
+        $data = Menu::find()->orderBy('id')->asArray()->all();
         return $data;
     }
 
