@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50173
 File Encoding         : 65001
 
-Date: 2015-04-26 14:25:22
+Date: 2015-04-30 21:02:50
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -104,15 +104,15 @@ CREATE TABLE `menu` (
   PRIMARY KEY (`id`),
   KEY `model_f` (`model_id`),
   CONSTRAINT `model_f` FOREIGN KEY (`model_id`) REFERENCES `models` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=38 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of menu
 -- ----------------------------
-INSERT INTO `menu` VALUES ('1', '0', '1', '1', '走进华粮//Into Hualiang//走進華糧', '', '1', '1', '1', '<p style=\"font-size:48px; font-family: &#39;microsoft yahei&#39;;color: #6B635A; margin-bottom:35px; padding-top:10px;\">我们是<span style=\"margin: 0px; padding: 0px; font-size: 72px;\">谁？</span></p><p style=\"font-size: 18px; margin-bottom:10px;\r\ncolor: #FE944E;font-family: &#39;microsoft yahei&#39;;\">中国华粮集团有限责任公司</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(0, 0, 12); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; \">中国华粮集团有限公司秉承“善本、归元、循道”的理念，立足三农、服务民生，致力于农林牧副渔等行业，以农业、文化、网络、金融、小镇经济为五大产业方向，是高端大农业产品“标准化”的制定者、实施者。</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(0, 0, 12);line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal;\">华粮使命：</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(0, 0, 12);line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; \">1、让员工和家人更健康；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(0, 0, 12); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal;\">2、让投资者回报更高；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(0, 0, 12); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; \">3、让农民耕种快乐、种好地，好种地，地种好；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(0, 0, 12); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal;\">4、奉献“品质、环保、简约、方便、便宜”的好产品；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(0, 0, 12); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal;\">5、让人们体验喜悦和生命的美好；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px;  color: rgb(0, 0, 12); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; \">6、为社会贡献一个受人尊敬的企业。</p><p><br/></p>', '/uploads/files/about.jpg', '10', '1426860398', '1426860398');
-INSERT INTO `menu` VALUES ('2', '0', '3', '1', '耕织堂//Farming and weaving//耕織堂', '/colums/17', '2', '1', '1', '<p>22</p>', '', '10', '1426860646', '1426860646');
-INSERT INTO `menu` VALUES ('3', '0', '4', '1', '农博会//Agricultural Fair//農博會', '', '3', '2', '1', '<p>222</p>', '', '10', '1426860665', '1426860665');
-INSERT INTO `menu` VALUES ('8', '1', '14', '1', '华粮溯源//Hualiang traceability//華糧溯源', '', '1', '2', '1', '<p>aaa</p>', '/uploads/files/suyuan(1).jpg', '10', '1426898856', '1426898856');
+INSERT INTO `menu` VALUES ('1', '0', '1', '1', '走进华粮//Into Hualiang//走進華糧', '', '1', '1', '1', '<p style=\"font-size:48px; font-family: &#39;microsoft yahei&#39;;color: #6B635A; margin-bottom:35px; padding-top:10px;\">我们是<span style=\"margin: 0px; padding: 0px; font-size: 72px;\">谁？</span></p><p style=\"font-size: 18px; margin-bottom:10px;\r\ncolor: #FE944E;font-family: &#39;microsoft yahei&#39;;\">中国华粮集团有限责任公司</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(0, 0, 12); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; \">中国华粮集团有限公司秉承“善本、归元、循道”的理念，立足三农、服务民生，致力于农林牧副渔等行业，以农业、文化、网络、金融、小镇经济为五大产业方向，是高端大农业产品“标准化”的制定者、实施者。</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(0, 0, 12);line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal;\">华粮使命：</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(0, 0, 12);line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; \">1、让员工和家人更健康；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(0, 0, 12); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal;\">2、让投资者回报更高；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(0, 0, 12); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; \">3、让农民耕种快乐、种好地，好种地，地种好；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(0, 0, 12); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal;\">4、奉献“品质、环保、简约、方便、便宜”的好产品；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px; color: rgb(0, 0, 12); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal;\">5、让人们体验喜悦和生命的美好；</p><p style=\"margin-top: 0px; margin-bottom: 0px; padding: 0px;  color: rgb(0, 0, 12); line-height: 25px; font-family: &#39;microsoft yahei&#39;; font-size: 12px; white-space: normal; \">6、为社会贡献一个受人尊敬的企业。</p><p><br/></p>', '/uploads/files/zjhltu.jpg', '10', '1426860398', '1430373320');
+INSERT INTO `menu` VALUES ('2', '0', '1', '1', '耕织堂//Farming and weaving//耕織堂', '/colums/17', '2', '1', '1', '<p>22</p>', '/uploads/files/gzttu.jpg', '10', '1426860646', '1430373557');
+INSERT INTO `menu` VALUES ('3', '0', '1', '1', '农博会//Agricultural Fair//農博會', '', '3', '2', '1', '<p>222</p>', '/uploads/files/nbhtu.jpg', '10', '1426860665', '1430373592');
+INSERT INTO `menu` VALUES ('8', '1', '14', '1', '华粮溯源//Hualiang traceability//華糧溯源', '', '1', '2', '1', '<p>aaa</p>', '/uploads/files/sytu.jpg', '10', '1426898856', '1430373939');
 INSERT INTO `menu` VALUES ('9', '1', '9', '1', '企业荣誉//Enterprise honor//企業榮譽', '', '3', '2', '1', '<p>爱爱爱</p>', '', '10', '1426898887', '1426898887');
 INSERT INTO `menu` VALUES ('10', '1', '2', '1', '团队介绍//Team Introduction//團隊介紹', '', '2', '1', '1', '<p>11</p>', '', '10', '1426898960', '1426898960');
 INSERT INTO `menu` VALUES ('13', '1', '10', '1', '品牌理念//Brand concept//品牌理念', '', '4', '1', '1', '<p>12</p>', '', '10', '1427082642', '1427082642');
@@ -122,14 +122,19 @@ INSERT INTO `menu` VALUES ('16', '1', '6', '1', '媒体报道//Media reports//�
 INSERT INTO `menu` VALUES ('17', '2', '6', '1', '国家政策//The national policy//國家政策', '', '1', '2', '1', '<p>11</p>', '', '10', '1427082914', '1427082914');
 INSERT INTO `menu` VALUES ('18', '2', '6', '1', '世界趋势//World Trend//世界趨勢', '', '2', '2', '1', '<p>11</p>', '', '10', '1427082950', '1427082950');
 INSERT INTO `menu` VALUES ('19', '2', '6', '1', '心灵鸡汤//Chicken Soup for the soul//心靈雞湯', '', '3', '2', '1', '<p>11</p>', '', '10', '1427082980', '1427082980');
-INSERT INTO `menu` VALUES ('20', '0', '1', '1', '华粮商道//Hualiang business//華糧商道', '', '4', '1', '1', '<p>11</p>', '', '10', '1427093555', '1427093555');
-INSERT INTO `menu` VALUES ('21', '0', '13', '1', '华粮联盟//Hualiang alliance//華糧聯盟', '', '5', '1', '1', '<p style=\"text-align: center;\"><strong><br/></strong></p><p style=\"text-align: center;\"><strong>11222</strong></p><p><strong>AAAAAAAAAAAA</strong></p>', '', '10', '1427093599', '1427093599');
-INSERT INTO `menu` VALUES ('22', '3', '5', '1', '异地特色//Different characteristics//異地特色', '', null, '1', '1', '<p>11</p>', '', '10', '1427098876', '1427098876');
+INSERT INTO `menu` VALUES ('20', '0', '1', '1', '华粮商道//Hualiang business//華糧商道', '', '4', '1', '1', '<p>11</p>', '/uploads/files/hlsdtu.jpg', '10', '1427093555', '1430373638');
+INSERT INTO `menu` VALUES ('21', '0', '13', '1', '联盟//Alliance//聯盟', '', '5', '1', '1', '<p style=\"text-align: center;\"><strong><br/></strong></p><p style=\"text-align: center;\"><strong>11222</strong></p><p><strong>AAAAAAAAAAAA</strong></p>', '', '10', '1427093599', '1430379720');
+INSERT INTO `menu` VALUES ('22', '3', '4', '1', '异地特色//Different characteristics//異地特色', '', null, '1', '1', '<p>11</p>', '', '10', '1427098876', '1430378403');
 INSERT INTO `menu` VALUES ('23', '20', '1', '1', '官方商城//The official mall//官方商城', '', null, '1', '1', '<p>1</p>', '', '10', '1427098913', '1427098913');
 INSERT INTO `menu` VALUES ('24', '21', '7', '1', '合作客户//Customer cooperation//合作客戶', '', '1', '1', '1', '<p>2233</p>', '', '10', '1427266726', '1427266726');
 INSERT INTO `menu` VALUES ('29', '21', '8', '1', '联系我们//Contact us//聯系我們', '', '1', '1', '1', '<p>12</p>', '', '10', '1427443264', '1427443264');
 INSERT INTO `menu` VALUES ('30', '21', '12', '1', '加入我们//Join us//加入我們', '', '3', '1', '1', '<p>234</p>', '', '10', '1427443329', '1427443329');
 INSERT INTO `menu` VALUES ('31', '0', '1', '1', '首页', 'Assdaas', null, null, null, '', '', '10', '1428905080', '1428917479');
+INSERT INTO `menu` VALUES ('33', '2', '6', '1', '春耕//spring ploughing//春耕', '', '4', null, null, '', '', '10', '1430370496', '1430387281');
+INSERT INTO `menu` VALUES ('34', '2', '6', '1', '夏耘//Summer hoeing//夏耘', '', '5', null, null, null, '', '10', '1430370510', '1430387290');
+INSERT INTO `menu` VALUES ('35', '2', '6', '1', '秋收//Autumn harvest//秋收', '', '6', null, null, null, '', '10', '1430370519', '1430387302');
+INSERT INTO `menu` VALUES ('36', '2', '6', '1', '冬藏//Dongcang//冬藏', '', '7', null, null, null, '', '10', '1430370526', '1430387309');
+INSERT INTO `menu` VALUES ('37', '21', '1', '1', '网站地图//Site map//網站地圖', '', null, null, null, '', '', '10', '1430370946', '1430374996');
 
 -- ----------------------------
 -- Table structure for `migration`
@@ -175,7 +180,7 @@ CREATE TABLE `photo` (
   `title` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `url` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
   `article_id` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `column_id` int(10) DEFAULT NULL,
+  `menu_id` int(10) DEFAULT NULL,
   `description` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `sort` int(11) DEFAULT NULL,
   `status` smallint(6) NOT NULL DEFAULT '10',
@@ -220,15 +225,15 @@ INSERT INTO `photo_menu` VALUES ('2', null, '皮草2', '/uploads/files/Desert.jp
 INSERT INTO `photo_menu` VALUES ('5', null, '1', '/uploads/files/hezuo%20(1).jpg', '24', '12', null, null, '1427446405', '1427446405');
 INSERT INTO `photo_menu` VALUES ('6', null, '2', '/uploads/files/hezuo%20(2).jpg', '24', '2', null, null, '1427446415', '1427446415');
 INSERT INTO `photo_menu` VALUES ('7', null, '3', '/uploads/files/hezuo%20(3).jpg', '24', '3', null, null, '1427446425', '1427446425');
-INSERT INTO `photo_menu` VALUES ('8', null, '请问', '/uploads/images/Hardware02.jpg', '1', '12', null, null, '1427603246', '1427603675');
-INSERT INTO `photo_menu` VALUES ('9', '1', '春', '/uploads/files/maxbanner2.jpg', '31', '春', null, null, '1429539376', '1429694730');
-INSERT INTO `photo_menu` VALUES ('10', '2', '春小', '/uploads/files/minbanner2(1).jpg', '31', '春小', null, null, '1429694199', '1429694751');
-INSERT INTO `photo_menu` VALUES ('11', '1', '夏', '/uploads/files/maxbanner1(1).jpg', '31', '夏', null, null, '1429694972', '1429694972');
-INSERT INTO `photo_menu` VALUES ('12', '2', '夏小', '/uploads/files/minbanner1(1).jpg', '31', '夏小', null, null, '1429694997', '1429695384');
-INSERT INTO `photo_menu` VALUES ('13', '1', '秋', '/uploads/files/maxbanner3(1).jpg', '31', '秋', null, null, '1429695023', '1429695023');
-INSERT INTO `photo_menu` VALUES ('14', '2', '秋小', '/uploads/files/minbanner3.jpg', '31', '秋小', null, null, '1429695042', '1429695399');
-INSERT INTO `photo_menu` VALUES ('15', '1', '冬', '/uploads/files/maxbanner4(1).jpg', '31', '冬', null, null, '1429695065', '1429695065');
-INSERT INTO `photo_menu` VALUES ('16', '2', '冬小', '/uploads/files/minbanner4.jpg', '31', '冬小', null, null, '1429695084', '1429695408');
+INSERT INTO `photo_menu` VALUES ('8', '1', '请问', '/uploads/files/hezuo%20(5).jpg', '1', '12', null, null, '1427603246', '1430212504');
+INSERT INTO `photo_menu` VALUES ('9', '1', '春', '/uploads/files/45454545.jpg', '31', '春', null, null, '1429539376', '1430380171');
+INSERT INTO `photo_menu` VALUES ('10', '2', '春小', '/uploads/files/one.jpg', '31', '春小', null, null, '1429694199', '1430379772');
+INSERT INTO `photo_menu` VALUES ('11', '1', '夏', '/uploads/files/ytuytuty.jpg', '31', '夏', null, null, '1429694972', '1430380441');
+INSERT INTO `photo_menu` VALUES ('12', '2', '夏小', '/uploads/files/ttttt.jpg', '31', '夏小', null, null, '1429694997', '1430379792');
+INSERT INTO `photo_menu` VALUES ('13', '1', '秋', '/uploads/files/454545432.jpg', '31', '秋', null, null, '1429695023', '1430380245');
+INSERT INTO `photo_menu` VALUES ('14', '2', '秋小', '/uploads/files/three.jpg', '31', '秋小', null, null, '1429695042', '1430379808');
+INSERT INTO `photo_menu` VALUES ('15', '1', '冬', '/uploads/files/56765.jpg', '31', '冬', null, null, '1429695065', '1430380277');
+INSERT INTO `photo_menu` VALUES ('16', '2', '冬小', '/uploads/files/fivsdfsdfe.jpg', '31', '冬小', null, null, '1429695084', '1430380053');
 
 -- ----------------------------
 -- Table structure for `template`
@@ -276,10 +281,11 @@ CREATE TABLE `user` (
   `created_at` int(11) NOT NULL,
   `updated_at` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of user
 -- ----------------------------
 INSERT INTO `user` VALUES ('1', 'admin', '_XlvIAqRwx7SXcfQ4oiMpGQj-u3835-N', '$2y$13$AGVL.yQRJZajqtTaeuHP/.sWsRzfiGbUiwnjh8w8BUwuaC.7frRju', null, 'admin@qq.com', '10', '1426062672', '1426062672');
 INSERT INTO `user` VALUES ('2', 'hualiang', 'ax_GvZy6-n4HF1EvtYt5PR9ybCYxCRO4', '$2y$13$eHG3xxnmodoOu8h6KoknuOGrnsTd9NWuUKD6.RFJKdr1lRqJZsMwS', null, 'hua@qq.com', '10', '1428888120', '1428888120');
+INSERT INTO `user` VALUES ('3', '', '', '', null, '', '10', '1430053427', '1430053427');
