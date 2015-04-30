@@ -21,15 +21,15 @@
             <div class="ditu">
                 <ul>
                     <?php foreach($cache['menu_1_brother'] as $menu):?>
-                    <li>
+                        <li>
 
-                        <span><a href="/menu/<?= $menu['id']?>"><?= $menu['cname']?></a></span>
+                            <span><a href="/menu/<?= $menu['id']?>"><?= $cl->lang($menu['cname'])[$lang]?></a></span>
 
-                        <?php foreach($cache['menu_'.$menu['id'].'_children'] as $chiid):?>
-                             <p><a href="/menu/<?= $chiid['id']?>"><?= $chiid['cname']?></a></p>
-                        <?php endforeach;?>
+                            <?php foreach($cache['menu_'.$menu['id'].'_children'] as $chiid):?>
+                                <p><a href="/menu/<?= $chiid['id']?>"><?= $cl->lang($chiid['cname'])[$lang]?></a></p>
+                            <?php endforeach;?>
 
-                    </li>
+                        </li>
                     <?php endforeach;?>
 
                 </ul>

@@ -23,10 +23,10 @@
                     <?php foreach($cache['menu_1_brother'] as $menu):?>
                     <li>
 
-                        <span><a href="/menu/<?= $menu['id']?>"><?= $menu['cname']?></a></span>
+                        <span><a href="/menu/<?= $menu['id']?>"><?= $cl->lang($menu['cname'])[$lang]?></a></span>
 
                         <?php foreach($cache['menu_'.$menu['id'].'_children'] as $chiid):?>
-                             <p><a href="/menu/<?= $chiid['id']?>"><?= $chiid['cname']?></a></p>
+                             <p><a href="/menu/<?= $chiid['id']?>"><?= $cl->lang($chiid['cname'])[$lang]?></a></p>
                         <?php endforeach;?>
 
                     </li>
