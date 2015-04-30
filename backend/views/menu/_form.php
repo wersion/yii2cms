@@ -6,7 +6,7 @@ use common\widgets\Ueditor;
 use common\widgets\ImageUpload;
 use common\widgets\Models;
 use common\widgets\Template;
-use common\widgets\SelectTree;
+use common\widgets\fields\SelectTree;
 use pendalf89\filemanager\widgets\FileInput;
 use pendalf89\filemanager\widgets\TinyMCE;
 //use yii\bootstrap\ActiveForm;
