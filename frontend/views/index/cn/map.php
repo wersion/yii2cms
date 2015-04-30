@@ -10,7 +10,7 @@
             <div class="cont_left_list">
                 <ul>
                     <?php foreach($cache['menu_21_children'] as $v):?>
-                    <li><a href="/menu/<?= $v['id']?>"><?= $v['cname']?></a></li>
+                    <li><a href="/menu/<?= $v['id']?>"><?= $cl->lang($v['cname'])[$lang]?></a></li>
                     <?php endforeach;?>
 
                 </ul>
@@ -18,19 +18,21 @@
            
         </div>
         <div class="cont_right">
-            <div class="cont_right_weizhi">当前位置：<span>首页</span>&gt;<span>华粮联盟</span>&gt;<span>加入我们</span></div>
+            <div class="cont_right_weizhi">当前位置：<span>首页</span>&gt;<span>华粮地图</span></div>
             <div class="ditu">
                 <ul>
                     <?php foreach($cache['menu_1_brother'] as $menu):?>
-                        <li>
+                        <?php if($menu['id'] !== '31'):?>
+                            <li>
 
-                            <span><a href="/menu/<?= $menu['id']?>"><?= $cl->lang($menu['cname'])[$lang]?></a></span>
+                                <span><a href="/menu/<?= $menu['id']?>"><?= $cl->lang($menu['cname'])[$lang]?></a></span>
 
-                            <?php foreach($cache['menu_'.$menu['id'].'_children'] as $chiid):?>
-                                <p><a href="/menu/<?= $chiid['id']?>"><?= $cl->lang($chiid['cname'])[$lang]?></a></p>
-                            <?php endforeach;?>
+                                <?php foreach($cache['menu_'.$menu['id'].'_children'] as $chiid):?>
+                                    <p><a href="/menu/<?= $chiid['id']?>"><?= $cl->lang($chiid['cname'])[$lang]?></a></p>
+                                <?php endforeach;?>
 
-                        </li>
+                            </li>
+                        <?php endif;?>
                     <?php endforeach;?>
 
                 </ul>
