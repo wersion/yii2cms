@@ -81,7 +81,6 @@ class menu extends \yii\db\ActiveRecord
             'updated_at' => 'Updated At',
         ];
     }
-
     /**
      * @return \yii\db\ActiveQuery
      */
