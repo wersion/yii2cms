@@ -48,8 +48,7 @@ HualAsset::register($this);
 <div id="navigation">
 	<div id="nav">
 		<ul class="nav_cont">
-				
-                <li <?php if(Yii::$app->request->get('_url')==''):?> class="style hover" <?php endif?>><a href="/?lang=<?= Yii::$app->session['language']?>">首页</a></li>
+
                 <?= Menu::widget(['lang'=>'0'])?>
 		</ul>	
 
@@ -66,4 +65,4 @@ HualAsset::register($this);
 <?php $this->endBody() ?>
 </body>
 </html>
-<?php $this->endPage() ?>
+<?php $this->endPage() ?><?php echo Yii::$app->request->url.'<br>'.'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'<br>'.Yii::$app->params['siteUrl']?>

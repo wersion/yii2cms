@@ -32,6 +32,7 @@ class MenuController extends BaseController
      */
     public function actionIndex()
     {
+        $session = Yii::$app->session;
        // $cache = Yii::$app->cache;
         //$menuList = $cache['menus'];
         $searchModel = new MenuSearch();
@@ -54,7 +55,7 @@ class MenuController extends BaseController
 Eof;
         $menuTree = $tree->get_tree(0,$str);
         return $this->render('index',[
-            'menuTree'=>$menuTree
+            'menuTree'=>$menuTree,
         ]);
     }
 
@@ -88,7 +89,8 @@ Eof;
         $model->parentid = $request->get('id')?$request->get('id'):0;
 
         if ($model->load($request->post()) && $model->save()) {
-
+            $model->url = $model->link?$model->link:$model->route?Yii::$app->params['siteUrl'].'/'.$model->route.'/'.                      $model->id:Yii::$app->params['siteUrl'].'/menu/'.$model->id;
+            $model->save();
             return $this->redirect(['index']);
         } else {
             return $this->render('create', [
@@ -104,11 +106,11 @@ Eof;
 
         $cache = Yii::$app->cache;
         $menu = new Menu();
-        $url = $menu->find()->select('url')->column();
-        $url = array_filter($url);
-        $cache['url']=$url;
+        $route = $menu->find()->select('route')->column();
+        $route = array_filter($route);
+        $cache['route']=$route;
         $str = "<?php \n\$rules = [\n";
-        foreach($url as $v)
+        foreach($route as $v)
         {
             $str.= "     '".$v."/<menu:\d+>' => 'index/menu',\n";
         }
@@ -116,6 +118,7 @@ Eof;
         $str.= "]; \n?>";
 
         file_put_contents(Yii::getAlias('@common').'/config/rules.php',$str);
+
 
         $cache['menu'] = $menuList;
         foreach($menuList as $menuOne)
@@ -129,7 +132,20 @@ Eof;
 
     public function cacheMenuOneAction($id,$pid)
     {
+        $model = Menu::findOne($id);
 
+        if($model->link)
+        {
+            $model->url = $model->link;
+        }elseif($model->route)
+        {
+            $model->url = Yii::$app->params['siteUrl'].'/'.$model->route.'/'.$id;
+        }else
+        {
+            $model->url = Yii::$app->params['siteUrl'].'/menu/'.$id;
+        }
+        $model->save();
+        $request = Yii::$app->request;
         $cache = Yii::$app->cache;
 
         $menuOne = Menu::findOne($id)->toArray();
@@ -169,12 +185,23 @@ Eof;
     public function actionUpdate($id)
     {
         $model = $this->findModel($id);
-
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            if($model->link)
+            {
+                $model->url = $model->link;
+            }elseif($model->route)
+            {
+                $model->url = Yii::$app->params['siteUrl'].'/'.$model->route.'/'.$id;
+            }else
+            {
+                $model->url = Yii::$app->params['siteUrl'].'/menu/'.$id;
+            }
+            $model->save();
             return $this->redirect(['index']);
         } else {
             return $this->render('update', [
                 'model' => $model,
+               
             ]);
         }
     }
@@ -188,7 +215,7 @@ Eof;
     public function actionDelete($id)
     {
         $this->findModel($id)->delete();
-        $this->actionCache();
+
         return $this->redirect(['index']);
     }
 

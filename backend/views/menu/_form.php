@@ -49,7 +49,9 @@ foreach($data as $k=>$v)
 
                     <?= Template::widget(['model'=>$model,'form'=>$form])?>
 
-                    <?= $form->field($model, 'url')->textInput() ?>
+                    <?= $form->field($model, 'route')->textInput() ?>
+
+                    <?= $form->field($model, 'link')->textInput() ?>
 
                     <?= $form->field($model,'isShow')->radioList(['1'=>'是','2'=>'否'],[])?>
 

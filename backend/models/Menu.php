@@ -53,7 +53,7 @@ class menu extends \yii\db\ActiveRecord
     {
         return [
             [['parentid', 'cname','model_id'], 'required'],
-            [['sort','template_id','file','isArticle','url','isShow','content'],'safe'],
+            [['sort','template_id','file','isArticle','url','isShow','content','link','route'],'safe'],
             [['parentid', 'status'], 'integer']
         ];
     }
@@ -68,7 +68,7 @@ class menu extends \yii\db\ActiveRecord
             'parentid' => '上级菜单',
             'sort' => '排序',
             'cname' => '栏目名称',
-            'url' => '链接地址',
+            'route' => '路由',
 
             'model_id' => '选择模型',
             'template_id' => '选择模板',

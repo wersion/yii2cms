@@ -47,7 +47,6 @@ HualAsset::register($this);
         <div id="nav">
             <ul class="nav_cont">
 
-                <li <?php if(Yii::$app->request->get('_url')==''):?> class="style hover" <?php endif?>><a href="/?lang=<?= Yii::$app->session['language']?>">HOME</a></li>
                 <?= Menu::widget(['lang'=>1])?>
             </ul>
 

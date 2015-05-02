@@ -17,7 +17,6 @@ class Menu extends \yii\bootstrap\Widget{
 
         $cache = Yii::$app->cache;
         $menu = $cache['menu'];
-        unset($menu[2]);
         return $this->render('menu',['menu'=>$menu,'lang'=>$this->lang]);
     }
 

@@ -1,6 +1,7 @@
 <?php 
 $rules = [
-     '/colums/17/<menu:\d+>' => 'index/menu',
-     'Assdaas/<menu:\d+>' => 'index/menu',
+     'news/<menu:\d+>' => 'index/menu',
+     'hlsy/<menu:\d+>' => 'index/menu',
+     'zjhl/news/<menu:\d+>' => 'index/menu',
 ]; 
 ?>
