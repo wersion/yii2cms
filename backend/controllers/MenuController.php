@@ -185,11 +185,12 @@ Eof;
      * @param integer $id
      * @return mixed
      */
+
     public function actionUpdate($id)
     {
         $model = $this->findModel($id);
-        $model->place = explode(',',$model->place);
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+
+        if ($model->load(Yii::$app->request->post())) {
             if($model->link)
             {
                 $model->url = $model->link;
@@ -200,15 +201,14 @@ Eof;
             {
                 $model->url = Yii::$app->params['siteUrl'].'/menu/'.$id;
             }
-            $model->place = implode(',',$model->place);
+            $model->place=implode(',',$model->place);
             $model->save();
-
             return $this->redirect(['index']);
         } else {
-
+            $model->place = explode(',',$model->place);
             return $this->render('update', [
                 'model' => $model,
-               
+
             ]);
         }
     }
