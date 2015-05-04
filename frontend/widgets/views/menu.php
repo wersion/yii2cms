@@ -31,7 +31,7 @@ function procHtml($tree,$lang)
 
         if ($t['children'] !== '')
         {
-            if(Yii::$app->request->absoluteUrl==$t['url'])
+            if(in_array($t['id'],$cache['menu_'.Yii::$app->request->get('menu').'_parents']))
             {
 
                 $html .= "<li class='hover'><a href='{$t['url']}'>" . $cl->lang($t['cname'])[$lang] . "</a>";
