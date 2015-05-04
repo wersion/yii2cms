@@ -3,13 +3,13 @@ use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
-use frontend\assets\HualAsset;
+use frontend\assets\EnHualAsset;
 use frontend\widgets\Menu;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-HualAsset::register($this);
+EnHualAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
