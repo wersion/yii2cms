@@ -5,7 +5,7 @@
         <div class="cont_right">
             <div class="cont_right_weizhi">當前位置：<span>首頁</span> <?= $position?></div>
             <div class="zoujin">
-                <div class="zoujin_bt">品牌理念</div>
+                <div class="zoujin_bt"><?= $cl->lang($cache['menu_'.$id]['cname'])[$lang]?></div>
                 <div class="zoujin_nr">
 
                     <div class="linian_bt">

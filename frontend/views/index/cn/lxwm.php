@@ -16,7 +16,7 @@
             
         </div>
         <div class="cont_right">
-            <div class="cont_right_weizhi">当前位置：<span>首页</span>&gt;<span>华粮联盟</span>&gt;<span>联系我们</span></div>
+            <div class="cont_right_weizhi">当前位置：<span>首页</span><?= $position?></div>
             <div class="cont_right_nr">
                 <p class="lianxi"><img src="../images/contact2.jpg" />联系我们</p>
               	<div class="juti">
