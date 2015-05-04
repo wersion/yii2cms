@@ -29,36 +29,46 @@ function procHtml($tree,$lang)
     foreach($tree as $t)
     {
 
-            //如果有get['menu']
-            if($t['children']!== '')
+        if ($t['children'] !== '')
+        {
+            if(Yii::$app->request->absoluteUrl==$t['url'])
             {
-                //如果有子菜单
-                if(in_array($t['id'],$cache['menu_'.Yii::$app->request->get('menu').'_parents']))
+
+                $html .= "<li class='hover'><a href='{$t['url']}'>" . $cl->lang($t['cname'])[$lang] . "</a>";
+                $html .= '<div class="menu">' . procHtml($t['children'], $lang) . '</div>';
+                $html .= "</li>";
+            }else
+            {
+                $html .= "<li><a href='{$t['url']}'>" . $cl->lang($t['cname'])[$lang] . "</a>";
+                $html .= '<div class="menu">' . procHtml($t['children'], $lang) . '</div>';
+                $html .= "</li>";
+            }
+
+        } else
+        {
+            //如果没有子菜单
+            if ($t['link'] == Yii::$app->params['siteUrl'])
+            {
+                if(Yii::$app->request->get('menu')=='')
                 {
-                    //如果是当前菜单或其父类
-                    $html .= "<li class='hover'><a href='{$t['url']}'>".$cl->lang($t['cname'])[$lang]."</a>";
-                    $html.= '<div class="menu">'.procHtml($t['children'],$lang).'</div>';
-                    $html.="</li>";
+                    $html .= "<li class='hover'><a href='{$t['url']}/?lang=" . Yii::$app->language . "'>{$cl->lang($t['cname'])[$lang]}</a></li>";
                 }else
                 {
-                    //不是当前菜单或其父类
-                    $html .= "<li><a href='{$t['url']}'>".$cl->lang($t['cname'])[$lang]."</a>";
-                     $html.= '<div class="menu">'.procHtml($t['children'],$lang).'</div>';
-                    $html.="</li>";
+
+                    $html .= "<li><a href='{$t['url']}/?lang=" . Yii::$app->language . "'>{$cl->lang($t['cname'])[$lang]}</a></li>";
                 }
             }
             else
             {
-                //如果没有子菜单
-
-                $html.= "<p><a href='{$t['url']}'>{$cl->lang($t['cname'])[$lang]}</a></p>";
-
+                //如果不是首页
+                $html .= "<p><a href='{$t['url']}'>{$cl->lang($t['cname'])[$lang]}</a></p>";
             }
-
-
+        }
     }
+
     return $html;
 }
+
 
 
 function procHtml2($tree,$lang)
