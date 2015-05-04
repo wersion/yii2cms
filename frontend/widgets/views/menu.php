@@ -73,7 +73,37 @@ function procHtml($tree,$lang)
             else
             {
 
-                $html.= "<li><a href='{$t['url']}'>{$cl->lang($t['cname'])[$lang]}</a></li>";
+                if($t['children']!== '')
+                {
+                    //如果有子菜单
+                    if(in_array($t['id'],$cache['menu_'.Yii::$app->request->get('menu').'_parents']))
+                    {
+                        //如果是当前菜单或其父类
+                        $html .= "<li class='hover'><a href='{$t['url']}'>".$cl->lang($t['cname'])[$lang]."</a>";
+                        $html.= '<div class="menu">'.procHtml($t['children'],$lang).'</div>';
+                        $html.="</li>";
+                    }else
+                    {
+                        //不是当前菜单或其父类
+                        $html .= "<li><a href='{$t['url']}'>".$cl->lang($t['cname'])[$lang]."</a>";
+                        $html.= '<div class="menu">'.procHtml($t['children'],$lang).'</div>';
+                        $html.="</li>";
+                    }
+                }
+                else
+                {
+                    //如果没有子菜单
+                    if($t['link']==Yii::$app->params['siteUrl'])
+                    {
+                        //如果是首页
+                        $html.= "<li><a href='{$t['url']}/?lang=".Yii::$app->language."'>{$cl->lang($t['cname'])[$lang]}</a></li>";
+                    }
+                    else
+                    {
+                        //如果不是首页
+                        $html.= "<p><a href='{$t['url']}'>{$cl->lang($t['cname'])[$lang]}</a></p>";
+                    }
+                }
             }
 
         }
