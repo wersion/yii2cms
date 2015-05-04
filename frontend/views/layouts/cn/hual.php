@@ -47,7 +47,6 @@ HualAsset::register($this);
         <div id="nav">
             <ul class="nav_cont">
 
-
                 <?= Menu::widget(['lang'=>0])?>
             </ul>
 
@@ -57,7 +56,7 @@ HualAsset::register($this);
 
     <?= $content ?>
     <div id="footer">
-        <p class="footer_list"><a href="/index/map">网站地图</a><a href="#">招贤纳士</a><a href="#">联系我们</a></p>
+        <p class="footer_list"><a href="/menu/37">网站地图</a><a href="/menu/30">招贤纳士</a><a href="/menu/29">联系我们</a></p>
         <p class="footer_company">@Copyright 2013-2014中国华粮集团有限公司&nbsp;沪ICP备050190号</p>
     </div>
     <?php $this->endBody() ?>

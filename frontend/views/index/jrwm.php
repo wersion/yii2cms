@@ -1,22 +1,9 @@
 <!--内容区-->
 <div id="content">
     <div id="cont">
-        <div class="cont_left">
-            <div class="cont_left_bt">
-                <span><?= $cl->lang($cache['menu_'.$id.'_parent']['cname'])[$lang]?></span>
-            </div>
-
-            <div class="cont_left_list">
-                <ul>
-                    <?php foreach($cache['menu_'.$id.'_brother'] as $child):?>
-                        <li <?php if($id==$child['id']):?> class="hover" <?php endif?> ><a href="/menu/<?= $child['id']?>"><?= $cl->lang($child['cname'])[$lang]?></a></li>
-                    <?php endforeach;?>
-                </ul>
-            </div>
-            
-        </div>
+        <?php include '../views/index/left_l.php'?>
         <div class="cont_right">
-            <div class="cont_right_weizhi">当前位置：<span>首页</span> <?= $position ?></div>
+            <div class="cont_right_weizhi">當前位置：<span>首頁</span> <?= $position?></div>
             <div class="jiaru">
                <!-- <div class="jiaru_bt"><span>招贤纳士 /</span>  join us</div>
                 <p>我们是一群平凡的年轻人，因为一个共同的梦想，为了通过运动帮助更多人解决健康问题，我们齐聚魔都。我们一直在前进的路上，从未停歇，如果你想加入我们那就来吧！行修健身开疆扩土连锁店进行中，招兵买马打造年轻人最稳定的工作平台...</p>

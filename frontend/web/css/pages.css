@@ -8,13 +8,13 @@
 #cont .cont_left .cont_left_bt span{ font-size:18px;} 
 #cont .cont_left .cont_left_list{ padding-top:15px;background:#71c83d; padding-bottom:90px;}
 #cont .cont_left .cont_left_list ul li{ height:40px; line-height:40px; width:131px; text-align:center; }
-#cont .cont_left .cont_left_list ul li a{ color:#FFFFFF; font-size:17px;} 
+#cont .cont_left .cont_left_list ul li a{ color:#FFFFFF; font-size:17px;letter-spacing: -1px;} 
 #cont .cont_left .cont_left_list ul li:hover{background:#ff781f;}
 #cont .cont_left .cont_left_list ul li.hover{ background:#ff781f;}
 
 
 
-#cont .cont_right{ float:right; width:850px; height:auto; background: url(../images/pagebg.png) #e8e8e8;; position:relative; border:1px solid #C9C7C5;}
+#cont .cont_right{ float:right; width:850px; height:auto; background: url(../images/pagebg.png) no-repeat left bottom #FCFDFD; position:relative; border:1px solid #C9C7C5;}
 #cont .cont_right .cont_right_weizhi{ font-size:14px; color:#ffffff; padding:8px 0px 0px 20px; border-bottom:1px solid #4FAE5D; height:60px; line-height:60px; background:#49b801;}
 #cont .cont_right .cont_right_weizhi span{ margin:0px 3px;} 
 #cont .cont_right .cont_right_nr{ width:460px; height:527px; background:url(../images/contact.jpg) no-repeat -120px top #FFFFFF;  padding-left:390px; position:relative;}
@@ -29,8 +29,11 @@
 .clear{ clear:both;}
 
 /*��ҳ*/
-.fenye{ width:850px; text-align:center; color:#404040; padding-top:20px; padding-bottom:30px;/* background:#E8E8E8;*/ }
+.fenye{  text-align:center; color:#404040; padding-top:20px; padding-bottom:30px;/* background:#E8E8E8;*/ }
 .fenye a{ color:#404040; display:inline-block; margin:0px 10px;}
+
+.fenye2{  text-align:center; color:#404040; padding-top:20px; padding-bottom:30px;/* background:#E8E8E8;*/background: #E8E8E8; }
+.fenye2 a{ color:#404040; display:inline-block; margin:0px 10px;}
 
 /*------��������-��ϵ����-------*/
 <!--���ðٶȵ�ͼAPI-->
@@ -45,7 +48,7 @@
 
 /*------�߽�����-���д���-------*/
 .zoujin{ margin-top:15px; }
-.zoujin .zoujin_bt{ font-size:24px; color:#9fa0a0; width:30px; float:left; padding:0px 30px 0px 40px;}
+.zoujin .zoujin_bt{ font-size:24px; color:#9fa0a0; width:30px; float:left; padding:0px 30px 0px 40px;word-break: break-all;}
 .zoujin .zoujin_nr{ float:left; width:690px; position:relative;} 
 .zoujin .zoujin_nr .zoujin_nr_img{ width:333px; text-align:center; color:#6B635A; float:left;}
 .zoujin .zoujin_nr .zoujin_nr_img img{ margin-bottom:10px;}

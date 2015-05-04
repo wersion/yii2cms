@@ -20,7 +20,7 @@ $page = Yii::$app->request->getQueryParam('page')? Yii::$app->request->getQueryP
 
         </div>
         <div class="cont_right">
-            <div class="cont_right_weizhi">当前位置：<span>首页</span><?= $position?></div>
+            <div class="cont_right_weizhi">當前位置：<span>首頁</span> <?= $position?></div>
             <div class="new">
                 <div class="newcont">
                     <div class="newcont_bt">
@@ -30,7 +30,7 @@ $page = Yii::$app->request->getQueryParam('page')? Yii::$app->request->getQueryP
 
                     <div class="newcont_nr">
 
-                    <?= $cache['menu_'.$menu_id.'_article_'.$id.'_pages'][$page] ?>
+                        <?= $cache['menu_'.$menu_id.'_article_'.$id.'_pages'][$page] ?>
 
                     </div>
                 </div>

@@ -3,14 +3,14 @@ use frontend\widgets\Pager;
 use common\helps\menu;
 $page_size = 2;
 $array = Yii::$app->request->get('page')?array_slice($cache['menu_'.$id.'_articles'],$page_size*(Yii::$app->request->get('page')-1),$page_size):array_slice($cache['menu_'.$id.'_articles'],0,$page_size);
-$cl = new menu();
-?>
+
+$cl = new menu();?>
 <!--内容区-->
 <div id="content">
     <div id="cont">
         <?php include '../views/index/left_l.php'?>
         <div class="cont_right">
-            <div class="cont_right_weizhi">当前位置：<span>首页</span>&gt;<span><?= $cl->lang($cache['menu_'.$id.'_parent']['cname'])[$lang]?></span>&gt;<span><?= $cl->lang($cache['menu_'.$id]['cname'])[$lang]?></span></div>
+            <div class="cont_right_weizhi">當前位置：<span>首頁 <?= $position?></div>
             <div class="zoujin">
                 <div class="zoujin_bt"><?= $cl->lang($cache['menu_'.$id]['cname'])[$lang]?></div>
                 <div class="zoujin_nr">
@@ -20,11 +20,11 @@ $cl = new menu();
                     <div class="new_list">
                         <ul>
                             <?php foreach($array as $key=>$article):?>
-                            <li>
-                                <div class="styleone">华粮动态<br />OUR NEW</div>
-                                <div class="styletwo"><a href="/page/<?= $article['id']?>?menu=<?= Yii::$app->request->get('menu')?>" ><?= $article['title']?></a></div>
-                                <div class="stylethree"><?= date('Y-m-d',$article['created_at'])?></div>
-                            </li>
+                                <li>
+                                    <div class="styleone">华粮动态<br />OUR NEW</div>
+                                    <div class="styletwo"><a href="/page/<?= $article['id']?>?menu=<?= Yii::$app->request->get('menu')?>" ><?= $article['title']?></a></div>
+                                    <div class="stylethree"><?= date('Y-m-d',$article['created_at'])?></div>
+                                </li>
                             <?php endforeach;?>
 
                         </ul>

@@ -3,13 +3,13 @@ use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
-use frontend\assets\HualAsset;
+use frontend\assets\EnHualAsset;
 use frontend\widgets\Menu;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-HualAsset::register($this);
+EnHualAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -57,7 +57,7 @@ HualAsset::register($this);
     <?= $content ?>
 
     <div id="footer">
-        <p class="footer_list"><a href="#">网站地图</a><a href="#">招贤纳士</a><a href="#">联系我们</a></p>
+        <p class="footer_list"><a href="/menu/37">网站地图</a><a href="/menu/30">招贤纳士</a><a href="/menu/29">联系我们</a></p>
         <p class="footer_company">@Copyright 2013-2014中国华粮集团有限公司&nbsp;沪ICP备050190号</p>
     </div>
     <?php $this->endBody() ?>

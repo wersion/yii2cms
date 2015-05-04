@@ -6,7 +6,7 @@ $page = Yii::$app->request->getQueryParam('page')? Yii::$app->request->getQueryP
 <div id="content">
     <div id="cont2">
 
-        <div class="cont2_right_weizhi">当前位置：<span>首页</span>&gt;<span>农博会</span></div>
+        <div class="cont2_right_weizhi">当前位置：<span>首页</span><?= $position?></div>
         <div class="nbh">
             <div class="nbh_bt"><?= $cache['menu_'.$node.'_article_'.$id]['title'] ?></div>
 
@@ -25,4 +25,6 @@ $page = Yii::$app->request->getQueryParam('page')? Yii::$app->request->getQueryP
 
     </div>
 </div>
+
+
 	
