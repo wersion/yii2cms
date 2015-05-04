@@ -18,7 +18,7 @@ $cache = Yii::$app->cache;
 $data = $cache['menu'];
 foreach($data as $k=>$v)
 {
-    if($v['id']==Yii::$app->request->get('id'))
+    if($v['id']==Yii::$app->request->get('id') and Yii::$app->requestedAction=='update')
     {
         unset($data[$k]);
 

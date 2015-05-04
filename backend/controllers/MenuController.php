@@ -83,6 +83,19 @@ Eof;
      */
     public function actionCreate()
     {
+        $model = new Menu();
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+
+            return $this->redirect(['index']);
+        } else {
+            return $this->render('create', [
+                'model' => $model,
+            ]);
+        }
+    }
+
+    public function actionCreate2()
+    {
         $request = Yii::$app->request;
         $model = new Menu();
 
@@ -190,22 +203,9 @@ Eof;
     {
         $model = $this->findModel($id);
 
-        if ($model->load(Yii::$app->request->post())) {
-            if($model->link)
-            {
-                $model->url = $model->link;
-            }elseif($model->route)
-            {
-                $model->url = Yii::$app->params['siteUrl'].'/'.$model->route.'/'.$id;
-            }else
-            {
-                $model->url = Yii::$app->params['siteUrl'].'/menu/'.$id;
-            }
-            $model->place=implode(',',$model->place);
-            $model->save();
+        if ($model->load(Yii::$app->request->post()) and $model->save()) {
             return $this->redirect(['index']);
         } else {
-            $model->place = explode(',',$model->place);
             return $this->render('update', [
                 'model' => $model,
 

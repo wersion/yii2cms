@@ -16,6 +16,7 @@ use Yii;
  * @property integer $created_at
  * @property integer $updated_at
  * @property integer $isChild
+ * @property integer $isArticle
  * @property Article[] $articles
  * @property Article $id0
  */
@@ -56,6 +57,32 @@ class menu extends \yii\db\ActiveRecord
             [['sort','template_id','file','isArticle','url','isShow','content','link','route','place'],'safe'],
             [['parentid', 'status'], 'integer']
         ];
+    }
+
+    public function beforeSave($insert)
+    {
+        if(is_array($this->place))
+        {
+            $this->place=implode(',',$this->place);
+        }
+        if($this->parentid or $this->parentid==0)
+        {
+            $this->parentid=$this->parentid;
+        }elseif(Yii::$app->request->get('id'))
+        {
+            $this->parentid = Yii::$app->request->get('id');
+        }else
+        {
+            $this->parentid=0;
+        }
+        //$this->parentid = Yii::$app->request->get('id')?Yii::$app->request->get('id'):0;
+        $this->url = $this->link?$this->link:$this->route?Yii::$app->params['siteUrl'].'/'.$this->route.'/' .$this->id:Yii::$app->params['siteUrl'].'/menu/'.$this->id;
+        return true;
+    }
+
+    public function afterFind()
+    {
+        $this->place=explode(',',$this->place);
     }
 
     /**
