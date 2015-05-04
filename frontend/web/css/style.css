@@ -60,7 +60,7 @@ height: 80px;
 
 #Nav{ width:100%; height:80px;/* background:url(../images/navbg3.jpg) repeat-y center top ; */}
 #nav{ width:1000px; height:80px; margin:0px auto; background:#019C3E; border-top-left-radius: 10px;border-top-right-radius: 10px; -moz-border-top-left-radius: 10px;-moz-border-top-right-radius: 10px; -webkit-border-top-left-radius: 10px;-webkit-border-top-right-radius: 10px; -o-border-top-left-radius: 10px;-o-border-top-right-radius: 10px; -ms-border-top-left-radius: 10px;-ms-border-top-right-radius: 10px;}
-#nav ul.nav_cont{ float:left; margin-left: 60px; }
+#nav ul.nav_cont{ float:left; margin-left: 50px; }
 #nav ul.nav_cont li { float:left;  height:59px; line-height:80px; text-align:center; position:relative;padding:21px 22px 0px 22px; }
 
 #nav ul.nav_cont li a{ color:#ffffff; font-size:28px; display:block; background:url(../images/ahovermr.png) repeat-x; padding:0px 10px; height:45px;  line-height:45px; border-radius:5px;box-shadow:
