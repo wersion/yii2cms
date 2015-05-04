@@ -15,7 +15,7 @@
             
         </div>
         <div class="cont_right">
-            <div class="cont_right_weizhi">当前位置：<span>首页</span>&gt;<span>耕织堂</span>&gt;<span>国家政策</span></div>
+            <div class="cont_right_weizhi">當前位置：<span>首頁</span> <?= $position?></div>
             <div class="zoujin">
                 <div class="zoujin_bt"><?= $cache['menu_'.$id]['cname']?></div>
                 <div class="zoujin_nr">

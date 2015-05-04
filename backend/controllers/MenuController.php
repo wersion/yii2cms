@@ -89,7 +89,7 @@ Eof;
         $model->parentid = $request->get('id')?$request->get('id'):0;
 
         if ($model->load($request->post()) && $model->save()) {
-            $model->url = $model->link?$model->link:$model->route?Yii::$app->params['siteUrl'].'/'.$model->route.'/'.                      $model->id:Yii::$app->params['siteUrl'].'/menu/'.$model->id;
+            $model->url = $model->link?$model->link:$model->route?Yii::$app->params['siteUrl'].'/'.$model->route.'/'.$model->id:Yii::$app->params['siteUrl'].'/menu/'.$model->id;
             $model->save();
             return $this->redirect(['index']);
         } else {

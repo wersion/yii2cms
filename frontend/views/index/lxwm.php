@@ -16,7 +16,7 @@
             
         </div>
         <div class="cont_right">
-            <div class="cont_right_weizhi">当前位置：<span>首页</span>&gt;<span>华粮联盟</span>&gt;<span>联系我们</span></div>
+            <div class="cont_right_weizhi">當前位置：<span>首頁</span> <?= $position?></div>
             <div class="cont_right_nr">
                 <p class="lianxi"><img src="../images/contact2.jpg" />联系我们</p>
               	<div class="juti">
@@ -27,7 +27,7 @@
                     <p>联系电话：40-600-8888</p>
                 </div>
                 <div class="map" id="dituContent"></div>
-                <?= $cache['menu_'.$id]['content']?>
+
                 <div class="biaozhi"><img src="../images/jiao.png" /></div>
             </div>
 

@@ -53,6 +53,8 @@ foreach($data as $k=>$v)
 
                     <?= $form->field($model, 'link')->textInput() ?>
 
+                    <?= $form->field($model,'place')->checkboxList(['1'=>'主导航','2'=>'底部导航'])?>
+
                     <?= $form->field($model,'isShow')->radioList(['1'=>'是','2'=>'否'],[])?>
 
                     <?= $form->field($model,'sort')->textInput(['maxlength' => 4,'style'=>'width:50px']) ?>

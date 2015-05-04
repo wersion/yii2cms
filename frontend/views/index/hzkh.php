@@ -16,7 +16,7 @@
            
         </div>
         <div class="cont_right">
-            <div class="cont_right_weizhi">当前位置：<span>首页</span>&gt;<span>华粮联盟</span>&gt;<span>合作客户</span></div>
+            <div class="cont_right_weizhi">當前位置：<span>首頁</span> <?= $position?></div>
             <div class="hezuo">
                 <ul>
                     <?php foreach($cache['menu_'.$id.'_photos'] as $photo):?>

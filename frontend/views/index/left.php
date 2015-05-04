@@ -1,6 +1,10 @@
+<?php
+use common\helps\menu;
+$cl = new menu();
+?>
 <div class="cont_left">
     <div class="cont_left_bt">
-        <span><?= $cname?></span>
+        <span>走进华粮</span>
     </div>
 
     <div class="cont_left_list">
