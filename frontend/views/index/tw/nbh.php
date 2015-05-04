@@ -35,7 +35,7 @@ $array = Yii::$app->request->get('page')?array_slice($cache['menu_'.$id.'_articl
         <div class="biaozhi"><img src="../images/jiao2.png" /></div>
         <div class="fenye">
             <?= Pager::widget([
-                'data'=>$cache['menu_articles-'.$id],
+                'data'=>$cache['menu_'.$id.'_articles'],
                 'page_size'=>$page_size
             ])?>
         </div>
