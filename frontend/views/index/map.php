@@ -1,24 +1,9 @@
 <!--内容区-->
 <div id="content">
     <div id="cont">
-        <div class="cont_left">
-            <div class="cont_left_bt">
-                <span>网站地图</span><br />
-                WEB&nbsp;MAP
-            </div>
-
-            <div class="cont_left_list">
-                <ul>
-                    <?php foreach($cache['menu_21_children'] as $v):?>
-                        <li><a href="/menu/<?= $v['id']?>"><?= $cl->lang($v['cname'])[$lang]?></a></li>
-                    <?php endforeach;?>
-
-                </ul>
-            </div>
-
-        </div>
+        <?php include '../views/index/left_l.php'?>
         <div class="cont_right">
-            <div class="cont_right_weizhi">當前位置：<span>首頁</span>&gt;<span>华粮地图</span></div>
+            <div class="cont_right_weizhi">當前位置：<span>首頁</span><?= $position?></div>
             <div class="ditu">
                 <ul>
                     <?php foreach($cache['menu_1_brother'] as $menu):?>
