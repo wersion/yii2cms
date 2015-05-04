@@ -29,8 +29,11 @@
 .clear{ clear:both;}
 
 /*��ҳ*/
-.fenye{  text-align:center; color:#404040; padding-top:20px; padding-bottom:30px;/* background:#E8E8E8;*/background: #E8E8E8; }
+.fenye{  text-align:center; color:#404040; padding-top:20px; padding-bottom:30px;/* background:#E8E8E8;*/ }
 .fenye a{ color:#404040; display:inline-block; margin:0px 10px;}
+
+.fenye2{  text-align:center; color:#404040; padding-top:20px; padding-bottom:30px;/* background:#E8E8E8;*/background: #E8E8E8; }
+.fenye2 a{ color:#404040; display:inline-block; margin:0px 10px;}
 
 /*------��������-��ϵ����-------*/
 <!--���ðٶȵ�ͼAPI-->
