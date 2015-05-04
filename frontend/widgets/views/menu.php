@@ -28,6 +28,46 @@ function procHtml($tree,$lang)
     $html = '';
     foreach($tree as $t)
     {
+
+            //如果有get['menu']
+            if($t['children']!== '')
+            {
+                //如果有子菜单
+                if(in_array($t['id'],$cache['menu_'.Yii::$app->request->get('menu').'_parents']))
+                {
+                    //如果是当前菜单或其父类
+                    $html .= "<li class='hover'><a href='{$t['url']}'>".$cl->lang($t['cname'])[$lang]."</a>";
+                    $html.= '<div class="menu">'.procHtml($t['children'],$lang).'</div>';
+                    $html.="</li>";
+                }else
+                {
+                    //不是当前菜单或其父类
+                    $html .= "<li><a href='{$t['url']}'>".$cl->lang($t['cname'])[$lang]."</a>";
+                     $html.= '<div class="menu">'.procHtml($t['children'],$lang).'</div>';
+                    $html.="</li>";
+                }
+            }
+            else
+            {
+                //如果没有子菜单
+
+                $html.= "<p><a href='{$t['url']}'>{$cl->lang($t['cname'])[$lang]}</a></p>";
+
+            }
+
+
+    }
+    return $html;
+}
+
+
+function procHtml2($tree,$lang)
+{
+    $cl = new menu();
+    $cache = Yii::$app->cache;
+    $html = '';
+    foreach($tree as $t)
+    {
         if(Yii::$app->request->get('menu'))
         {
             //如果有get['menu']
@@ -44,7 +84,7 @@ function procHtml($tree,$lang)
                 {
                     //不是当前菜单或其父类
                     $html .= "<li><a href='{$t['url']}'>".$cl->lang($t['cname'])[$lang]."</a>";
-                     $html.= '<div class="menu">'.procHtml($t['children'],$lang).'</div>';
+                    $html.= '<div class="menu">'.procHtml($t['children'],$lang).'</div>';
                     $html.="</li>";
                 }
             }
@@ -81,7 +121,6 @@ function procHtml($tree,$lang)
     }
     return $html;
 }
-
 
 $tree = getTree($menu, 0);
 

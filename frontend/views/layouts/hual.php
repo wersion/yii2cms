@@ -46,7 +46,7 @@ HualAsset::register($this);
     <div id="navigation">
         <div id="nav">
             <ul class="nav_cont">
-
+                <li><a href='<?= Yii::$app->params['siteUrl']?>/?lang=<?= Yii::$app->language?>'>首頁</a></li>
                 <?= Menu::widget(['lang'=>2])?>
             </ul>
 
