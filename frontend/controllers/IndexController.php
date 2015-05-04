@@ -30,8 +30,8 @@ class IndexController extends HualController  {
                 Yii::$app->language=$session['language'];
             }else
             {
-                Yii::$app->language='cn';
-                $session['language']='cn';
+                Yii::$app->language='tw';
+                $session['language']='tw';
             }
         }
         switch($session['language'])
@@ -76,8 +76,8 @@ class IndexController extends HualController  {
     {
         $cache = Yii::$app->cache;
         $session = Yii::$app->session;
-        Yii::$app->language= $session['language']?$session['language']:Yii::$app->request->get('lang')?Yii::$app->request->get('lang'):'cn';
-        $session['language'] = Yii::$app->request->get('lang')? Yii::$app->request->get('lang'):'cn';
+        Yii::$app->language= $session['language']?$session['language']:Yii::$app->request->get('lang')?Yii::$app->request->get('lang'):'tw';
+        $session['language'] = Yii::$app->request->get('lang')? Yii::$app->request->get('lang'):'tw';
         switch($session['language'])
         {
             case 'cn':
@@ -109,8 +109,8 @@ class IndexController extends HualController  {
                 Yii::$app->language=$session['language'];
             }else
             {
-                Yii::$app->language='cn';
-                $session['language']='cn';
+                Yii::$app->language='tw';
+                $session['language']='tw';
             }
         }
         switch($session['language'])
@@ -163,8 +163,8 @@ class IndexController extends HualController  {
                 Yii::$app->language=$session['language'];
             }else
             {
-                Yii::$app->language='cn';
-                $session['language']='cn';
+                Yii::$app->language='tw';
+                $session['language']='tw';
             }
         }
         switch($session['language'])
@@ -212,8 +212,8 @@ class IndexController extends HualController  {
                 Yii::$app->language=$session['language'];
             }else
             {
-                Yii::$app->language='cn';
-                $session['language']='cn';
+                Yii::$app->language='tw';
+                $session['language']='tw';
             }
         }
         switch($session['language'])
