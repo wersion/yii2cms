@@ -4,5 +4,5 @@ return [
     'supportEmail' => 'support@example.com',
     'user.passwordResetTokenExpire' => 3600,
     'adminUrl'=>'http://yiiadmin.xiuyun99.com',
-    'siteUrl'=>'http://test.yii2.com',
+    'siteUrl'=>'http://yiitest.xiuyun99.com',
 ];
