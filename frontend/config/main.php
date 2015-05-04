@@ -31,5 +31,5 @@ return [
     ],
     'params' => $params,
     'defaultRoute' => 'index/index',
-    'language' => 'cn'
+    'language' => 'tw'
 ];
