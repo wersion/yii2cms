@@ -1,4 +1,5 @@
 <!--内容区-->
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
 <div id="content">
     <div id="cont">
         <?php include '../views/index/left_l.php'?>

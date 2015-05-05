@@ -28,6 +28,13 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+
+        'view' => [
+            'theme' => [
+                'pathMap' => ['@frontend/views' => '@frontend/themes/basic'],
+                'baseUrl' => '@web/themes/basic',
+            ],
+        ],
     ],
     'params' => $params,
     'defaultRoute' => 'index/index',

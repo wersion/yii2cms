@@ -34,6 +34,7 @@ class menu extends \yii\db\ActiveRecord
     public function init()
     {
         parent::init();
+        $this->parentid = Yii::$app->request->get('id');
     }
 
     public function behaviors()
