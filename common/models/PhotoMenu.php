@@ -46,7 +46,7 @@ class PhotoMenu extends \yii\db\ActiveRecord
         return [
             [['title', 'url', 'description'], 'required'],
             [['menu_id', 'status'], 'integer'],
-            [['sort','menu_id','place'],'safe'],
+            [['sort','menu_id','place','link'],'safe'],
             [['title', 'description'], 'string', 'max' => 255],
             [['url'], 'string', 'max' => 200]
         ];
@@ -61,6 +61,7 @@ class PhotoMenu extends \yii\db\ActiveRecord
             'id' => 'ID',
             'title' => 'Title',
             'url' => 'Url',
+            'link' => 'Link',
             'menu_id' => 'menu ID',
             'description' => 'Description',
             'sort' => 'Sort',
