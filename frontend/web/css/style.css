@@ -70,10 +70,10 @@ height: 80px;
 #nav ul.nav_cont li.style{ background:rgba(0,0,0,0.2);}
 #nav ul.nav_cont li.style a{ color:#ffffff; background:url(../images/ahovermr2.jpg) repeat-x; }
 
-#nav ul.nav_cont li .menu{ display:none; position:absolute; left:0px; top:80px; z-index:999999;background:rgba(180,255,200,0.2); padding:10px 0px; width:166px;}
-#nav ul.nav_cont li .menu p{ height:40px; line-height:62px; text-align:center; width:146px;}
-#nav ul.nav_cont li .menu p a{ display:block; height:40px; line-height:40px; background:none; color:#006400; text-align:center; font-size:18px; width:146px; text-align:center; box-shadow:none; border-radius:0; border:0px solid #017F0B;}
-#nav ul.nav_cont li .menu p a:hover{/*   background:url(../images/ahovermr2.png) repeat-x;*/ width:146px; height:40px;   color:#006400; background:rgba(253,133,25,0.9); box-shadow:0; border-radius:none;} 
+#nav ul.nav_cont li .menu{ display:none; position:absolute; left:0px; top:80px; z-index:999999;background:rgba(180,255,200,0.2); padding:10px 0px; width:100%;}
+#nav ul.nav_cont li .menu p{ height:40px; line-height:62px; text-align:center; width:100%;}
+#nav ul.nav_cont li .menu p a{ display:block; height:40px; line-height:40px; background:none; color:#006400; text-align:center; font-size:18px;  text-align:center; box-shadow:none; border-radius:0; border:0px solid #017F0B;}
+#nav ul.nav_cont li .menu p a:hover{/*   background:url(../images/ahovermr2.png) repeat-x;*/ height:40px;   color:#006400; background:rgba(253,133,25,0.9); box-shadow:0; border-radius:none;} 
 
 #nav .dianhua{ float:right; color:#FFFFFF; background:url(../images/phone.png) no-repeat left center;  padding-left:30px; font-size:20px; font-weight:500; font-style:italic; margin-top:10px;}
 
