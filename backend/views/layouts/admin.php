@@ -73,7 +73,7 @@ AdminAsset::register($this);
         </section><!-- /.content -->
     </aside><!-- /.right-side -->
 </div><!-- ./wrapper -->
-
+<?php echo Yii::getAlias('@yii/gii/assets').'aaaaaaaa'?>
 <?php $this->endBody() ?>
 </body>
 </html>
