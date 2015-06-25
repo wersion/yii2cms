@@ -30,8 +30,6 @@
 
 
             </div>
-            <div class="clear"></div>
-            <div style="height:100px;"><p></p></div>
             <div class="biaozhi"><img src="../images/jiao2.png" /></div>
 
 

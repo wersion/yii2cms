@@ -33,7 +33,7 @@ $page = Yii::$app->request->getQueryParam('page')? Yii::$app->request->getQueryP
                     </div>
 
                 </div>
-                
+
             </div>
             <div class="biaozhi"><img src="../images/jiao2.png" /></div>
             <div class="fenye">
