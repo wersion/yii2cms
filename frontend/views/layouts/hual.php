@@ -22,7 +22,7 @@ HualAsset::register($this);
         <?php $this->head() ?>
         <script type="text/javascript" src="/js/jquery.js"></script>
         <script type="text/javascript" src="/js/jquery.cookie.js"></script>
-       <!-- <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>-->
+
     </head>
 
     <body>

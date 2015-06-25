@@ -25,7 +25,7 @@ class HualAsset extends AssetBundle
 
        // 'js/jquery.js',
         'js/index.js',
-        'js/map.js',
+       //'js/map.js',
         'js/scroll.1.3.js',
         'js/index_scrollimg.js',
 
