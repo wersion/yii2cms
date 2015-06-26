@@ -27,7 +27,7 @@ function addMapControl(){
 }
 
 //标注点数组
-var markerArr = [{title:"上海华粮集团有限公司",content:"我的备注",point:"121.381376|31.193425",isOpen:0,icon:{w:23,h:25,l:46,t:21,x:9,lb:12}}
+var markerArr = [{title:"华粮农业有限公司",content:"我的备注",point:"121.381376|31.193425",isOpen:0,icon:{w:23,h:25,l:46,t:21,x:9,lb:12}}
 ];
 //创建marker
 function addMarker(){
