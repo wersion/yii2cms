@@ -15,8 +15,9 @@ $session = Yii::$app->session;
                 <div class="zoujin_bt"><?= $cl->lang($cache['menu_'.$id]['cname'])[$lang]?></div>
                 <div class="zoujin_nr">
 
-                    <div class="new_iconimg"><img src="<?= Yii::$app->params['adminUrl']?><?= $menu['file']?>"  /></div>
-
+                    <?php if($menu['file']):?>
+                        <div class="new_iconimg"><img src="<?= Yii::$app->params['adminUrl']?><?= $menu['file']?>"  /></div>
+                    <?php endif;?>
                     <div class="new_list">
                         <ul>
                             <?php foreach($array as $key=>$article):?>
