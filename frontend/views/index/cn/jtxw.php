@@ -16,7 +16,8 @@ $session = Yii::$app->session;
                 <div class="zoujin_bt"><?= $cl->lang($cache['menu_'.$id]['cname'])[$lang]?></div>
                 <div class="zoujin_nr">
 
-                    <div class="new_iconimg"><img src="../images/newicon.jpg"  /></div>
+                    <div class="new_iconimg"><img src="<?= Yii::$app->params['adminUrl']?><?= $menu['file']?>"  /></div>
+
 
                     <div class="new_list">
                         <ul>
